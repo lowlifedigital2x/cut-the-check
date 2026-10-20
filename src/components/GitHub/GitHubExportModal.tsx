@@ -20,7 +20,7 @@ interface GitHubExportModalProps {
 
 export const GitHubExportModal: React.FC<GitHubExportModalProps> = ({ isOpen, onClose }) => {
   const [copiedSection, setCopiedSection] = useState<string | null>(null);
-  const repoUrl = 'https://github.com/lowlifedigital2x/ctc-cut-the-check';
+  const repoUrl = 'https://github.com/lowlifedigital2x/cut-the-check';
 
   if (!isOpen) return null;
 
@@ -54,7 +54,7 @@ export const GitHubExportModal: React.FC<GitHubExportModalProps> = ({ isOpen, on
                 Publish CTC CUT the check to GitHub
               </h2>
               <p className="text-xs text-zinc-400 font-mono">
-                Target Repo: <span className="text-amber-300">lowlifedigital2x/ctc-cut-the-check</span>
+                Target Repo: <span className="text-amber-300">lowlifedigital2x/cut-the-check</span>
               </p>
             </div>
           </div>

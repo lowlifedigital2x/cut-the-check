@@ -173,15 +173,15 @@ export const Navigation: React.FC<NavigationProps> = ({
         <div className="flex items-center gap-2 ml-2">
           <button
             onClick={() => setActiveTab('launch')}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-black transition border shadow-md ${
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-black transition border shadow-md cursor-pointer ${
               activeTab === 'launch'
-                ? 'bg-red-600 text-white border-red-400 shadow-[0_0_15px_rgba(239,68,68,0.6)] animate-pulse'
-                : 'bg-zinc-900/90 text-red-400 border-red-500/40 hover:bg-red-950/60 hover:text-white'
+                ? 'bg-amber-500 text-slate-950 border-amber-300 shadow-[0_0_20px_rgba(245,158,11,0.6)] animate-pulse'
+                : 'bg-zinc-900/90 text-amber-400 border-amber-500/40 hover:bg-amber-950/60 hover:text-white'
             }`}
-            title="Open Drop Day Launch Control Center & Go-Live Command"
+            title="Open Major Label Executive Penthouse Launch Suite"
           >
-            <Rocket className="w-3.5 h-3.5 text-red-400" />
-            <span>Launch</span>
+            <Rocket className="w-3.5 h-3.5" />
+            <span>Executive Launch</span>
           </button>
 
           <button
