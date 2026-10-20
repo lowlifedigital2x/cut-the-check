@@ -21,19 +21,23 @@ import {
   Check,
   Flame,
   CheckCircle2,
-  Activity
+  Activity,
+  Compass,
+  Target
 } from 'lucide-react';
-import { CreatorTalent, NetworkGig, CreatorFeedPost } from '../../types';
-import { MOCK_CREATOR_TALENTS, MOCK_CREATOR_GIGS, INITIAL_CREATOR_FEED_POSTS } from '../../data/mockData';
+import { CreatorTalent, NetworkGig, CreatorFeedPost, ScoutContact } from '../../types';
+import { MOCK_CREATOR_TALENTS, MOCK_CREATOR_GIGS, INITIAL_CREATOR_FEED_POSTS, MOCK_SCOUT_CONTACTS } from '../../data/mockData';
 import { CreatorFeed } from './CreatorFeed';
+import { ARScoutTalentView } from './ARScoutTalentView';
 
 interface CreatorNetworkHubProps {
   currencySymbol?: string;
 }
 
 export const CreatorNetworkHub: React.FC<CreatorNetworkHubProps> = ({ currencySymbol = '$' }) => {
-  const [activeTab, setActiveTab] = useState<'creator_feed' | 'hire_talent' | 'gigs_board' | 'collab_lounge'>('creator_feed');
+  const [activeTab, setActiveTab] = useState<'creator_feed' | 'ar_scout' | 'hire_talent' | 'gigs_board' | 'collab_lounge'>('creator_feed');
   const [feedPosts, setFeedPosts] = useState<CreatorFeedPost[]>(INITIAL_CREATOR_FEED_POSTS);
+  const [scoutContacts, setScoutContacts] = useState<ScoutContact[]>(MOCK_SCOUT_CONTACTS);
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [talents, setTalents] = useState<CreatorTalent[]>(MOCK_CREATOR_TALENTS);
   const [gigs, setGigs] = useState<NetworkGig[]>(MOCK_CREATOR_GIGS);
@@ -159,6 +163,21 @@ export const CreatorNetworkHub: React.FC<CreatorNetworkHubProps> = ({ currencySy
           </button>
 
           <button
+            onClick={() => setActiveTab('ar_scout')}
+            className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5 cursor-pointer ${
+              activeTab === 'ar_scout'
+                ? 'bg-gradient-to-r from-amber-500/20 via-yellow-500/10 to-amber-500/20 text-amber-300 border border-amber-500/50 shadow-md ring-1 ring-amber-400/40'
+                : 'text-zinc-400 hover:text-white hover:bg-zinc-850'
+            }`}
+          >
+            <Compass className="w-3.5 h-3.5 text-amber-400" />
+            <span>A&R Scout ({scoutContacts.length})</span>
+            <span className="text-[9px] font-mono font-black px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30">
+              GROWTH TIERS
+            </span>
+          </button>
+
+          <button
             onClick={() => setActiveTab('hire_talent')}
             className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5 ${
               activeTab === 'hire_talent'
@@ -226,6 +245,15 @@ export const CreatorNetworkHub: React.FC<CreatorNetworkHubProps> = ({ currencySy
             setFeedPosts([p, ...feedPosts]);
             triggerToast('Deal update broadcasted to network!');
           }}
+          currencySymbol={currencySymbol}
+        />
+      )}
+
+      {/* A&R Talent Scout Tab with Verified Engagement Growth Tiers */}
+      {activeTab === 'ar_scout' && (
+        <ARScoutTalentView
+          contacts={scoutContacts}
+          onTriggerToast={triggerToast}
           currencySymbol={currencySymbol}
         />
       )}

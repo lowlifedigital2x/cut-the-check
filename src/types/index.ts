@@ -302,3 +302,36 @@ export interface CreatorFeedPost {
   tags?: string[];
 }
 
+export type EngagementGrowthTier =
+  | 'all'
+  | 'viral_breakout'      // +100% to +300% monthly growth
+  | 'high_velocity'       // +40% to +100% monthly growth
+  | 'steady_climber'      // +15% to +40% monthly growth
+  | 'underground_gem'     // High Engagement Rate (>= 10%), emerging audience (<100k)
+  | 'established_titan';  // 500k+ reach, steady high volume
+
+export interface ScoutContact {
+  id: string;
+  name: string;
+  handle: string;
+  avatar: string;
+  primaryRole: string;
+  primaryPlatform: PlatformId;
+  verified: boolean;
+  tier: PlaqueTier;
+  growthTier: 'viral_breakout' | 'high_velocity' | 'steady_climber' | 'underground_gem' | 'established_titan';
+  growthTierLabel: string;
+  followersCount: number;
+  monthlyGrowthPercent: number;
+  engagementRatePercent: number;
+  streamVelocityViewsPerDay: number;
+  retentionRatePercent: number;
+  estimatedRpm: number;
+  arScoutScore: number;
+  scoutingStatus: 'priority_sign' | 'watchlist' | 'collab_ready' | 'in_negotiation';
+  soundOrContentNiche: string;
+  topAudienceDemographic: string;
+  recentBreakoutDrop: string;
+  isWatchlisted?: boolean;
+}
+
