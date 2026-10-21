@@ -87,9 +87,9 @@ export const SUBSCRIPTION_TIERS: SubscriptionTier[] = [
     badge: 'DIAMOND CERTIFIED',
     priceMonthly: 99,
     priceAnnually: 79,
-    description: 'Complete creator command center with all 14 platforms and zero-delay instant payouts.',
+    description: 'Complete creator command center with all 47 platforms and zero-delay instant payouts.',
     features: [
-      'ALL 14 Major Streaming Platforms Unlocked',
+      'ALL 47 Major Streaming Platforms Unlocked',
       '4K60 HDR broadcast relay with dual-redundant servers',
       '0-Second Instant Payouts (Direct Stripe & Card Deposit)',
       'Unlimited Gemini AI Creator Copilot & hook generator',
@@ -149,7 +149,7 @@ export const SubscriptionModal: React.FC<SubscriptionModalProps> = ({
             Execute Your <span className="text-gold-gradient">CUT THE CHECK</span> Deal Plaque
           </h2>
           <p className="text-xs lg:text-sm text-zinc-400">
-            Certified licensing tiers engineered as executive award plaques. Choose your scale, unlock all 14 networks, and accelerate instant payouts.
+            Certified licensing tiers engineered as executive award plaques. Choose your scale, unlock all 47 networks, and accelerate instant payouts.
           </p>
 
           {/* Billing Cycle Toggle */}
