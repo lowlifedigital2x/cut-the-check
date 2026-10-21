@@ -11,7 +11,8 @@ import {
   Sparkles,
   Award,
   Rocket,
-  Download
+  Download,
+  Handshake
 } from 'lucide-react';
 
 interface NavigationProps {
@@ -185,6 +186,19 @@ export const Navigation: React.FC<NavigationProps> = ({
           </button>
 
           <button
+            onClick={() => setActiveTab('sponsorship')}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition border ${
+              activeTab === 'sponsorship'
+                ? 'engraved-plate-gold text-amber-950 border-amber-600 shadow-[0_0_12px_rgba(245,158,11,0.5)] ring-1 ring-amber-400 font-black'
+                : 'bg-zinc-900/60 text-amber-300 border-amber-500/30 hover:text-white hover:border-amber-400'
+            }`}
+            title="Partner with CTC — Sponsorship tiers & brand partnerships"
+          >
+            <Handshake className="w-3.5 h-3.5 text-amber-400" />
+            <span>Sponsorship</span>
+          </button>
+
+          <button
             onClick={() => setActiveTab('milestone_awards')}
             className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition border ${
               activeTab === 'milestone_awards'
@@ -225,7 +239,7 @@ export const Navigation: React.FC<NavigationProps> = ({
             title="Manage connected accounts & RTMP keys"
           >
             <Link2 className="w-3.5 h-3.5 text-blue-400" />
-            <span>Platforms (14)</span>
+            <span>Platforms (47)</span>
           </button>
 
           <button
