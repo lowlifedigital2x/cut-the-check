@@ -113,9 +113,9 @@ export const PreFlightDiagnostics: React.FC<PreFlightDiagnosticsProps> = ({
           id: 'diag-4',
           category: 'networks',
           title: 'Syndicated DSP Relays',
-          metric: '14/14 Channels Active',
+          metric: '47/47 Channels Active',
           status: 'passed',
-          details: 'All 14 RTMP & API distribution keys verified and ready for instant drop.'
+          details: 'All 47 RTMP & API distribution keys verified and ready for instant drop.'
         },
         {
           id: 'diag-5',
