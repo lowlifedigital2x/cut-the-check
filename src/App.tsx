@@ -33,6 +33,7 @@ import { SubscriptionModal } from './components/Subscription/SubscriptionModal';
 import { PromoteMonitorSuite } from './components/Promote/PromoteMonitorSuite';
 import { MilestoneAwards } from './components/MilestoneAwards/MilestoneAwards';
 import { LaunchControlCenter } from './components/Launch/LaunchControlCenter';
+import { SponsorshipPage } from './components/Sponsorship/SponsorshipPage';
 import { PWAInstallBanner } from './components/PWA/PWAInstallBanner';
 import { GitHubExportModal } from './components/GitHub/GitHubExportModal';
 
@@ -443,6 +444,10 @@ export default function App() {
             onNavigateToTab={setActiveTab}
             subscriptionTier={subscriptionTier}
           />
+        )}
+
+        {currentTab === 'sponsorship' && (
+          <SponsorshipPage />
         )}
 
         {currentTab === 'connections' && (
