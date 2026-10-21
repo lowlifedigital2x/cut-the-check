@@ -1,1 +1,178 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBMaXZlQ2hhdEV2ZW50LCBQbGF0Zm9ybUlkIH0gZnJvbSAnLi4vLi4vdHlwZXMnOwppbXBvcnQgeyBQbGF0Zm9ybUJhZGdlIH0gZnJvbSAnLi4vY29tbW9uL1BsYXRmb3JtQmFkZ2UnOwppbXBvcnQgewogIFNlbmQsCiAgU3BhcmtsZXMsCiAgR2lmdCwKICBTaGllbGQsCiAgU21pbGUsCiAgVm9sdW1lMiwKICBGaWx0ZXIKfSBmcm9tICdsdWNpZGUtcmVhY3QnOwoKaW50ZXJmYWNlIFVuaWZpZWRMaXZlQ2hhdFByb3BzIHsKICBjaGF0RXZlbnRzOiBMaXZlQ2hhdEV2ZW50W107CiAgb25TZW5kTWVzc2FnZTogKG1zZzogc3RyaW5nLCB0YXJnZXRQbGF0Zm9ybTogUGxhdGZvcm1JZCB8ICdhbGwnKSA9PiB2b2lkOwogIGlzQnJvYWRjYXN0aW5nOiBib29sZWFuOwp9CgpleHBvcnQgY29uc3QgVW5pZmllZExpdmVDaGF0OiBSZWFjdC5GQzxVbmlmaWVkTGl2ZUNoYXRQcm9wcz4gPSAoewogIGNoYXRFdmVudHMsCiAgb25TZW5kTWVzc2FnZSwKICBpc0Jyb2FkY2FzdGluZwp9KSA9PiB7CiAgY29uc3QgW2lucHV0TWVzc2FnZSwgc2V0SW5wdXRNZXNzYWdlXSA9IHVzZVN0YXRlKCcnKTsKICBjb25zdCBbc2VsZWN0ZWRUYXJnZXQsIHNldFNlbGVjdGVkVGFyZ2V0XSA9IHVzZVN0YXRlPFBsYXRmb3JtSWQgfCAnYWxsJz4oJ2FsbCcpOwogIGNvbnN0IFtmaWx0ZXJQbGF0Zm9ybSwgc2V0RmlsdGVyUGxhdGZvcm1dID0gdXNlU3RhdGU8UGxhdGZvcm1JZCB8ICdhbGwnPignYWxsJyk7CgogIGNvbnN0IGhhbmRsZVNlbmQgPSAoZTogUmVhY3QuRm9ybUV2ZW50KSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICBpZiAoIWlucHV0TWVzc2FnZS50cmltKCkpIHJldHVybjsKICAgIG9uU2VuZE1lc3NhZ2UoaW5wdXRNZXNzYWdlLnRyaW0oKSwgc2VsZWN0ZWRUYXJnZXQpOwogICAgc2V0SW5wdXRNZXNzYWdlKCcnKTsKICB9OwoKICBjb25zdCBmaWx0ZXJlZENoYXQgPSBjaGF0RXZlbnRzLmZpbHRlcigobXNnKSA9PiB7CiAgICBpZiAoZmlsdGVyUGxhdGZvcm0gPT09ICdhbGwnKSByZXR1cm4gdHJ1ZTsKICAgIHJldHVybiBtc2cucGxhdGZvcm1JZCA9PT0gZmlsdGVyUGxhdGZvcm07CiAgfSk7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iYmctWyMxMTE2MjJdIHJvdW5kZWQtMnhsIGJvcmRlciBib3JkZXItemluYy04MDAgcC00IHNoYWRvdy14bCBmbGV4IGZsZXgtY29sIGgtZnVsbCBtaW4taC1bNTIwcHhdIj4KICAgICAgey8qIEhlYWRlciAmIEZpbHRlciBCYXIgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcGItMyBib3JkZXItYiBib3JkZXItemluYy04MDAvODAgZ2FwLTIiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0yLjUgaC0yLjUgcm91bmRlZC1mdWxsIGJnLWVtZXJhbGQtNDAwIGFuaW1hdGUtcHVsc2UiIC8+CiAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5VbmlmaWVkIE11bHRpLUNoYXQ8L2gzPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogRmlsdGVyIHBlciBwbGF0Zm9ybSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgPEZpbHRlciBjbGFzc05hbWU9InctMy41IGgtMy41IHRleHQtemluYy01MDAiIC8+CiAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgIHZhbHVlPXtmaWx0ZXJQbGF0Zm9ybX0KICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRGaWx0ZXJQbGF0Zm9ybShlLnRhcmdldC52YWx1ZSBhcyBhbnkpfQogICAgICAgICAgICBjbGFzc05hbWU9ImJnLXppbmMtOTAwIGJvcmRlciBib3JkZXItemluYy04MDAgdGV4dC1bMTFweF0gZm9udC1zZW1pYm9sZCB0ZXh0LXppbmMtMzAwIHJvdW5kZWQtbGcgcHgtMiBweS0xIGZvY3VzOm91dGxpbmUtbm9uZSIKICAgICAgICAgID4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iYWxsIj5BbGwgQ2hhbm5lbHM8L29wdGlvbj4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0ieW91dHViZSI+WW91VHViZSBDaGF0PC9vcHRpb24+CiAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9InRpa3RvayI+VGlrVG9rIExpdmU8L29wdGlvbj4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0ia2ljayI+S2ljayBDaGF0PC9vcHRpb24+CiAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9ImZhY2Vib29rIj5GYWNlYm9vayBMaXZlPC9vcHRpb24+CiAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICB7LyogTWVzc2FnZXMgU2Nyb2xsIEFyZWEgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgb3ZlcmZsb3cteS1hdXRvIHNwYWNlLXktMiBweS0zIHByLTEiPgogICAgICAgIHtmaWx0ZXJlZENoYXQubWFwKChldikgPT4gewogICAgICAgICAgY29uc3QgaXNNb25ldGl6ZWQgPSBldi5pc0dpZnQgfHwgZXYuaXNTdXBlckNoYXQ7CgogICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgIGtleT17ZXYuaWR9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgcC0yLjUgcm91bmRlZC14bCBib3JkZXIgdGV4dC14cyB0cmFuc2l0aW9uLWFsbCAkewogICAgICAgICAgICAgICAgaXNNb25ldGl6ZWQKICAgICAgICAgICAgICAgICAgPyAnYmctYW1iZXItNTAwLzEwIGJvcmRlci1hbWJlci01MDAvNDAgc2hhZG93LXNtJwogICAgICAgICAgICAgICAgICA6ICdiZy16aW5jLTkwMC81MCBib3JkZXItemluYy04MDAvNjAgaG92ZXI6Ym9yZGVyLXppbmMtNzAwLzgwJwogICAgICAgICAgICAgIH1gfQogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtMS41IG1iLTEiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgICA8UGxhdGZvcm1CYWRnZSBwbGF0Zm9ybUlkPXtldi5wbGF0Zm9ybUlkfSBzaXplPSJzbSIgc2hvd0xhYmVsPXtmYWxzZX0gLz4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC13aGl0ZSB0cnVuY2F0ZSI+e2V2LnVzZXJ9PC9zcGFuPgogICAgICAgICAgICAgICAgICB7ZXYuYmFkZ2UgJiYgKAogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gcHgtMSBweS0wLjIgcm91bmRlZCBiZy1wdXJwbGUtNTAwLzIwIHRleHQtcHVycGxlLTMwMCBmb250LW1vbm8iPgogICAgICAgICAgICAgICAgICAgICAge2V2LmJhZGdlfQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0ZXh0LXppbmMtNTAwIGZvbnQtbW9ubyBzaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgIHtldi50aW1lc3RhbXB9CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC16aW5jLTIwMCBsZWFkaW5nLXJlbGF4ZWQgYnJlYWstd29yZHMiPntldi5tZXNzYWdlfTwvcD4KCiAgICAgICAgICAgICAgey8qIEdpZnQgLyBTdXBlckNoYXQgSGlnaGxpZ2h0IFRhZyAqL30KICAgICAgICAgICAgICB7aXNNb25ldGl6ZWQgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTEuNSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgICAge2V2LmlzU3VwZXJDaGF0ICYmICgKICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzExcHhdIGZvbnQtZXh0cmFib2xkIHRleHQtYW1iZXItMzAwIGJnLWFtYmVyLTUwMC8yNSBweC0yIHB5LTAuNSByb3VuZGVkIGJvcmRlciBib3JkZXItYW1iZXItNTAwLzUwIGZvbnQtbW9ubyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICA8U3BhcmtsZXMgY2xhc3NOYW1lPSJ3LTMgaC0zIHRleHQtYW1iZXItNDAwIiAvPgogICAgICAgICAgICAgICAgICAgICAgU3VwZXJDaGF0IHtldi5zdXBlckNoYXRBbW91bnR9CiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICB7ZXYuaXNHaWZ0ICYmICgKICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzExcHhdIGZvbnQtZXh0cmFib2xkIHRleHQtcm9zZS0zMDAgYmctcm9zZS01MDAvMjUgcHgtMiBweS0wLjUgcm91bmRlZCBib3JkZXIgYm9yZGVyLXJvc2UtNTAwLzUwIGZvbnQtbW9ubyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgICA8R2lmdCBjbGFzc05hbWU9InctMyBoLTMgdGV4dC1yb3NlLTQwMCIgLz4KICAgICAgICAgICAgICAgICAgICAgIHtldi5naWZ0VHlwZX0gKCske2V2LmdpZnRWYWx1ZT8udG9GaXhlZCgyKX0pCiAgICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApOwogICAgICAgIH0pfQogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBRdWljayBTdHJlYW0gRGVjayBBY3Rpb25zICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0icHQtMiBib3JkZXItdCBib3JkZXItemluYy04MDAvODAgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBvdmVyZmxvdy14LWF1dG8gcGItMiBzY3JvbGxiYXItbm9uZSB0ZXh0LVsxMXB4XSI+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgb25DbGljaz17KCkgPT4gb25TZW5kTWVzc2FnZSgn8J+OiSBUaGFuayB5b3UgZXZlcnlvbmUgZm9yIHRoZSBtYXNzaXZlIHN1cHBvcnQgdG9kYXkhJywgJ2FsbCcpfQogICAgICAgICAgY2xhc3NOYW1lPSJweC0yLjUgcHktMSByb3VuZGVkLWxnIGJnLXppbmMtODAwLzgwIGhvdmVyOmJnLXppbmMtNzAwIHRleHQtemluYy0zMDAgZm9udC1tZWRpdW0gd2hpdGVzcGFjZS1ub3dyYXAiCiAgICAgICAgPgogICAgICAgICAg8J+ZjyBTaG91dG91dCBBbGwKICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8YnV0dG9uCiAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvblNlbmRNZXNzYWdlKCfwn5SlIEh5cGUgaW4gdGhlIGNoYXQhIExldCBtZSBrbm93IGluIGNvbW1lbnRzIHdoYXQgdHJhY2sgd2UgYnJlYWsgZG93biBuZXh0IScsICdhbGwnKX0KICAgICAgICAgIGNsYXNzTmFtZT0icHgtMi41IHB5LTEgcm91bmRlZC1sZyBiZy16aW5jLTgwMC84MCBob3ZlcjpiZy16aW5jLTcwMCB0ZXh0LXppbmMtMzAwIGZvbnQtbWVkaXVtIHdoaXRlc3BhY2Utbm93cmFwIgogICAgICAgID4KICAgICAgICAgIOKaoSBIeXBlIFByb21wdAogICAgICAgIDwvYnV0dG9uPgogICAgICAgIDxidXR0b24KICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uU2VuZE1lc3NhZ2UoJ/CflJQgRHJvcCBhIGZvbGxvdy9zdWIgb24gS2ljayAmIFlvdVR1YmUgdG8gdW5sb2NrIHRoZSBzb3VuZCBkZXNpZ24gc3RlbXMhJywgJ2FsbCcpfQogICAgICAgICAgY2xhc3NOYW1lPSJweC0yLjUgcHktMSByb3VuZGVkLWxnIGJnLXppbmMtODAwLzgwIGhvdmVyOmJnLXppbmMtNzAwIHRleHQtemluYy0zMDAgZm9udC1tZWRpdW0gd2hpdGVzcGFjZS1ub3dyYXAiCiAgICAgICAgPgogICAgICAgICAg8J+OgSBTdWIgR29hbAogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBVbmlmaWVkIFJlcGx5IEZvcm0gKi99CiAgICAgIDxmb3JtIG9uU3VibWl0PXtoYW5kbGVTZW5kfSBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC16aW5jLTQwMCBmb250LW1lZGl1bSI+QnJvYWRjYXN0IHJlcGx5IHRvOjwvc3Bhbj4KICAgICAgICAgIDxzZWxlY3QKICAgICAgICAgICAgdmFsdWU9e3NlbGVjdGVkVGFyZ2V0fQogICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFNlbGVjdGVkVGFyZ2V0KGUudGFyZ2V0LnZhbHVlIGFzIGFueSl9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iYmctemluYy05MDAgYm9yZGVyIGJvcmRlci16aW5jLTgwMCB0ZXh0LVsxMXB4XSBmb250LWJvbGQgdGV4dC1wdXJwbGUtMzAwIHJvdW5kZWQtbGcgcHgtMiBweS0xIGZvY3VzOm91dGxpbmUtbm9uZSIKICAgICAgICAgID4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iYWxsIj5FdmVyeSBDaGFubmVsICg0eCBTeW5jKTwvb3B0aW9uPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJ5b3V0dWJlIj5Zb3VUdWJlIE9ubHk8L29wdGlvbj4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0idGlrdG9rIj5UaWtUb2sgT25seTwvb3B0aW9uPgogICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJraWNrIj5LaWNrIE9ubHk8L29wdGlvbj4KICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iZmFjZWJvb2siPkZhY2Vib29rIE9ubHk8L29wdGlvbj4KICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgPGlucHV0CiAgICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICAgIHZhbHVlPXtpbnB1dE1lc3NhZ2V9CiAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0SW5wdXRNZXNzYWdlKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgcGxhY2Vob2xkZXI9IlNlbmQgbWVzc2FnZSBhY3Jvc3Mgc3RyZWFtcy4uLiIKICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgYmctemluYy05MDAgYm9yZGVyIGJvcmRlci16aW5jLTgwMCBmb2N1czpib3JkZXItcHVycGxlLTUwMCByb3VuZGVkLXhsIHB4LTMuNSBweS0yIHRleHQteHMgdGV4dC13aGl0ZSBwbGFjZWhvbGRlci16aW5jLTUwMCBmb2N1czpvdXRsaW5lLW5vbmUiCiAgICAgICAgICAvPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJzdWJtaXQiCiAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMy41IHB5LTIgcm91bmRlZC14bCBiZy1wdXJwbGUtNjAwIGhvdmVyOmJnLXB1cnBsZS01MDAgdGV4dC13aGl0ZSB0ZXh0LXhzIGZvbnQtYm9sZCB0cmFuc2l0aW9uIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgc2hhZG93LW1kIgogICAgICAgICAgPgogICAgICAgICAgICA8U2VuZCBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPgogICAgICAgICAgICA8c3Bhbj5DVEMgU2VuZDwvc3Bhbj4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Zvcm0+CiAgICA8L2Rpdj4KICApOwp9Owo=
+import React, { useState } from 'react';
+import { LiveChatEvent, PlatformId } from '../../types';
+import { PlatformBadge } from '../common/PlatformBadge';
+import {
+  Send,
+  Sparkles,
+  Gift,
+  Shield,
+  Smile,
+  Volume2,
+  Filter
+} from 'lucide-react';
+
+interface UnifiedLiveChatProps {
+  chatEvents: LiveChatEvent[];
+  onSendMessage: (msg: string, targetPlatform: PlatformId | 'all') => void;
+  isBroadcasting: boolean;
+}
+
+export const UnifiedLiveChat: React.FC<UnifiedLiveChatProps> = ({
+  chatEvents,
+  onSendMessage,
+  isBroadcasting
+}) => {
+  const [inputMessage, setInputMessage] = useState('');
+  const [selectedTarget, setSelectedTarget] = useState<PlatformId | 'all'>('all');
+  const [filterPlatform, setFilterPlatform] = useState<PlatformId | 'all'>('all');
+
+  const handleSend = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!inputMessage.trim()) return;
+    onSendMessage(inputMessage.trim(), selectedTarget);
+    setInputMessage('');
+  };
+
+  const filteredChat = chatEvents.filter((msg) => {
+    if (filterPlatform === 'all') return true;
+    return msg.platformId === filterPlatform;
+  });
+
+  return (
+    <div className="bg-[#111622] rounded-2xl border border-zinc-800 p-4 shadow-xl flex flex-col h-full min-h-[520px]">
+      {/* Header & Filter Bar */}
+      <div className="flex items-center justify-between pb-3 border-b border-zinc-800/80 gap-2">
+        <div className="flex items-center gap-2">
+          <div className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse" />
+          <h3 className="text-sm font-bold text-white">Unified Multi-Chat</h3>
+        </div>
+
+        {/* Filter per platform */}
+        <div className="flex items-center gap-1">
+          <Filter className="w-3.5 h-3.5 text-zinc-500" />
+          <select
+            value={filterPlatform}
+            onChange={(e) => setFilterPlatform(e.target.value as any)}
+            className="bg-zinc-900 border border-zinc-800 text-[11px] font-semibold text-zinc-300 rounded-lg px-2 py-1 focus:outline-none"
+          >
+            <option value="all">All Channels</option>
+            <option value="youtube">YouTube Chat</option>
+            <option value="tiktok">TikTok Live</option>
+            <option value="kick">Kick Chat</option>
+            <option value="facebook">Facebook Live</option>
+          </select>
+        </div>
+      </div>
+
+      {/* Messages Scroll Area */}
+      <div className="flex-1 overflow-y-auto space-y-2 py-3 pr-1">
+        {filteredChat.map((ev) => {
+          const isMonetized = ev.isGift || ev.isSuperChat;
+
+          return (
+            <div
+              key={ev.id}
+              className={`p-2.5 rounded-xl border text-xs transition-all ${
+                isMonetized
+                  ? 'bg-amber-500/10 border-amber-500/40 shadow-sm'
+                  : 'bg-zinc-900/50 border-zinc-800/60 hover:border-zinc-700/80'
+              }`}
+            >
+              <div className="flex items-center justify-between gap-1.5 mb-1">
+                <div className="flex items-center gap-1.5 truncate">
+                  <PlatformBadge platformId={ev.platformId} size="sm" showLabel={false} />
+                  <span className="font-bold text-white truncate">{ev.user}</span>
+                  {ev.badge && (
+                    <span className="text-[10px] px-1 py-0.2 rounded bg-purple-500/20 text-purple-300 font-mono">
+                      {ev.badge}
+                    </span>
+                  )}
+                </div>
+                <span className="text-[10px] text-zinc-500 font-mono shrink-0">
+                  {ev.timestamp}
+                </span>
+              </div>
+
+              <p className="text-zinc-200 leading-relaxed break-words">{ev.message}</p>
+
+              {/* Gift / SuperChat Highlight Tag */}
+              {isMonetized && (
+                <div className="mt-1.5 flex items-center gap-1.5">
+                  {ev.isSuperChat && (
+                    <span className="text-[11px] font-extrabold text-amber-300 bg-amber-500/25 px-2 py-0.5 rounded border border-amber-500/50 font-mono flex items-center gap-1">
+                      <Sparkles className="w-3 h-3 text-amber-400" />
+                      SuperChat {ev.superChatAmount}
+                    </span>
+                  )}
+                  {ev.isGift && (
+                    <span className="text-[11px] font-extrabold text-rose-300 bg-rose-500/25 px-2 py-0.5 rounded border border-rose-500/50 font-mono flex items-center gap-1">
+                      <Gift className="w-3 h-3 text-rose-400" />
+                      {ev.giftType} (+${ev.giftValue?.toFixed(2)})
+                    </span>
+                  )}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Quick Stream Deck Actions */}
+      <div className="pt-2 border-t border-zinc-800/80 flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none text-[11px]">
+        <button
+          onClick={() => onSendMessage('🎉 Thank you everyone for the massive support today!', 'all')}
+          className="px-2.5 py-1 rounded-lg bg-zinc-800/80 hover:bg-zinc-700 text-zinc-300 font-medium whitespace-nowrap"
+        >
+          🙏 Shoutout All
+        </button>
+        <button
+          onClick={() => onSendMessage('🔥 Hype in the chat! Let me know in comments what track we break down next!', 'all')}
+          className="px-2.5 py-1 rounded-lg bg-zinc-800/80 hover:bg-zinc-700 text-zinc-300 font-medium whitespace-nowrap"
+        >
+          ⚡ Hype Prompt
+        </button>
+        <button
+          onClick={() => onSendMessage('🔔 Drop a follow/sub on Kick & YouTube to unlock the sound design stems!', 'all')}
+          className="px-2.5 py-1 rounded-lg bg-zinc-800/80 hover:bg-zinc-700 text-zinc-300 font-medium whitespace-nowrap"
+        >
+          🎁 Sub Goal
+        </button>
+      </div>
+
+      {/* Unified Reply Form */}
+      <form onSubmit={handleSend} className="space-y-2">
+        <div className="flex items-center gap-2">
+          <span className="text-[11px] text-zinc-400 font-medium">Broadcast reply to:</span>
+          <select
+            value={selectedTarget}
+            onChange={(e) => setSelectedTarget(e.target.value as any)}
+            className="bg-zinc-900 border border-zinc-800 text-[11px] font-bold text-purple-300 rounded-lg px-2 py-1 focus:outline-none"
+          >
+            <option value="all">Every Channel (4x Sync)</option>
+            <option value="youtube">YouTube Only</option>
+            <option value="tiktok">TikTok Only</option>
+            <option value="kick">Kick Only</option>
+            <option value="facebook">Facebook Only</option>
+          </select>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <input
+            type="text"
+            value={inputMessage}
+            onChange={(e) => setInputMessage(e.target.value)}
+            placeholder="Send message across streams..."
+            className="flex-1 bg-zinc-900 border border-zinc-800 focus:border-purple-500 rounded-xl px-3.5 py-2 text-xs text-white placeholder-zinc-500 focus:outline-none"
+          />
+          <button
+            type="submit"
+            className="px-3.5 py-2 rounded-xl bg-purple-600 hover:bg-purple-500 text-white text-xs font-bold transition flex items-center gap-1.5 shadow-md"
+          >
+            <Send className="w-3.5 h-3.5" />
+            <span>CTC Send</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+};
