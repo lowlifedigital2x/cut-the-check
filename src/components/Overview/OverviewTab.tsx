@@ -13,7 +13,8 @@ import {
   Award,
   Crown,
   Disc3,
-  Rocket
+  Rocket,
+  Building2
 } from 'lucide-react';
 import {
   PlatformConnection,
@@ -27,6 +28,8 @@ import { PLATFORM_CONFIGS } from '../../data/mockData';
 import { EarningsChart } from './EarningsChart';
 import { RecentActivityFeed } from './RecentActivityFeed';
 import { PlatformBadge } from '../common/PlatformBadge';
+import majorLabelOfficeImg from '../../assets/images/major_label_office.jpg';
+import ctcEagleGoldImg from '../../assets/images/ctc_eagle_pendant_gold.jpg';
 
 interface OverviewTabProps {
   connections: PlatformConnection[];
@@ -55,9 +58,136 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
   const totalFollowers = connections.reduce((acc, curr) => acc + curr.followersCount, 0);
 
   const topPlatform = [...connections].sort((a, b) => b.monthlyRevenue - a.monthlyRevenue)[0];
+  const topPlatformCfg = topPlatform ? PLATFORM_CONFIGS[topPlatform.platformId] : undefined;
 
   return (
     <div className="space-y-6">
+      {/* ==============================================================
+          THE CORNER OFFICE — MAJOR LABEL EXECUTIVE DISPLAY HERO
+          ============================================================== */}
+      <div className="relative rounded-3xl overflow-hidden border-2 border-amber-500/40 shadow-[0_20px_60px_-15px_rgba(0,0,0,0.9)]">
+        {/* Background Image of Luxury Major Label Penthouse Corner Office */}
+        <div className="absolute inset-0 z-0">
+          <img
+            src={majorLabelOfficeImg}
+            alt="Major Label Executive Corner Office"
+            className="w-full h-full object-cover brightness-[0.45]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#06080E] via-[#06080E]/70 to-transparent" />
+          <div className="absolute inset-0 bg-radial at-center from-transparent via-[#06080E]/40 to-[#06080E]/80" />
+        </div>
+
+        {/* Executive Office Content */}
+        <div className="relative z-10 p-6 sm:p-8 lg:p-10 space-y-6">
+          {/* Top Bar: Headquarters Nameplate */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-amber-500/20 pb-4">
+            <div className="flex items-center gap-2.5">
+              <span className="p-2 rounded-xl bg-amber-500/20 border border-amber-400/40 text-amber-300">
+                <Building2 className="w-5 h-5" />
+              </span>
+              <div>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-[10px] font-mono font-black tracking-widest uppercase text-amber-300 bg-amber-950/80 px-2 py-0.5 rounded border border-amber-600/40">
+                    CUT THE CHECK WORLDWIDE HEADQUARTERS
+                  </span>
+                  <span className="text-[10px] font-mono text-zinc-400">
+                    54TH FLOOR • EXECUTIVE WING
+                  </span>
+                </div>
+                <h2 className="text-xl sm:text-2xl font-black text-white tracking-wide uppercase mt-0.5">
+                  Welcome to Your Office
+                </h2>
+              </div>
+            </div>
+
+            <span className="text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-300 bg-emerald-950/70 border border-emerald-500/50 px-2.5 py-1.5 rounded-full flex items-center gap-1.5 self-start sm:self-auto shadow-lg backdrop-blur-md">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+              {streamState.isBroadcasting ? 'Live From The Desk' : 'Office Open • Ready'}
+            </span>
+          </div>
+
+          {/* Centerpiece: Headline, Readouts & The Gold Eagle Display */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+            <div className="lg:col-span-8 space-y-4">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight drop-shadow-md">
+                The Corner <span className="text-gold-gradient">Office</span>
+              </h1>
+
+              <p className="text-xs sm:text-sm text-zinc-300 max-w-2xl leading-relaxed">
+                Every channel you own — distribution, live, money, and metrics — run from one desk, high above the city.
+              </p>
+
+              {/* Live Executive Readouts */}
+              <div className="flex flex-wrap items-center gap-2.5 pt-1">
+                <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-black/60 border border-amber-500/30 font-mono text-xs backdrop-blur-md">
+                  <DollarSign className="w-3.5 h-3.5 text-amber-400" />
+                  <span className="text-zinc-400">Earnings</span>
+                  <span className="text-amber-200 font-bold">
+                    {currencySymbol}{totalEarnings.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+                  </span>
+                </div>
+
+                <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-black/60 border border-amber-500/30 font-mono text-xs backdrop-blur-md">
+                  <Users className="w-3.5 h-3.5 text-amber-400" />
+                  <span className="text-zinc-400">Audience</span>
+                  <span className="text-amber-200 font-bold">
+                    {(totalFollowers / 1000000).toFixed(2)}M
+                  </span>
+                </div>
+
+                <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-black/60 border border-amber-500/30 font-mono text-xs backdrop-blur-md">
+                  <Crown className="w-3.5 h-3.5 text-amber-400" />
+                  <span className="text-zinc-400">Top Channel</span>
+                  <span className="text-amber-200 font-bold">
+                    {topPlatformCfg?.name || '—'}
+                  </span>
+                </div>
+              </div>
+
+              {/* Office Doors */}
+              <div className="flex flex-wrap items-center gap-3 pt-2">
+                <button
+                  onClick={() => onNavigateToTab('launch')}
+                  className="deal-btn-gold px-4 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition shadow-md flex items-center gap-1.5"
+                >
+                  <Rocket className="w-3.5 h-3.5 text-amber-950" />
+                  <span>Enter Launch Suite</span>
+                </button>
+
+                <button
+                  onClick={() => onNavigateToTab('milestone_awards')}
+                  className="deal-btn-platinum px-4 py-2.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5 shadow-md"
+                >
+                  <Award className="w-3.5 h-3.5 text-slate-800" />
+                  <span>Plaque Wall</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Right Column: The Gold Eagle, On Display */}
+            <div className="lg:col-span-4">
+              <div className="p-2 rounded-2xl bg-black/60 border-2 border-amber-400/60 shadow-2xl backdrop-blur-md max-w-xs mx-auto lg:ml-auto">
+                <div className="rounded-xl overflow-hidden border border-amber-500/30">
+                  <img
+                    src={ctcEagleGoldImg}
+                    alt="CTC Eagle with Gold Pendant — On Display"
+                    className="w-full h-48 sm:h-56 object-cover"
+                  />
+                </div>
+                <div className="flex items-center justify-between px-1.5 pt-2 pb-1">
+                  <span className="engraved-plate-gold text-[9px] uppercase font-black px-2 py-0.5 rounded shadow-sm">
+                    On Display
+                  </span>
+                  <span className="text-[10px] font-mono font-bold tracking-widest uppercase text-amber-200">
+                    The CTC Eagle • Gold
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Top Multi-Live Master Strip */}
       <div className="p-4 rounded-2xl bg-gradient-to-r from-purple-950/40 via-zinc-900/80 to-blue-950/40 border border-purple-500/30 flex flex-col md:flex-row md:items-center justify-between gap-4 shadow-xl">
         <div className="flex items-center gap-3">
