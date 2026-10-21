@@ -14,7 +14,8 @@ import {
   Crown,
   Disc3,
   Rocket,
-  Building2
+  Building2,
+  Handshake
 } from 'lucide-react';
 import {
   PlatformConnection,
@@ -160,6 +161,14 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
                 >
                   <Award className="w-3.5 h-3.5 text-slate-800" />
                   <span>Plaque Wall</span>
+                </button>
+
+                <button
+                  onClick={() => onNavigateToTab('sponsorship')}
+                  className="px-4 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider transition flex items-center gap-1.5 shadow-md bg-black/60 border border-amber-500/40 text-amber-200 backdrop-blur-md hover:border-amber-400 hover:text-white"
+                >
+                  <Handshake className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Sponsorship</span>
                 </button>
               </div>
             </div>
@@ -474,7 +483,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
                 Synchronized Catalog & Master Recording Ledger
               </h3>
               <span className="engraved-plate-gold text-[9px] font-black px-2 py-0.5 rounded shadow-sm">
-                14 PLATFORMS CERTIFIED
+                47 PLATFORMS CERTIFIED
               </span>
             </div>
             <p className="text-xs text-amber-200/70 mt-0.5">
@@ -496,7 +505,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
             <button
               onClick={() => onNavigateToTab('create_the_content')}
               className="deal-btn-platinum flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold shadow-md transition"
-              title="1-Click: Distribute to all 14 platforms"
+              title="1-Click: Distribute to all 47 platforms"
             >
               <Send className="w-3.5 h-3.5 text-slate-800" />
               <span>Publish All Channels</span>
