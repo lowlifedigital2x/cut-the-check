@@ -1,1 +1,324 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgewogIERvbGxhclNpZ24sCiAgQ3JlZGl0Q2FyZCwKICBBcnJvd1VwUmlnaHQsCiAgRG93bmxvYWQsCiAgQ2hlY2tDaXJjbGUsCiAgQ2xvY2ssCiAgU3BhcmtsZXMsCiAgVHJlbmRpbmdVcCwKICBCdWlsZGluZywKICBIZWxwQ2lyY2xlLAogIEV4dGVybmFsTGluaywKICBDaGV2cm9uUmlnaHQsCiAgQXdhcmQsCiAgU2hpZWxkQ2hlY2ssCiAgRmlsZUNoZWNrLAogIERpc2MzLAogIExheWVycwp9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCB7IFBsYXRmb3JtQ29ubmVjdGlvbiwgUmV2ZW51ZVN0cmVhbSwgQ29udGVudEl0ZW0sIFBsYXRmb3JtSWQgfSBmcm9tICcuLi8uLi90eXBlcyc7CmltcG9ydCB7IFBMQVRGT1JNX0NPTkZJR1MsIElOSVRJQUxfUkVWRU5VRV9TVFJFQU1TIH0gZnJvbSAnLi4vLi4vZGF0YS9tb2NrRGF0YSc7CmltcG9ydCB7IFBsYXRmb3JtQmFkZ2UgfSBmcm9tICcuLi9jb21tb24vUGxhdGZvcm1CYWRnZSc7CgppbnRlcmZhY2UgTW9uZXRpemF0aW9uSHViUHJvcHMgewogIGNvbm5lY3Rpb25zOiBQbGF0Zm9ybUNvbm5lY3Rpb25bXTsKICByZXZlbnVlU3RyZWFtcz86IFJldmVudWVTdHJlYW1bXTsKICBjb250ZW50SXRlbXM6IENvbnRlbnRJdGVtW107CiAgY3VycmVuY3lTeW1ib2w/OiBzdHJpbmc7CiAgc3Vic2NyaXB0aW9uVGllcj86IHN0cmluZzsKICBvbk9wZW5TdWJzY3JpcHRpb25Nb2RhbD86ICgpID0+IHZvaWQ7Cn0KCmV4cG9ydCBjb25zdCBNb25ldGl6YXRpb25IdWI6IFJlYWN0LkZDPE1vbmV0aXphdGlvbkh1YlByb3BzPiA9ICh7CiAgY29ubmVjdGlvbnMsCiAgcmV2ZW51ZVN0cmVhbXMgPSBJTklUSUFMX1JFVkVOVUVfU1RSRUFNUywKICBjb250ZW50SXRlbXMsCiAgY3VycmVuY3lTeW1ib2wgPSAnJCcsCiAgc3Vic2NyaXB0aW9uVGllciA9ICdnb2xkJywKICBvbk9wZW5TdWJzY3JpcHRpb25Nb2RhbAp9KSA9PiB7CiAgY29uc3QgW3NlbGVjdGVkQ2F0ZWdvcnksIHNldFNlbGVjdGVkQ2F0ZWdvcnldID0gdXNlU3RhdGU8c3RyaW5nPignYWxsJyk7CiAgY29uc3QgW3BheW91dFRyaWdnZXJlZCwgc2V0UGF5b3V0VHJpZ2dlcmVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbcGF5b3V0U3VjY2Vzc01lc3NhZ2UsIHNldFBheW91dFN1Y2Nlc3NNZXNzYWdlXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwoKICBjb25zdCB0b3RhbE1vbnRobHlFYXJuaW5ncyA9IGNvbm5lY3Rpb25zLnJlZHVjZSgoYWNjLCBjKSA9PiBhY2MgKyBjLm1vbnRobHlSZXZlbnVlLCAwKTsKICBjb25zdCBhdmFpbGFibGVFYXJuaW5ncyA9IHJldmVudWVTdHJlYW1zCiAgICAuZmlsdGVyKChyKSA9PiByLnBheW91dFN0YXR1cyA9PT0gJ0F2YWlsYWJsZScpCiAgICAucmVkdWNlKChhY2MsIHIpID0+IGFjYyArIHIuYW1vdW50LCAwKTsKICBjb25zdCBwZW5kaW5nRWFybmluZ3MgPSByZXZlbnVlU3RyZWFtcwogICAgLmZpbHRlcigocikgPT4gci5wYXlvdXRTdGF0dXMgPT09ICdQZW5kaW5nJykKICAgIC5yZWR1Y2UoKGFjYywgcikgPT4gYWNjICsgci5hbW91bnQsIDApOwoKICBjb25zdCBmaWx0ZXJlZFN0cmVhbXMgPSByZXZlbnVlU3RyZWFtcy5maWx0ZXIoKHIpID0+IHsKICAgIGlmIChzZWxlY3RlZENhdGVnb3J5ID09PSAnYWxsJykgcmV0dXJuIHRydWU7CiAgICByZXR1cm4gci5wbGF0Zm9ybUlkID09PSBzZWxlY3RlZENhdGVnb3J5OwogIH0pOwoKICBjb25zdCBoYW5kbGVJbnN0YW50UGF5b3V0ID0gKCkgPT4gewogICAgc2V0UGF5b3V0VHJpZ2dlcmVkKHRydWUpOwogICAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIHNldFBheW91dFRyaWdnZXJlZChmYWxzZSk7CiAgICAgIHNldFBheW91dFN1Y2Nlc3NNZXNzYWdlKAogICAgICAgIGBTVUNDRVNTOiBPZmZpY2lhbCBFc2Nyb3cgQ2hlY2sgb2YgJHtjdXJyZW5jeVN5bWJvbH0ke2F2YWlsYWJsZUVhcm5pbmdzLnRvTG9jYWxlU3RyaW5nKCl9IHN1Y2Nlc3NmdWxseSBjdXQgYW5kIHJlbGVhc2VkIHRvIHlvdXIgZGlyZWN0IGRlcG9zaXQgYWNjb3VudCFgCiAgICAgICk7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0UGF5b3V0U3VjY2Vzc01lc3NhZ2UobnVsbCksIDUwMDApOwogICAgfSwgMTUwMCk7CiAgfTsKCiAgY29uc3QgZXhwb3J0RWFybmluZ3NDc3YgPSAoKSA9PiB7CiAgICBjb25zdCBjc3ZDb250ZW50ID0KICAgICAgJ2RhdGE6dGV4dC9jc3Y7Y2hhcnNldD11dGYtOCwnICsKICAgICAgWydQbGF0Zm9ybSxDYXRlZ29yeSxBbW91bnQsU3RhdHVzLERhdGUnXQogICAgICAgIC5jb25jYXQoCiAgICAgICAgICByZXZlbnVlU3RyZWFtcy5tYXAoCiAgICAgICAgICAgIChyKSA9PiBgJHtyLnBsYXRmb3JtSWR9LCR7ci5jYXRlZ29yeX0sJHtyLmFtb3VudH0sJHtyLnBheW91dFN0YXR1c30sJHtyLmRhdGV9YAogICAgICAgICAgKQogICAgICAgICkKICAgICAgICAuam9pbignXG4nKTsKICAgIGNvbnN0IGVuY29kZWRVcmkgPSBlbmNvZGVVUkkoY3N2Q29udGVudCk7CiAgICBjb25zdCBsaW5rID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYScpOwogICAgbGluay5zZXRBdHRyaWJ1dGUoJ2hyZWYnLCBlbmNvZGVkVXJpKTsKICAgIGxpbmsuc2V0QXR0cmlidXRlKCdkb3dubG9hZCcsIGBDVENfT2ZmaWNpYWxfRWFybmluZ3NfQ2hlY2tfU3RhdGVtZW50XyR7RGF0ZS5ub3coKX0uY3N2YCk7CiAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGxpbmspOwogICAgbGluay5jbGljaygpOwogICAgZG9jdW1lbnQuYm9keS5yZW1vdmVDaGlsZChsaW5rKTsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNiI+CiAgICAgIHsvKiBUb3AgSGVhZGVyICYgUGF5b3V0IFN1bW1hcnkgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQiPgogICAgICAgIDxkaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtZXh0cmFib2xkIHRleHQtd2hpdGUgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIuNSI+CiAgICAgICAgICAgICAgPERvbGxhclNpZ24gY2xhc3NOYW1lPSJ3LTYgaC02IHRleHQtYW1iZXItNDAwIiAvPgogICAgICAgICAgICAgIDxzcGFuPkNhdGVnb3J5IDc6IENVVCBUaGUgQ2hlY2sgKEV4ZWN1dGl2ZSBQYXlvdXQgSHViKTwvc3Bhbj4KICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJlbmdyYXZlZC1wbGF0ZS1nb2xkIHRleHQtWzlweF0gZm9udC1ibGFjayB1cHBlcmNhc2UgcHgtMiBweS0wLjUgcm91bmRlZCBzaGFkb3ctc20iPgogICAgICAgICAgICAgIE1BSk9SIERFQUwgRVNDUk9XCiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtemluYy00MDAgbXQtMSI+CiAgICAgICAgICAgIE9mZmljaWFsIG11bHRpLXBsYXRmb3JtIGVhcm5pbmdzIGxlZGdlciBhY3Jvc3MgWW91VHViZSBBZFNlbnNlLCBLaWNrIDk1LzUsIFRpa1RvayBMaXZlIGdpZnRzLCBTcG90aWZ5IHJveWFsdGllcywgQXBwbGUgTXVzaWMgJiBGYWNlYm9vayBTdGFycy4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17ZXhwb3J0RWFybmluZ3NDc3Z9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iZGVhbC1idG4tcGxhdGludW0gZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBweC0zLjUgcHktMiByb3VuZGVkLXhsIHRleHQteHMgZm9udC1ib2xkIHRyYW5zaXRpb24iCiAgICAgICAgICA+CiAgICAgICAgICAgIDxEb3dubG9hZCBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPgogICAgICAgICAgICA8c3Bhbj5DVEMgRXhwb3J0IEF1ZGl0IExlZGdlciBDU1Y8L3NwYW4+CiAgICAgICAgICA8L2J1dHRvbj4KCiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUluc3RhbnRQYXlvdXR9CiAgICAgICAgICAgIGRpc2FibGVkPXtwYXlvdXRUcmlnZ2VyZWR9CiAgICAgICAgICAgIGNsYXNzTmFtZT0iZGVhbC1idG4tZ29sZCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBweC01IHB5LTIuNSByb3VuZGVkLXhsIHRleHQteHMgZm9udC1ibGFjayB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdHJhbnNpdGlvbiBzaGFkb3cteGwiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxDcmVkaXRDYXJkIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LWFtYmVyLTk1MCIgLz4KICAgICAgICAgICAgPHNwYW4+CiAgICAgICAgICAgICAge3BheW91dFRyaWdnZXJlZCA/ICdDdXR0aW5nIENoZWNrICYgV2lyaW5nLi4uJyA6ICdDQVNIIFRIRSBDSEVDSyd9CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBTdWNjZXNzIE5vdGlmaWNhdGlvbiBBbGVydCAqL30KICAgICAge3BheW91dFN1Y2Nlc3NNZXNzYWdlICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC00IHJvdW5kZWQtMnhsIGVuZ3JhdmVkLXBsYXRlLWdvbGQgdGV4dC1hbWJlci05NTAgdGV4dC1jZW50ZXIgZm9udC1ibGFjayB0ZXh0LXNtIGFuaW1hdGUtaW4gZmFkZS1pbiBzaGFkb3ctMnhsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0yIj4KICAgICAgICAgIDxGaWxlQ2hlY2sgY2xhc3NOYW1lPSJ3LTUgaC01IHRleHQtYW1iZXItOTUwIHNocmluay0wIiAvPgogICAgICAgICAgPHNwYW4+e3BheW91dFN1Y2Nlc3NNZXNzYWdlfTwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHsvKiBUSEUgTUFTVEVSIENIRUNLIC8gRVhFQ1VUSVZFIEVTQ1JPVyBQTEFRVUUgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJwbGFxdWUtZ29sZCBwLTYgbGc6cC04IHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgey8qIEdyb292ZWQgVmlueWwgRGlzYyBXYXRlcm1hcmsgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC0xNiAtdG9wLTE2IHctNTYgaC01NiByb3VuZGVkLWZ1bGwgZ3Jvb3ZlZC1yZWNvcmQtZGlzYyBvcGFjaXR5LTIwIHBvaW50ZXItZXZlbnRzLW5vbmUiIC8+CgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB6LTEwIHNwYWNlLXktNiI+CiAgICAgICAgICB7LyogQ2hlY2sgSGVhZGVyIFN0cmlwICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCBwYi01IGJvcmRlci1iIGJvcmRlci1hbWJlci01MDAvMzAiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJlbmdyYXZlZC1wbGF0ZS1nb2xkIHctMTIgaC0xMiByb3VuZGVkLXhsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGZvbnQtYmxhY2sgdGV4dC1zbSB0ZXh0LWFtYmVyLTk1MCBzaGFkb3ctbWQiPgogICAgICAgICAgICAgICAgQ1RDCiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIGZvbnQtYmxhY2sgdHJhY2tpbmctd2lkZXN0IHRleHQtYW1iZXItMjAwLzgwIGJsb2NrIj4KICAgICAgICAgICAgICAgICAgT0ZGSUNJQUwgQ1JFQVRPUiBESVNCVVJTRU1FTlQgVk9VQ0hFUgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1sZyBmb250LWJsYWNrIHRleHQtd2hpdGUgdHJhY2tpbmctd2lkZSI+CiAgICAgICAgICAgICAgICAgIENVVCBUSEUgQ0hFQ0sgRVNDUk9XIFNZU1RFTSAjQ1RDLURFQUwtOTk0MgogICAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXJpZ2h0Ij4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIGZvbnQtYm9sZCB0ZXh0LXppbmMtNDAwIGJsb2NrIj5DVVJSRU5UIERFQUwgVElFUjwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyBmb250LWJsYWNrIHVwcGVyY2FzZSBmb250LW1vbm8gdGV4dC1nb2xkLWdyYWRpZW50Ij4KICAgICAgICAgICAgICAgICAge3N1YnNjcmlwdGlvblRpZXIgPT09ICdkaWFtb25kJyA/ICdESUFNT05EIENPTkdMT01FUkFURSAoMC1TRUMgQ0xFQVJBTkNFKScgOiBzdWJzY3JpcHRpb25UaWVyID09PSAncGxhdGludW0nID8gJ1BMQVRJTlVNIEVYRUNVVElWRSAoMC1TRUMgQ0xFQVJBTkNFKScgOiBzdWJzY3JpcHRpb25UaWVyID09PSAnZ29sZCcgPyAnR09MRCBMQUJFTCBQQVJUTkVSICg0OC1IUiknIDogJ0lORElFIFRJRVInfQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIHtvbk9wZW5TdWJzY3JpcHRpb25Nb2RhbCAmJiAoCiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e29uT3BlblN1YnNjcmlwdGlvbk1vZGFsfQogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImRlYWwtYnRuLXBsYXRpbnVtIHRleHQtWzEwcHhdIGZvbnQtYmxhY2sgcHgtMi41IHB5LTEuNSByb3VuZGVkLWxnIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICBDVEMgTW9kaWZ5IERlYWwKICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIENoZWNrIE1pZGRsZTogUGF5ZWUgYW5kIFRhYnVsYXIgRG9sbGFyIEFtb3VudCAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGxnOmdyaWQtY29scy0zIGdhcC02IGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJsZzpjb2wtc3Bhbi0yIHNwYWNlLXktMiI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHRleHQteHMgdGV4dC1hbWJlci0yMDAvODAgZm9udC1tb25vIj4KICAgICAgICAgICAgICAgIDxzcGFuPlBBWSBUTyBUSEUgT1JERVIgT0Y6PC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIGZvbnQtYm9sZCB1bmRlcmxpbmUgZGVjb3JhdGlvbi1hbWJlci01MDAvNTAiPgogICAgICAgICAgICAgICAgICBDRVJUSUZJRUQgQ1JFQVRPUiBTVFVESU8gKElEOiBDVEMtVkVSSUZJRUQtQVJUSVNUKQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXppbmMtNDAwIGl0YWxpYyI+CiAgICAgICAgICAgICAgICBBdXRob3JpemVkIGVsZWN0cm9uaWMgcm95YWx0eSBkaXNidXJzZW1lbnQgYWNyb3NzIDQ3IGNvbm5lY3RlZCBzdHJlYW1pbmcgZGlzdHJpYnV0aW9uIGNoYW5uZWxzLiBHdWFyYW50ZWVkIHNhZmUgY3VzdG9keSBlc2Nyb3cuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHsvKiBFbmdyYXZlZCBQbGFxdWUgQ2hlY2sgVmFsdWUgUGxhdGUgKi99CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJlbmdyYXZlZC1wbGF0ZS1nb2xkIHAtNCByb3VuZGVkLXhsIHRleHQtY2VudGVyIHNoYWRvdy1sZyI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVs5cHhdIGZvbnQtbW9ubyB1cHBlcmNhc2UgZm9udC1ibGFjayB0cmFja2luZy13aWRlc3QgdGV4dC1hbWJlci05NTAvODAgYmxvY2siPgogICAgICAgICAgICAgICAgQVZBSUxBQkxFIEVTQ1JPVyBCQUxBTkNFCiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBsZzp0ZXh0LTR4bCBmb250LWJsYWNrIGZvbnQtbW9ubyB0ZXh0LWFtYmVyLTk1MCB0cmFja2luZy10aWdodCI+CiAgICAgICAgICAgICAgICB7Y3VycmVuY3lTeW1ib2x9e2F2YWlsYWJsZUVhcm5pbmdzLnRvTG9jYWxlU3RyaW5nKCdlbi1VUycsIHsgbWluaW11bUZyYWN0aW9uRGlnaXRzOiAyIH0pfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bOXB4XSBmb250LWJvbGQgdGV4dC1hbWJlci05MDAgYmxvY2sgbXQtMSI+CiAgICAgICAgICAgICAgICBTVEFUVVM6IFJFQURZIFRPIERJU0JVUlNFCiAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIHsvKiBDaGVjayBGb290ZXI6IENvdW50ZXJzaWduYXR1cmVzICYgQ2xlYXJhbmNlIFRpbWVzdGFtcHMgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHQtNCBib3JkZXItdCBib3JkZXItYW1iZXItNTAwLzMwIGZsZXggZmxleC1jb2wgc206ZmxleC1yb3cgc206aXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiB0ZXh0LXhzIHRleHQtYW1iZXItMjAwLzcwIGdhcC0yIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICA8U2hpZWxkQ2hlY2sgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtYW1iZXItNDAwIiAvPgogICAgICAgICAgICAgIDxzcGFuPkNPVU5URVJTSUdORUQ6IENUQyBHTE9CQUwgRVNDUk9XIFRSVVNURUUg4oCiIFNUUklQRSBESVJFQ1QgQ09OTkVDVDwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LW1vbm8gdGV4dC1bMTBweF0gdGV4dC16aW5jLTQwMCI+CiAgICAgICAgICAgICAgU0VSSUFMOiA4ODQtMjkwLUNUQy1YIOKAoiAyNTYtQklUIEVOQ1JZUFRFRAogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBGaW5hbmNpYWwgSGVhbHRoIE92ZXJ2aWV3IFBsYXF1ZXMgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIHNtOmdyaWQtY29scy0zIGdhcC00Ij4KICAgICAgICB7LyogUGxhcXVlIDEgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InBsYXF1ZS1wbGF0aW51bSBwLTUgcmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtNCAtYm90dG9tLTQgdy0xNiBoLTE2IHJvdW5kZWQtZnVsbCBncm9vdmVkLXJlY29yZC1kaXNjIG9wYWNpdHktMjAgcG9pbnRlci1ldmVudHMtbm9uZSIgLz4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ibGFjayB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1zbGF0ZS0zMDAgYmxvY2sgbWItMiI+CiAgICAgICAgICAgIEdyb3NzIEFnZ3JlZ2F0ZWQgKDMwIERheXMpCiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ibGFjayB0ZXh0LXBsYXRpbnVtLWdyYWRpZW50IGZvbnQtbW9ubyI+CiAgICAgICAgICAgIHtjdXJyZW5jeVN5bWJvbH17dG90YWxNb250aGx5RWFybmluZ3MudG9Mb2NhbGVTdHJpbmcoJ2VuLVVTJywgeyBtaW5pbXVtRnJhY3Rpb25EaWdpdHM6IDIgfSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IG10LTIgdGV4dC14cyB0ZXh0LXNsYXRlLTMwMCI+CiAgICAgICAgICAgIDxBcnJvd1VwUmlnaHQgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSB0ZXh0LXNreS00MDAiIC8+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZm9udC1ib2xkIj4rMjEuOCU8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC16aW5jLTQwMCI+YmxlbmRlZCBtb250aGx5IGdyb3d0aDwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogUGxhcXVlIDIgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InBsYXF1ZS1nb2xkIHAtNSByZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIC1yaWdodC00IC1ib3R0b20tNCB3LTE2IGgtMTYgcm91bmRlZC1mdWxsIGdyb292ZWQtcmVjb3JkLWRpc2Mgb3BhY2l0eS0yMCBwb2ludGVyLWV2ZW50cy1ub25lIiAvPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJsYWNrIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LWFtYmVyLTIwMC84MCBibG9jayBtYi0yIj4KICAgICAgICAgICAgQXZhaWxhYmxlIEZvciBQYXlvdXQKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBmb250LWJsYWNrIHRleHQtZ29sZC1ncmFkaWVudCBmb250LW1vbm8iPgogICAgICAgICAgICB7Y3VycmVuY3lTeW1ib2x9e2F2YWlsYWJsZUVhcm5pbmdzLnRvTG9jYWxlU3RyaW5nKCdlbi1VUycsIHsgbWluaW11bUZyYWN0aW9uRGlnaXRzOiAyIH0pfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBtdC0yIHRleHQteHMgdGV4dC1hbWJlci0zMDAiPgogICAgICAgICAgICA8Q2hlY2tDaXJjbGUgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSB0ZXh0LWFtYmVyLTQwMCIgLz4KICAgICAgICAgICAgPHNwYW4+UmVhZHkgZm9yIGJhbmsgdHJhbnNmZXIgLyBTdHJpcGU8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFBsYXF1ZSAzICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwbGFxdWUtZGlhbW9uZCBwLTUgcmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtNCAtYm90dG9tLTQgdy0xNiBoLTE2IHJvdW5kZWQtZnVsbCBncm9vdmVkLXJlY29yZC1kaXNjIG9wYWNpdHktMjAgcG9pbnRlci1ldmVudHMtbm9uZSIgLz4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ibGFjayB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1za3ktMjAwIGJsb2NrIG1iLTIiPgogICAgICAgICAgICBQZW5kaW5nIENsZWFyYW5jZQogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtYmxhY2sgdGV4dC1kaWFtb25kLWdyYWRpZW50IGZvbnQtbW9ubyI+CiAgICAgICAgICAgIHtjdXJyZW5jeVN5bWJvbH17cGVuZGluZ0Vhcm5pbmdzLnRvTG9jYWxlU3RyaW5nKCdlbi1VUycsIHsgbWluaW11bUZyYWN0aW9uRGlnaXRzOiAyIH0pfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBtdC0yIHRleHQteHMgdGV4dC1za3ktMzAwIGZvbnQtbW9ubyI+CiAgICAgICAgICAgIDxDbG9jayBjbGFzc05hbWU9InctMy41IGgtMy41IHRleHQtc2t5LTQwMCIgLz4KICAgICAgICAgICAgPHNwYW4+TmV4dCBiYXRjaCBjbGVhcnMgaW4gMyBidXNpbmVzcyBkYXlzPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIFBsYXRmb3JtIFJldmVudWUgQnJlYWtkb3duIENhcmRzICovfQogICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0zIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteHMgZm9udC1ibGFjayB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgdGV4dC1hbWJlci0yMDAvODAgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICA8QXdhcmQgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtYW1iZXItNDAwIiAvPgogICAgICAgICAgICA8c3Bhbj5QbGF0Zm9ybSBSZXZlbnVlIEJyZWFrZG93biBMZWRnZXI8L3NwYW4+CiAgICAgICAgICA8L2gzPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtemluYy00MDAiPjQ3IE1ham9yIENvbm5lY3RlZCBDaGFubmVsczwvc3Bhbj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTMgZ2FwLTQiPgogICAgICAgICAge2Nvbm5lY3Rpb25zLm1hcCgoYykgPT4gewogICAgICAgICAgICBjb25zdCBjZmcgPSBQTEFURk9STV9DT05GSUdTW2MucGxhdGZvcm1JZF07CiAgICAgICAgICAgIGNvbnN0IHBlcmNlbnRPZlRvdGFsID0gKChjLm1vbnRobHlSZXZlbnVlIC8gdG90YWxNb250aGx5RWFybmluZ3MpICogMTAwKS50b0ZpeGVkKDEpOwoKICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICBrZXk9e2MucGxhdGZvcm1JZH0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icGxhcXVlLXBsYXRpbnVtIHAtNSB0cmFuc2l0aW9uIHNwYWNlLXktMyByZWxhdGl2ZSBvdmVyZmxvdy1oaWRkZW4iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiByZWxhdGl2ZSB6LTEwIj4KICAgICAgICAgICAgICAgICAgPFBsYXRmb3JtQmFkZ2UgcGxhdGZvcm1JZD17Yy5wbGF0Zm9ybUlkfSBzaXplPSJtZCIgLz4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LWFtYmVyLTMwMCBmb250LW1vbm8iPgogICAgICAgICAgICAgICAgICAgIHtwZXJjZW50T2ZUb3RhbH0lIG9mIEdyb3NzCiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB6LTEwIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYmxhY2sgdGV4dC13aGl0ZSBmb250LW1vbm8iPgogICAgICAgICAgICAgICAgICAgIHtjdXJyZW5jeVN5bWJvbH17Yy5tb250aGx5UmV2ZW51ZS50b0xvY2FsZVN0cmluZygnZW4tVVMnLCB7IG1pbmltdW1GcmFjdGlvbkRpZ2l0czogMiB9KX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdGV4dC16aW5jLTQwMCI+RXN0aW1hdGVkIE1vbnRobHkgRWFybmluZ3M8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHQtMiBib3JkZXItdCBib3JkZXItemluYy04MDAvODAgcmVsYXRpdmUgei0xMCI+CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gZm9udC1ib2xkIHRleHQtemluYy00MDAgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIGJsb2NrIG1iLTEiPgogICAgICAgICAgICAgICAgICAgIE1vbmV0aXphdGlvbiBTdHJlYW1zCiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICB7Y2ZnPy5tb25ldGl6YXRpb25UeXBlcy5tYXAoKHR5cGUsIGkpID0+ICgKICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBweC0yIHB5LTAuNSByb3VuZGVkLW1kIGJnLXppbmMtOTAwLzkwIHRleHQtYW1iZXItMjAwIGJvcmRlciBib3JkZXItYW1iZXItNTAwLzIwIGZvbnQtbWVkaXVtIgogICAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgICB7dHlwZX0KICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07Cg==
+import React, { useState } from 'react';
+import {
+  DollarSign,
+  CreditCard,
+  ArrowUpRight,
+  Download,
+  CheckCircle,
+  Clock,
+  Sparkles,
+  TrendingUp,
+  Building,
+  HelpCircle,
+  ExternalLink,
+  ChevronRight,
+  Award,
+  ShieldCheck,
+  FileCheck,
+  Disc3,
+  Layers
+} from 'lucide-react';
+import { PlatformConnection, RevenueStream, ContentItem, PlatformId } from '../../types';
+import { PLATFORM_CONFIGS, INITIAL_REVENUE_STREAMS } from '../../data/mockData';
+import { PlatformBadge } from '../common/PlatformBadge';
+
+interface MonetizationHubProps {
+  connections: PlatformConnection[];
+  revenueStreams?: RevenueStream[];
+  contentItems: ContentItem[];
+  currencySymbol?: string;
+  subscriptionTier?: string;
+  onOpenSubscriptionModal?: () => void;
+}
+
+export const MonetizationHub: React.FC<MonetizationHubProps> = ({
+  connections,
+  revenueStreams = INITIAL_REVENUE_STREAMS,
+  contentItems,
+  currencySymbol = '$',
+  subscriptionTier = 'gold',
+  onOpenSubscriptionModal
+}) => {
+  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  const [payoutTriggered, setPayoutTriggered] = useState(false);
+  const [payoutSuccessMessage, setPayoutSuccessMessage] = useState<string | null>(null);
+
+  const totalMonthlyEarnings = connections.reduce((acc, c) => acc + c.monthlyRevenue, 0);
+  const availableEarnings = revenueStreams
+    .filter((r) => r.payoutStatus === 'Available')
+    .reduce((acc, r) => acc + r.amount, 0);
+  const pendingEarnings = revenueStreams
+    .filter((r) => r.payoutStatus === 'Pending')
+    .reduce((acc, r) => acc + r.amount, 0);
+
+  const filteredStreams = revenueStreams.filter((r) => {
+    if (selectedCategory === 'all') return true;
+    return r.platformId === selectedCategory;
+  });
+
+  const handleInstantPayout = () => {
+    setPayoutTriggered(true);
+    setTimeout(() => {
+      setPayoutTriggered(false);
+      setPayoutSuccessMessage(
+        `SUCCESS: Official Escrow Check of ${currencySymbol}${availableEarnings.toLocaleString()} successfully cut and released to your direct deposit account!`
+      );
+      setTimeout(() => setPayoutSuccessMessage(null), 5000);
+    }, 1500);
+  };
+
+  const exportEarningsCsv = () => {
+    const csvContent =
+      'data:text/csv;charset=utf-8,' +
+      ['Platform,Category,Amount,Status,Date']
+        .concat(
+          revenueStreams.map(
+            (r) => `${r.platformId},${r.category},${r.amount},${r.payoutStatus},${r.date}`
+          )
+        )
+        .join('\n');
+    const encodedUri = encodeURI(csvContent);
+    const link = document.createElement('a');
+    link.setAttribute('href', encodedUri);
+    link.setAttribute('download', `CTC_Official_Earnings_Check_Statement_${Date.now()}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  return (
+    <div className="space-y-6">
+      {/* Top Header & Payout Summary */}
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <div className="flex items-center gap-2">
+            <h2 className="text-xl font-extrabold text-white flex items-center gap-2.5">
+              <DollarSign className="w-6 h-6 text-amber-400" />
+              <span>Category 7: CUT The Check (Executive Payout Hub)</span>
+            </h2>
+            <span className="engraved-plate-gold text-[9px] font-black uppercase px-2 py-0.5 rounded shadow-sm">
+              MAJOR DEAL ESCROW
+            </span>
+          </div>
+          <p className="text-xs text-zinc-400 mt-1">
+            Official multi-platform earnings ledger across YouTube AdSense, Kick 95/5, TikTok Live gifts, Spotify royalties, Apple Music & Facebook Stars.
+          </p>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <button
+            onClick={exportEarningsCsv}
+            className="deal-btn-platinum flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold transition"
+          >
+            <Download className="w-3.5 h-3.5" />
+            <span>CTC Export Audit Ledger CSV</span>
+          </button>
+
+          <button
+            onClick={handleInstantPayout}
+            disabled={payoutTriggered}
+            className="deal-btn-gold flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-black uppercase tracking-wider transition shadow-xl"
+          >
+            <CreditCard className="w-4 h-4 text-amber-950" />
+            <span>
+              {payoutTriggered ? 'Cutting Check & Wiring...' : 'CASH THE CHECK'}
+            </span>
+          </button>
+        </div>
+      </div>
+
+      {/* Success Notification Alert */}
+      {payoutSuccessMessage && (
+        <div className="p-4 rounded-2xl engraved-plate-gold text-amber-950 text-center font-black text-sm animate-in fade-in shadow-2xl flex items-center justify-center gap-2">
+          <FileCheck className="w-5 h-5 text-amber-950 shrink-0" />
+          <span>{payoutSuccessMessage}</span>
+        </div>
+      )}
+
+      {/* THE MASTER CHECK / EXECUTIVE ESCROW PLAQUE */}
+      <div className="plaque-gold p-6 lg:p-8 relative overflow-hidden">
+        {/* Grooved Vinyl Disc Watermark */}
+        <div className="absolute -right-16 -top-16 w-56 h-56 rounded-full grooved-record-disc opacity-20 pointer-events-none" />
+
+        <div className="relative z-10 space-y-6">
+          {/* Check Header Strip */}
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-5 border-b border-amber-500/30">
+            <div className="flex items-center gap-3">
+              <div className="engraved-plate-gold w-12 h-12 rounded-xl flex items-center justify-center font-black text-sm text-amber-950 shadow-md">
+                CTC
+              </div>
+              <div>
+                <span className="text-[10px] uppercase font-black tracking-widest text-amber-200/80 block">
+                  OFFICIAL CREATOR DISBURSEMENT VOUCHER
+                </span>
+                <h3 className="text-lg font-black text-white tracking-wide">
+                  CUT THE CHECK ESCROW SYSTEM #CTC-DEAL-9942
+                </h3>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <div className="text-right">
+                <span className="text-[10px] uppercase font-bold text-zinc-400 block">CURRENT DEAL TIER</span>
+                <span className="text-xs font-black uppercase font-mono text-gold-gradient">
+                  {subscriptionTier === 'diamond' ? 'DIAMOND CONGLOMERATE (0-SEC CLEARANCE)' : subscriptionTier === 'platinum' ? 'PLATINUM EXECUTIVE (0-SEC CLEARANCE)' : subscriptionTier === 'gold' ? 'GOLD LABEL PARTNER (48-HR)' : 'INDIE TIER'}
+                </span>
+              </div>
+              {onOpenSubscriptionModal && (
+                <button
+                  onClick={onOpenSubscriptionModal}
+                  className="deal-btn-platinum text-[10px] font-black px-2.5 py-1.5 rounded-lg"
+                >
+                  CTC Modify Deal
+                </button>
+              )}
+            </div>
+          </div>
+
+          {/* Check Middle: Payee and Tabular Dollar Amount */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+            <div className="lg:col-span-2 space-y-2">
+              <div className="flex items-center gap-2 text-xs text-amber-200/80 font-mono">
+                <span>PAY TO THE ORDER OF:</span>
+                <span className="text-white font-bold underline decoration-amber-500/50">
+                  CERTIFIED CREATOR STUDIO (ID: CTC-VERIFIED-ARTIST)
+                </span>
+              </div>
+              <p className="text-xs text-zinc-400 italic">
+                Authorized electronic royalty disbursement across 47 connected streaming distribution channels. Guaranteed safe custody escrow.
+              </p>
+            </div>
+
+            {/* Engraved Plaque Check Value Plate */}
+            <div className="engraved-plate-gold p-4 rounded-xl text-center shadow-lg">
+              <span className="text-[9px] font-mono uppercase font-black tracking-widest text-amber-950/80 block">
+                AVAILABLE ESCROW BALANCE
+              </span>
+              <div className="text-3xl lg:text-4xl font-black font-mono text-amber-950 tracking-tight">
+                {currencySymbol}{availableEarnings.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+              </div>
+              <span className="text-[9px] font-bold text-amber-900 block mt-1">
+                STATUS: READY TO DISBURSE
+              </span>
+            </div>
+          </div>
+
+          {/* Check Footer: Countersignatures & Clearance Timestamps */}
+          <div className="pt-4 border-t border-amber-500/30 flex flex-col sm:flex-row sm:items-center justify-between text-xs text-amber-200/70 gap-2">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-4 h-4 text-amber-400" />
+              <span>COUNTERSIGNED: CTC GLOBAL ESCROW TRUSTEE • STRIPE DIRECT CONNECT</span>
+            </div>
+            <div className="font-mono text-[10px] text-zinc-400">
+              SERIAL: 884-290-CTC-X • 256-BIT ENCRYPTED
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Financial Health Overview Plaques */}
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        {/* Plaque 1 */}
+        <div className="plaque-platinum p-5 relative overflow-hidden">
+          <div className="absolute -right-4 -bottom-4 w-16 h-16 rounded-full grooved-record-disc opacity-20 pointer-events-none" />
+          <span className="text-[10px] font-black uppercase tracking-wider text-slate-300 block mb-2">
+            Gross Aggregated (30 Days)
+          </span>
+          <div className="text-3xl font-black text-platinum-gradient font-mono">
+            {currencySymbol}{totalMonthlyEarnings.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+          </div>
+          <div className="flex items-center gap-1.5 mt-2 text-xs text-slate-300">
+            <ArrowUpRight className="w-3.5 h-3.5 text-sky-400" />
+            <span className="font-bold">+21.8%</span>
+            <span className="text-zinc-400">blended monthly growth</span>
+          </div>
+        </div>
+
+        {/* Plaque 2 */}
+        <div className="plaque-gold p-5 relative overflow-hidden">
+          <div className="absolute -right-4 -bottom-4 w-16 h-16 rounded-full grooved-record-disc opacity-20 pointer-events-none" />
+          <span className="text-[10px] font-black uppercase tracking-wider text-amber-200/80 block mb-2">
+            Available For Payout
+          </span>
+          <div className="text-3xl font-black text-gold-gradient font-mono">
+            {currencySymbol}{availableEarnings.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+          </div>
+          <div className="flex items-center gap-1.5 mt-2 text-xs text-amber-300">
+            <CheckCircle className="w-3.5 h-3.5 text-amber-400" />
+            <span>Ready for bank transfer / Stripe</span>
+          </div>
+        </div>
+
+        {/* Plaque 3 */}
+        <div className="plaque-diamond p-5 relative overflow-hidden">
+          <div className="absolute -right-4 -bottom-4 w-16 h-16 rounded-full grooved-record-disc opacity-20 pointer-events-none" />
+          <span className="text-[10px] font-black uppercase tracking-wider text-sky-200 block mb-2">
+            Pending Clearance
+          </span>
+          <div className="text-3xl font-black text-diamond-gradient font-mono">
+            {currencySymbol}{pendingEarnings.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+          </div>
+          <div className="flex items-center gap-1.5 mt-2 text-xs text-sky-300 font-mono">
+            <Clock className="w-3.5 h-3.5 text-sky-400" />
+            <span>Next batch clears in 3 business days</span>
+          </div>
+        </div>
+      </div>
+
+      {/* Platform Revenue Breakdown Cards */}
+      <div className="space-y-3">
+        <div className="flex items-center justify-between">
+          <h3 className="text-xs font-black uppercase tracking-wider text-amber-200/80 flex items-center gap-2">
+            <Award className="w-4 h-4 text-amber-400" />
+            <span>Platform Revenue Breakdown Ledger</span>
+          </h3>
+          <span className="text-xs text-zinc-400">47 Major Connected Channels</span>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {connections.map((c) => {
+            const cfg = PLATFORM_CONFIGS[c.platformId];
+            const percentOfTotal = ((c.monthlyRevenue / totalMonthlyEarnings) * 100).toFixed(1);
+
+            return (
+              <div
+                key={c.platformId}
+                className="plaque-platinum p-5 transition space-y-3 relative overflow-hidden"
+              >
+                <div className="flex items-center justify-between relative z-10">
+                  <PlatformBadge platformId={c.platformId} size="md" />
+                  <span className="text-xs font-bold text-amber-300 font-mono">
+                    {percentOfTotal}% of Gross
+                  </span>
+                </div>
+
+                <div className="relative z-10">
+                  <div className="text-2xl font-black text-white font-mono">
+                    {currencySymbol}{c.monthlyRevenue.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+                  </div>
+                  <span className="text-[11px] text-zinc-400">Estimated Monthly Earnings</span>
+                </div>
+
+                <div className="pt-2 border-t border-zinc-800/80 relative z-10">
+                  <span className="text-[10px] font-bold text-zinc-400 uppercase tracking-wider block mb-1">
+                    Monetization Streams
+                  </span>
+                  <div className="flex flex-wrap gap-1">
+                    {cfg?.monetizationTypes.map((type, i) => (
+                      <span
+                        key={i}
+                        className="text-[10px] px-2 py-0.5 rounded-md bg-zinc-900/90 text-amber-200 border border-amber-500/20 font-medium"
+                      >
+                        {type}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+};
