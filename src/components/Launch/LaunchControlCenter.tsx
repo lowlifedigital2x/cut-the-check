@@ -33,6 +33,7 @@ import { MultiStreamState, PlatformConnection, PlatformId, SubscriptionTierId } 
 import { PLATFORM_CONFIGS } from '../../data/mockData';
 import { PreFlightDiagnostics } from './PreFlightDiagnostics';
 import { LaunchCountdownModal } from './LaunchCountdownModal';
+import { SimultaneousEverywherePanel } from './SimultaneousEverywherePanel';
 import ctcEagleDiamondImg from '../../assets/images/ctc_eagle_diamond.jpg';
 import majorLabelOfficeImg from '../../assets/images/major_label_office.jpg';
 
@@ -75,7 +76,40 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
     twitch: false,
     rumble: false,
     linkedin: false,
-    custom_rtmp: false
+    custom_rtmp: false,
+    trovo: false,
+    dlive: false,
+    nimo: false,
+    soop: false,
+    bilibili: false,
+    vimeo: false,
+    younow: false,
+    dailymotion: false,
+    tidal: false,
+    deezer: false,
+    audiomack: false,
+    bandcamp: false,
+    pandora: false,
+    iheart: false,
+    napster: false,
+    qobuz: false,
+    boomplay: false,
+    audius: false,
+    beatport: false,
+    vevo: false,
+    threads: false,
+    snapchat: false,
+    pinterest: false,
+    reddit: false,
+    discord: false,
+    telegram: false,
+    bluesky: false,
+    tumblr: false,
+    mastodon: false,
+    whatsapp: false,
+    patreon: false,
+    substack: false,
+    mixcloud: false
   });
 
   const [hasLaunchedRecently, setHasLaunchedRecently] = useState(false);
@@ -272,7 +306,7 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
                   </span>
                 </div>
                 <div className="text-2xl font-black text-gold-gradient font-mono">
-                  14 / 14 NETWORKS
+                  47 / 47 NETWORKS
                 </div>
                 <div className="text-[11px] text-zinc-400 leading-snug">
                   Universal Relay Server: <strong className="text-purple-300 font-mono">rtmp://live.omnicast.io/relay/app</strong>
@@ -285,6 +319,11 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
           </div>
         </div>
       </div>
+
+      {/* ==============================================================
+          SIMULTANEOUS EVERYWHERE — MASTER LAUNCH PANEL
+          ============================================================== */}
+      <SimultaneousEverywherePanel connections={connections} />
 
       {/* ==============================================================
           MAJOR LABEL DEPARTMENT CLEARANCES (EXECUTIVE DOSSIER)
@@ -335,7 +374,7 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
             title: 'Omni-Campaign Executive Drop',
             subtitle: 'Music DSPs + Video Premiere + Studio Live',
             icon: Rocket,
-            desc: 'Simultaneous 14-channel audio drop, YouTube video premiere, and live executive broadcast jam.'
+            desc: 'Simultaneous 47-channel audio drop, YouTube video premiere, and live executive broadcast jam.'
           },
           {
             id: 'music_release',
@@ -438,7 +477,7 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
               }}
               className="deal-btn-platinum px-4 py-2.5 rounded-xl text-xs font-black shadow-md flex items-center gap-1.5"
             >
-              <span>🌐 Select All 14 Channels</span>
+              <span>🌐 Select All 47 Channels</span>
             </button>
           </div>
         </div>
