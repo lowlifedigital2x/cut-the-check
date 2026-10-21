@@ -1,23 +1,23 @@
 {
-  "id": "/",
+  "id": "/cut-the-check/",
   "name": "CTC CUT the check",
   "short_name": "CTC Check",
   "description": "Unified creator platform to publish, promote, and monitor music, videos, and live multistreams with automated escrow payouts and certified plaques.",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/cut-the-check/",
+  "scope": "/cut-the-check/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#06080E",
   "theme_color": "#06080E",
   "icons": [
     {
-      "src": "/icon.svg",
+      "src": "/cut-the-check/icon.svg",
       "sizes": "192x192 512x512",
       "type": "image/svg+xml",
       "purpose": "any"
     },
     {
-      "src": "/icon.svg",
+      "src": "/cut-the-check/icon.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "maskable"
@@ -29,29 +29,29 @@
       "name": "Launch Drop",
       "short_name": "Launch",
       "description": "Open Drop Day Launch Command",
-      "url": "/?tab=launch",
-      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+      "url": "/cut-the-check/?tab=launch",
+      "icons": [{ "src": "/cut-the-check/icon.svg", "sizes": "192x192" }]
     },
     {
       "name": "Cut The Chat (Live)",
       "short_name": "Go Live",
       "description": "Multicast Live Studio",
-      "url": "/?tab=cut_the_chat",
-      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+      "url": "/cut-the-check/?tab=cut_the_chat",
+      "icons": [{ "src": "/cut-the-check/icon.svg", "sizes": "192x192" }]
     },
     {
       "name": "Milestone Awards",
       "short_name": "Awards",
       "description": "View Certified Trophy Wall",
-      "url": "/?tab=milestone_awards",
-      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+      "url": "/cut-the-check/?tab=milestone_awards",
+      "icons": [{ "src": "/cut-the-check/icon.svg", "sizes": "192x192" }]
     },
     {
       "name": "CUT the check",
       "short_name": "Escrow",
       "description": "Earnings & Royalties",
-      "url": "/?tab=cut_the_check",
-      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+      "url": "/cut-the-check/?tab=cut_the_check",
+      "icons": [{ "src": "/cut-the-check/icon.svg", "sizes": "192x192" }]
     }
   ]
 }
