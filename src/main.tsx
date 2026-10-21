@@ -6,7 +6,7 @@ import './index.css';
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker
-      .register('/sw.js')
+      .register(`${import.meta.env.BASE_URL}sw.js`)
       .then((reg) => {
         console.log('CTC PWA Service Worker registered:', reg.scope);
       })
