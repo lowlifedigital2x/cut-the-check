@@ -69,7 +69,7 @@ export const MultiPostStudio: React.FC<MultiPostStudioProps> = ({
 
   const handleSelectAllChannels = () => {
     setSelectedPlatforms(ALL_CHANNELS);
-    setActionNotice('All 14 major streaming and broadcast channels selected!');
+    setActionNotice('All 47 major streaming and broadcast channels selected!');
     setTimeout(() => setActionNotice(null), 3000);
   };
 
@@ -199,7 +199,7 @@ export const MultiPostStudio: React.FC<MultiPostStudioProps> = ({
             </span>
           </div>
           <p className="text-xs text-zinc-400 mt-1">
-            Simultaneously publish masters, videos, podcasts, and community posts across all 14 connected channels with one single command.
+            Simultaneously publish masters, videos, podcasts, and community posts across all 47 connected channels with one single command.
           </p>
         </div>
 
@@ -210,7 +210,7 @@ export const MultiPostStudio: React.FC<MultiPostStudioProps> = ({
             onClick={handlePublishToAllChannelsOneClick}
             disabled={isPublishing}
             className="deal-btn-gold px-4 py-2 rounded-xl text-xs font-black uppercase tracking-wider flex items-center gap-1.5 shadow-xl transition"
-            title="1-Click immediate dispatch to all 14 platforms"
+            title="1-Click immediate dispatch to all 47 platforms"
           >
             <Send className="w-3.5 h-3.5 text-amber-950" />
             <span>Publish to All Channels (1-Click)</span>
@@ -259,15 +259,15 @@ export const MultiPostStudio: React.FC<MultiPostStudioProps> = ({
                   <span>🎵 Add All Music Streaming Platforms</span>
                 </button>
 
-                {/* Select All 14 Channels */}
+                {/* Select All 47 Channels */}
                 <button
                   type="button"
                   onClick={handleSelectAllChannels}
                   className="deal-btn-platinum px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1.5 shadow-sm hover:scale-[1.02] transition"
-                  title="Select all 14 connected channels"
+                  title="Select all 47 connected channels"
                 >
                   <Layers className="w-3.5 h-3.5 text-slate-800" />
-                  <span>All 14 Channels</span>
+                  <span>All 47 Channels</span>
                 </button>
 
                 {/* All Live Channels */}
@@ -454,7 +454,7 @@ export const MultiPostStudio: React.FC<MultiPostStudioProps> = ({
                     onClick={handleSelectAllChannels}
                     className="text-[11px] font-black text-sky-400 hover:text-sky-300 underline"
                   >
-                    Select All 14
+                    Select All 47
                   </button>
                 </div>
               </div>
