@@ -224,7 +224,7 @@ export const SmartRevenueForecast: React.FC<SmartRevenueForecastProps> = ({
               {currencySymbol}{activeTotalForecast.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
             </div>
             <p className="text-xs text-zinc-400 mt-1">
-              Estimated net disbursements across all 14 certified streaming and distribution partners.
+              Estimated net disbursements across all 47 certified streaming and distribution partners.
             </p>
           </div>
 
