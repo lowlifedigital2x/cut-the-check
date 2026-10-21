@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/cut-the-check/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
