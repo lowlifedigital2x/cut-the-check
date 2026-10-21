@@ -1,1 +1,62 @@
-Ly8gQ3V0IFRoZSBDaGVjayAtIFNlcnZpY2UgV29ya2VyCmNvbnN0IENBQ0hFX05BTUUgPSAnY3RjLWNoZWNrLXYxJzsKY29uc3QgU1RBVElDX0FTU0VUUyA9IFsKICAnLycsCiAgJy9pbmRleC5odG1sJywKICAnL21hbmlmZXN0Lmpzb24nLAogICcvaWNvbi5zdmcnCl07CgpzZWxmLmFkZEV2ZW50TGlzdGVuZXIoJ2luc3RhbGwnLCAoZXZlbnQpID0+IHsKICBldmVudC53YWl0VW50aWwoCiAgICBjYWNoZXMub3BlbihDQUNIRV9OQU1FKS50aGVuKChjYWNoZSkgPT4gewogICAgICByZXR1cm4gY2FjaGUuYWRkQWxsKFNUQVRJQ19BU1NFVFMpOwogICAgfSkKICApOwogIHNlbGYuc2tpcFdhaXRpbmcoKTsKfSk7CgpzZWxmLmFkZEV2ZW50TGlzdGVuZXIoJ2FjdGl2YXRlJywgKGV2ZW50KSA9PiB7CiAgZXZlbnQud2FpdFVudGlsKAogICAgY2FjaGVzLmtleXMoKS50aGVuKChrZXlzKSA9PiB7CiAgICAgIHJldHVybiBQcm9taXNlLmFsbCgKICAgICAgICBrZXlzLm1hcCgoa2V5KSA9PiB7CiAgICAgICAgICBpZiAoa2V5ICE9PSBDQUNIRV9OQU1FKSB7CiAgICAgICAgICAgIHJldHVybiBjYWNoZXMuZGVsZXRlKGtleSk7CiAgICAgICAgICB9CiAgICAgICAgfSkKICAgICAgKTsKICAgIH0pCiAgKTsKICBzZWxmLmNsaWVudHMuY2xhaW0oKTsKfSk7CgpzZWxmLmFkZEV2ZW50TGlzdGVuZXIoJ2ZldGNoJywgKGV2ZW50KSA9PiB7CiAgLy8gT25seSBoYW5kbGUgR0VUIHJlcXVlc3RzIGFuZCBza2lwIGNocm9tZS1leHRlbnNpb24gLyBub24taHR0cCByZXF1ZXN0cwogIGlmIChldmVudC5yZXF1ZXN0Lm1ldGhvZCAhPT0gJ0dFVCcgfHwgIWV2ZW50LnJlcXVlc3QudXJsLnN0YXJ0c1dpdGgoJ2h0dHAnKSkgewogICAgcmV0dXJuOwogIH0KCiAgZXZlbnQucmVzcG9uZFdpdGgoCiAgICBjYWNoZXMubWF0Y2goZXZlbnQucmVxdWVzdCkudGhlbigoY2FjaGVkUmVzcG9uc2UpID0+IHsKICAgICAgaWYgKGNhY2hlZFJlc3BvbnNlKSB7CiAgICAgICAgLy8gUmV0dXJuIGNhY2hlIGJ1dCB1cGRhdGUgaW4gYmFja2dyb3VuZAogICAgICAgIGZldGNoKGV2ZW50LnJlcXVlc3QpCiAgICAgICAgICAudGhlbigobmV0d29ya1Jlc3BvbnNlKSA9PiB7CiAgICAgICAgICAgIGlmIChuZXR3b3JrUmVzcG9uc2UgJiYgbmV0d29ya1Jlc3BvbnNlLnN0YXR1cyA9PT0gMjAwKSB7CiAgICAgICAgICAgICAgY2FjaGVzLm9wZW4oQ0FDSEVfTkFNRSkudGhlbigoY2FjaGUpID0+IGNhY2hlLnB1dChldmVudC5yZXF1ZXN0LCBuZXR3b3JrUmVzcG9uc2UpKTsKICAgICAgICAgICAgfQogICAgICAgICAgfSkKICAgICAgICAgIC5jYXRjaCgoKSA9PiB7fSk7CiAgICAgICAgcmV0dXJuIGNhY2hlZFJlc3BvbnNlOwogICAgICB9CgogICAgICByZXR1cm4gZmV0Y2goZXZlbnQucmVxdWVzdCkuY2F0Y2goKCkgPT4gewogICAgICAgIC8vIEZhbGxiYWNrIGZvciBuYXZpZ2F0aW9uIHJlcXVlc3RzCiAgICAgICAgaWYgKGV2ZW50LnJlcXVlc3QubW9kZSA9PT0gJ25hdmlnYXRlJykgewogICAgICAgICAgcmV0dXJuIGNhY2hlcy5tYXRjaCgnLycpOwogICAgICAgIH0KICAgICAgfSk7CiAgICB9KQogICk7Cn0pOwo=
+// Cut The Check - Service Worker
+const CACHE_NAME = 'ctc-check-v1';
+const STATIC_ASSETS = [
+  '/',
+  '/index.html',
+  '/manifest.json',
+  '/icon.svg'
+];
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.addAll(STATIC_ASSETS);
+    })
+  );
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keys) => {
+      return Promise.all(
+        keys.map((key) => {
+          if (key !== CACHE_NAME) {
+            return caches.delete(key);
+          }
+        })
+      );
+    })
+  );
+  self.clients.claim();
+});
+
+self.addEventListener('fetch', (event) => {
+  // Only handle GET requests and skip chrome-extension / non-http requests
+  if (event.request.method !== 'GET' || !event.request.url.startsWith('http')) {
+    return;
+  }
+
+  event.respondWith(
+    caches.match(event.request).then((cachedResponse) => {
+      if (cachedResponse) {
+        // Return cache but update in background
+        fetch(event.request)
+          .then((networkResponse) => {
+            if (networkResponse && networkResponse.status === 200) {
+              caches.open(CACHE_NAME).then((cache) => cache.put(event.request, networkResponse));
+            }
+          })
+          .catch(() => {});
+        return cachedResponse;
+      }
+
+      return fetch(event.request).catch(() => {
+        // Fallback for navigation requests
+        if (event.request.mode === 'navigate') {
+          return caches.match('/');
+        }
+      });
+    })
+  );
+});
