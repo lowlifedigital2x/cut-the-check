@@ -415,7 +415,7 @@ export const PromoteMonitorSuite: React.FC<PromoteMonitorSuiteProps> = ({
                 </div>
 
                 <div className="p-3 rounded-xl bg-emerald-950/20 border border-emerald-500/30 text-[11px] text-emerald-300 text-center">
-                  All 14 platforms are registering 100% royalty monetization with zero copyright strikes.
+                  All 47 platforms are registering 100% royalty monetization with zero copyright strikes.
                 </div>
               </div>
             </div>
