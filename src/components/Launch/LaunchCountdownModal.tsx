@@ -205,7 +205,7 @@ export const LaunchCountdownModal: React.FC<LaunchCountdownModalProps> = ({
               </div>
 
               <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-wide uppercase text-diamond-gradient">
-                ALL 14 NETWORKS LIVE & MONETIZING
+                ALL 47 NETWORKS LIVE & MONETIZING
               </h3>
 
               <p className="text-xs sm:text-sm text-amber-200 font-mono max-w-lg mx-auto">
