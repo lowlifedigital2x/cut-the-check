@@ -1,1 +1,57 @@
-ewogICJpZCI6ICIvY3V0LXRoZS1jaGVjay8iLAogICJuYW1lIjogIkN1dCBUaGUgQ2hlY2siLAogICJzaG9ydF9uYW1lIjogIkN1dCBUaGUgQ2hlY2siLAogICJkZXNjcmlwdGlvbiI6ICJVbmlmaWVkIGNyZWF0b3IgcGxhdGZvcm0gdG8gcHVibGlzaCwgcHJvbW90ZSwgYW5kIG1vbml0b3IgbXVzaWMsIHZpZGVvcywgYW5kIGxpdmUgbXVsdGlzdHJlYW1zIHdpdGggYXV0b21hdGVkIGVzY3JvdyBwYXlvdXRzIGFuZCBjZXJ0aWZpZWQgcGxhcXVlcy4iLAogICJzdGFydF91cmwiOiAiL2N1dC10aGUtY2hlY2svIiwKICAic2NvcGUiOiAiL2N1dC10aGUtY2hlY2svIiwKICAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwKICAib3JpZW50YXRpb24iOiAicG9ydHJhaXQtcHJpbWFyeSIsCiAgImJhY2tncm91bmRfY29sb3IiOiAiIzA2MDgwRSIsCiAgInRoZW1lX2NvbG9yIjogIiMwNjA4MEUiLAogICJpY29ucyI6IFsKICAgIHsKICAgICAgInNyYyI6ICIvY3V0LXRoZS1jaGVjay9pY29uLnN2ZyIsCiAgICAgICJzaXplcyI6ICIxOTJ4MTkyIDUxMng1MTIiLAogICAgICAidHlwZSI6ICJpbWFnZS9zdmcreG1sIiwKICAgICAgInB1cnBvc2UiOiAiYW55IgogICAgfSwKICAgIHsKICAgICAgInNyYyI6ICIvY3V0LXRoZS1jaGVjay9pY29uLnN2ZyIsCiAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgInR5cGUiOiAiaW1hZ2Uvc3ZnK3htbCIsCiAgICAgICJwdXJwb3NlIjogIm1hc2thYmxlIgogICAgfQogIF0sCiAgImNhdGVnb3JpZXMiOiBbIm11c2ljIiwgImVudGVydGFpbm1lbnQiLCAicHJvZHVjdGl2aXR5IiwgInV0aWxpdGllcyJdLAogICJzaG9ydGN1dHMiOiBbCiAgICB7CiAgICAgICJuYW1lIjogIkxhdW5jaCBEcm9wIiwKICAgICAgInNob3J0X25hbWUiOiAiTGF1bmNoIiwKICAgICAgImRlc2NyaXB0aW9uIjogIk9wZW4gRHJvcCBEYXkgTGF1bmNoIENvbW1hbmQiLAogICAgICAidXJsIjogIi9jdXQtdGhlLWNoZWNrLz90YWI9bGF1bmNoIiwKICAgICAgImljb25zIjogW3sgInNyYyI6ICIvY3V0LXRoZS1jaGVjay9pY29uLnN2ZyIsICJzaXplcyI6ICIxOTJ4MTkyIiB9XQogICAgfSwKICAgIHsKICAgICAgIm5hbWUiOiAiQ3V0IFRoZSBDaGF0IChMaXZlKSIsCiAgICAgICJzaG9ydF9uYW1lIjogIkdvIExpdmUiLAogICAgICAiZGVzY3JpcHRpb24iOiAiTXVsdGljYXN0IExpdmUgU3R1ZGlvIiwKICAgICAgInVybCI6ICIvY3V0LXRoZS1jaGVjay8/dGFiPWN1dF90aGVfY2hhdCIsCiAgICAgICJpY29ucyI6IFt7ICJzcmMiOiAiL2N1dC10aGUtY2hlY2svaWNvbi5zdmciLCAic2l6ZXMiOiAiMTkyeDE5MiIgfV0KICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIk1pbGVzdG9uZSBBd2FyZHMiLAogICAgICAic2hvcnRfbmFtZSI6ICJBd2FyZHMiLAogICAgICAiZGVzY3JpcHRpb24iOiAiVmlldyBDZXJ0aWZpZWQgVHJvcGh5IFdhbGwiLAogICAgICAidXJsIjogIi9jdXQtdGhlLWNoZWNrLz90YWI9bWlsZXN0b25lX2F3YXJkcyIsCiAgICAgICJpY29ucyI6IFt7ICJzcmMiOiAiL2N1dC10aGUtY2hlY2svaWNvbi5zdmciLCAic2l6ZXMiOiAiMTkyeDE5MiIgfV0KICAgIH0sCiAgICB7CiAgICAgICJuYW1lIjogIkN1dCBUaGUgQ2hlY2siLAogICAgICAic2hvcnRfbmFtZSI6ICJFc2Nyb3ciLAogICAgICAiZGVzY3JpcHRpb24iOiAiRWFybmluZ3MgJiBSb3lhbHRpZXMiLAogICAgICAidXJsIjogIi9jdXQtdGhlLWNoZWNrLz90YWI9Y3V0X3RoZV9jaGVjayIsCiAgICAgICJpY29ucyI6IFt7ICJzcmMiOiAiL2N1dC10aGUtY2hlY2svaWNvbi5zdmciLCAic2l6ZXMiOiAiMTkyeDE5MiIgfV0KICAgIH0KICBdCn0K
+{
+  "id": "/cut-the-check/",
+  "name": "Cut The Check",
+  "short_name": "Cut The Check",
+  "description": "Unified creator platform to publish, promote, and monitor music, videos, and live multistreams with automated escrow payouts and certified plaques.",
+  "start_url": "/cut-the-check/",
+  "scope": "/cut-the-check/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#06080E",
+  "theme_color": "#06080E",
+  "icons": [
+    {
+      "src": "/cut-the-check/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/cut-the-check/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["music", "entertainment", "productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Launch Drop",
+      "short_name": "Launch",
+      "description": "Open Drop Day Launch Command",
+      "url": "/cut-the-check/?tab=launch",
+      "icons": [{ "src": "/cut-the-check/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Cut The Chat (Live)",
+      "short_name": "Go Live",
+      "description": "Multicast Live Studio",
+      "url": "/cut-the-check/?tab=cut_the_chat",
+      "icons": [{ "src": "/cut-the-check/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Milestone Awards",
+      "short_name": "Awards",
+      "description": "View Certified Trophy Wall",
+      "url": "/cut-the-check/?tab=milestone_awards",
+      "icons": [{ "src": "/cut-the-check/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Cut The Check",
+      "short_name": "Escrow",
+      "description": "Earnings & Royalties",
+      "url": "/cut-the-check/?tab=cut_the_check",
+      "icons": [{ "src": "/cut-the-check/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}
