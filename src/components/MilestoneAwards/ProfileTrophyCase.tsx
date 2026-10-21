@@ -1,1 +1,240 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgewogIEF3YXJkLAogIENyb3duLAogIFNwYXJrbGVzLAogIFNoYXJlMiwKICBFeHRlcm5hbExpbmssCiAgU2hpZWxkQ2hlY2ssCiAgQ2hlY2ssCiAgRXllLAogIERpc2MzLAogIEZsYW1lLAogIFRyZW5kaW5nVXAsCiAgUmFkaW8sCiAgRG9sbGFyU2lnbiwKICBVc2Vycwp9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCB7IE1pbGVzdG9uZUF3YXJkLCBQbGF0Zm9ybUNvbm5lY3Rpb24sIFN1YnNjcmlwdGlvblRpZXJJZCB9IGZyb20gJy4uLy4uL3R5cGVzJzsKaW1wb3J0IHsgUGxhcXVlQ2FyZCB9IGZyb20gJy4vUGxhcXVlQ2FyZCc7CmltcG9ydCBjdGNFYWdsZURpYW1vbmRJbWcgZnJvbSAnLi4vLi4vYXNzZXRzL2ltYWdlcy9jdGNfZWFnbGVfZGlhbW9uZC5qcGcnOwoKaW50ZXJmYWNlIFByb2ZpbGVUcm9waHlDYXNlUHJvcHMgewogIG1pbGVzdG9uZXM6IE1pbGVzdG9uZUF3YXJkW107CiAgb25Ub2dnbGVEaXNwbGF5OiAoaWQ6IHN0cmluZykgPT4gdm9pZDsKICBvbkluc3BlY3Q6IChtaWxlc3RvbmU6IE1pbGVzdG9uZUF3YXJkKSA9PiB2b2lkOwogIG9uU3dpdGNoVG9WYXVsdDogKCkgPT4gdm9pZDsKICBzdWJzY3JpcHRpb25UaWVyPzogU3Vic2NyaXB0aW9uVGllcklkOwp9CgpleHBvcnQgY29uc3QgUHJvZmlsZVRyb3BoeUNhc2U6IFJlYWN0LkZDPFByb2ZpbGVUcm9waHlDYXNlUHJvcHM+ID0gKHsKICBtaWxlc3RvbmVzLAogIG9uVG9nZ2xlRGlzcGxheSwKICBvbkluc3BlY3QsCiAgb25Td2l0Y2hUb1ZhdWx0LAogIHN1YnNjcmlwdGlvblRpZXIgPSAnZ29sZCcKfSkgPT4gewogIGNvbnN0IFtjb3BpZWRQcm9maWxlTGluaywgc2V0Q29waWVkUHJvZmlsZUxpbmtdID0gdXNlU3RhdGUoZmFsc2UpOwoKICBjb25zdCBkaXNwbGF5ZWRQbGFxdWVzID0gbWlsZXN0b25lcy5maWx0ZXIoKG0pID0+IG0udW5sb2NrZWQgJiYgbS5pc0Rpc3BsYXllZE9uUHJvZmlsZSk7CiAgY29uc3QgZ29sZENvdW50ID0gZGlzcGxheWVkUGxhcXVlcy5maWx0ZXIoKG0pID0+IG0udGllciA9PT0gJ2dvbGQnKS5sZW5ndGg7CiAgY29uc3QgcGxhdGludW1Db3VudCA9IGRpc3BsYXllZFBsYXF1ZXMuZmlsdGVyKChtKSA9PiBtLnRpZXIgPT09ICdwbGF0aW51bScpLmxlbmd0aDsKICBjb25zdCBkaWFtb25kQ291bnQgPSBkaXNwbGF5ZWRQbGFxdWVzLmZpbHRlcigobSkgPT4gbS50aWVyID09PSAnZGlhbW9uZCcpLmxlbmd0aDsKCiAgY29uc3QgaGFuZGxlU2hhcmVQcm9maWxlID0gKCkgPT4gewogICAgbmF2aWdhdG9yLmNsaXBib2FyZD8ud3JpdGVUZXh0Py4oJ2h0dHBzOi8vY3V0dGhlY2hlY2suYXBwL2NyZWF0b3IvYWxleC1yaXZlcnMjdHJvcGh5LWNhc2UnKTsKICAgIHNldENvcGllZFByb2ZpbGVMaW5rKHRydWUpOwogICAgc2V0VGltZW91dCgoKSA9PiBzZXRDb3BpZWRQcm9maWxlTGluayhmYWxzZSksIDI1MDApOwogIH07CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS04Ij4KICAgICAgey8qIENyZWF0b3IgUHJvZmlsZSBFeGVjdXRpdmUgSGVhZGVyIENhcmQgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJwbGFxdWUtZ29sZCBwLTYgbGc6cC04IHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgey8qIEFtYmllbnQgUGxhcXVlIEJhY2tncm91bmQgRGlzYyBHcmFwaGljICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSAtcmlnaHQtMTYgLXRvcC0xNiB3LTY0IGgtNjQgcm91bmRlZC1mdWxsIGdyb292ZWQtcmVjb3JkLWRpc2Mgb3BhY2l0eS0xNSBwb2ludGVyLWV2ZW50cy1ub25lIiAvPgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgei0xMCBmbGV4IGZsZXgtY29sIG1kOmZsZXgtcm93IG1kOml0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTYiPgogICAgICAgICAgey8qIENyZWF0b3IgSWRlbnRpdHkgd2l0aCBDVEMgRWFnbGUgRGlhbW9uZCBNZWRhbGxpb24gKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTIwIGgtMjAgcm91bmRlZC0yeGwgb3ZlcmZsb3ctaGlkZGVuIGJvcmRlci0yIGJvcmRlci1hbWJlci00MDAgc2hhZG93LXhsIGJnLXppbmMtOTAwIj4KICAgICAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICAgICAgc3JjPSJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTUzNDUyODc0MTc3NS01Mzk5NGE2OWRhZWI/dz0yNDAmYXV0bz1mb3JtYXQmZml0PWNyb3AmcT04MCIKICAgICAgICAgICAgICAgICAgYWx0PSJBbGV4IFJpdmVycyBQcm9maWxlIgogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvdmVyIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICB7LyogQ1RDIFZlcmlmaWVkIEVhZ2xlIEJlemVsIEJhZGdlICovfQogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgLWJvdHRvbS0yIC1yaWdodC0yIHctOCBoLTggcm91bmRlZC1mdWxsIHAtMC41IGJnLWdyYWRpZW50LXRvLXRyIGZyb20tYW1iZXItNDAwIHZpYS1hbWJlci0yMDAgdG8tYW1iZXItNjAwIHNoYWRvdy1sZyBib3JkZXIgYm9yZGVyLWJsYWNrIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIgogICAgICAgICAgICAgICAgdGl0bGU9IkNUQyBPZmZpY2lhbCBWZXJpZmllZCBDcmVhdG9yIFNlYWwiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICBzcmM9e2N0Y0VhZ2xlRGlhbW9uZEltZ30KICAgICAgICAgICAgICAgICAgYWx0PSJPZmZpY2lhbCBFYWdsZSBNZWRhbGxpb24iCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBvYmplY3QtY292ZXIgcm91bmRlZC1mdWxsIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ibGFjayB0ZXh0LXdoaXRlIHRyYWNraW5nLXdpZGUiPgogICAgICAgICAgICAgICAgICBBbGV4IFJpdmVycwogICAgICAgICAgICAgICAgPC9oMT4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZW5ncmF2ZWQtcGxhdGUtZ29sZCB0ZXh0LVsxMHB4XSBmb250LWJsYWNrIHVwcGVyY2FzZSB0cmFja2luZy13aWRlc3QgcHgtMi41IHB5LTAuNSByb3VuZGVkIHNoYWRvdy1zbSI+CiAgICAgICAgICAgICAgICAgIFZFUklGSUVEIFJFQ09SRElORyBDUkVBVE9SCiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteHMgZm9udC1tb25vIHRleHQtemluYy00MDAiPkBhbGV4cml2ZXJzPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC16aW5jLTMwMCBtdC0xIG1heC13LXhsIj4KICAgICAgICAgICAgICAgIEVsZWN0cm9uaWMgUHJvZHVjZXIsIFN5bnRoZXNpc3QgJiBMaXZlIE11bHRpY2FzdCBCcm9hZGNhc3Rlci4gU3luZGljYXRpbmcgYWNyb3NzIDQ3IG5ldHdvcmtzIHdpdGggYXV0b21hdGVkIGVzY3JvdyBzZXR0bGVtZW50cy4KICAgICAgICAgICAgICA8L3A+CgogICAgICAgICAgICAgIHsvKiBCYWRnZXMgc3RyaXAgKi99CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBnYXAtMiBtdC0zIj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgcHgtMi41IHB5LTEgcm91bmRlZC1sZyB0ZXh0LXhzIGZvbnQtYm9sZCBiZy1hbWJlci01MDAvMTAgdGV4dC1hbWJlci0zMDAgYm9yZGVyIGJvcmRlci1hbWJlci01MDAvMzAiPgogICAgICAgICAgICAgICAgICA8Q3Jvd24gY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSB0ZXh0LWFtYmVyLTQwMCIgLz4KICAgICAgICAgICAgICAgICAgPHNwYW4+e3N1YnNjcmlwdGlvblRpZXIgPT09ICdkaWFtb25kJyA/ICdEaWFtb25kIE1vZ3VsIENvbmdsb21lcmF0ZSBEZWFsJyA6IHN1YnNjcmlwdGlvblRpZXIgPT09ICdwbGF0aW51bScgPyAnUGxhdGludW0gRXhlY3V0aXZlIE1hc3RlciBEZWFsJyA6ICdHb2xkIExhYmVsIFBhcnRuZXIgRGVhbCd9PC9zcGFuPgogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBweC0yLjUgcHktMSByb3VuZGVkLWxnIHRleHQteHMgZm9udC1ib2xkIGJnLXNreS01MDAvMTAgdGV4dC1za3ktMzAwIGJvcmRlciBib3JkZXItc2t5LTUwMC8zMCI+CiAgICAgICAgICAgICAgICAgIDxTaGllbGRDaGVjayBjbGFzc05hbWU9InctMy41IGgtMy41IHRleHQtc2t5LTQwMCIgLz4KICAgICAgICAgICAgICAgICAgPHNwYW4+UklBQS1HcmFkZSBDZXJ0aWZpZWQgVHJvcGh5IFdhbGw8L3NwYW4+CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIFF1aWNrIFByb2ZpbGUgVHJvcGh5IFN0YXRzICYgU2hhcmUgQWN0aW9uICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgc206ZmxleC1yb3cgbWQ6ZmxleC1jb2wgaXRlbXMtc3RhcnQgbWQ6aXRlbXMtZW5kIGp1c3RpZnktYmV0d2VlbiBnYXAtMyBib3JkZXItdCBtZDpib3JkZXItdC0wIG1kOmJvcmRlci1sIGJvcmRlci16aW5jLTgwMC84MCBwdC00IG1kOnB0LTAgbWQ6cGwtNiI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtNCB0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIGZvbnQtbW9ubyB0ZXh0LXppbmMtNDAwIGJsb2NrIj5Ub3RhbCBQbGFxdWVzPC9zcGFuPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtYmxhY2sgdGV4dC13aGl0ZSBmb250LW1vbm8iPntkaXNwbGF5ZWRQbGFxdWVzLmxlbmd0aH08L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci1sIGJvcmRlci16aW5jLTgwMCBwbC00Ij4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIGZvbnQtbW9ubyB0ZXh0LWFtYmVyLTQwMCBibG9jayI+R29sZDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJsYWNrIHRleHQtYW1iZXItMzAwIGZvbnQtbW9ubyI+e2dvbGRDb3VudH08L3NwYW4+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlci1sIGJvcmRlci16aW5jLTgwMCBwbC00Ij4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIGZvbnQtbW9ubyB0ZXh0LXNsYXRlLTMwMCBibG9jayI+UGxhdGludW08L3NwYW4+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQteGwgZm9udC1ibGFjayB0ZXh0LXNsYXRlLTIwMCBmb250LW1vbm8iPntwbGF0aW51bUNvdW50fTwvc3Bhbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYm9yZGVyLWwgYm9yZGVyLXppbmMtODAwIHBsLTQiPgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB1cHBlcmNhc2UgZm9udC1tb25vIHRleHQtc2t5LTMwMCBibG9jayI+RGlhbW9uZDwvc3Bhbj4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC14bCBmb250LWJsYWNrIHRleHQtc2t5LTMwMCBmb250LW1vbm8iPntkaWFtb25kQ291bnR9PC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB3LWZ1bGwgbWQ6dy1hdXRvIj4KICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICBvbkNsaWNrPXtoYW5kbGVTaGFyZVByb2ZpbGV9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImRlYWwtYnRuLXBsYXRpbnVtIHB5LTIgcHgtMy41IHJvdW5kZWQteGwgdGV4dC14cyBmb250LWJvbGQgdHJhbnNpdGlvbiBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IGZsZXgtMSBtZDpmbGV4LWluaXRpYWwganVzdGlmeS1jZW50ZXIgc2hhZG93LW1kIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtjb3BpZWRQcm9maWxlTGluayA/ICgKICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSB0ZXh0LWVtZXJhbGQtNjAwIiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPkNvcGllZCBQcm9maWxlIExpbmshPC9zcGFuPgogICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICAgICAgPFNoYXJlMiBjbGFzc05hbWU9InctMy41IGgtMy41IHRleHQtc2xhdGUtODAwIiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPkNUQyBTaGFyZSBUcm9waHkgV2FsbDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC8+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICBvbkNsaWNrPXtvblN3aXRjaFRvVmF1bHR9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImRlYWwtYnRuLWdvbGQgcHktMiBweC0zLjUgcm91bmRlZC14bCB0ZXh0LXhzIGZvbnQtYm9sZCB0cmFuc2l0aW9uIGZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgZmxleC0xIG1kOmZsZXgtaW5pdGlhbCBqdXN0aWZ5LWNlbnRlciBzaGFkb3ctbWQiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEF3YXJkIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUgdGV4dC1hbWJlci05NTAiIC8+CiAgICAgICAgICAgICAgICA8c3Bhbj5QbGFxdWUgVmF1bHQgKHttaWxlc3RvbmVzLmxlbmd0aH0pPC9zcGFuPgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBUaGUgR2FsbGVyeSBXYWxsOiBTcG90bGlnaHQgSWxsdW1pbmF0aW9uICYgU21va2VkIFZlbHZldCBQcmVzZW50YXRpb24gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSByb3VuZGVkLTN4bCBwLTYgc206cC0xMCBiZy1yYWRpYWwgZnJvbS1bIzEyMTYyNl0gdmlhLVsjMDkwQzE1XSB0by1bIzA0MDYwQV0gYm9yZGVyLTIgYm9yZGVyLXppbmMtODAwLzgwIHNoYWRvdy0yeGwgb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAKICAgICAgICB7LyogT3ZlcmhlYWQgR2FsbGVyeSBTcG90bGlnaHRzIHNpbXVsYXRpb24gKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0wIGxlZnQtMS80IC10cmFuc2xhdGUteC0xLzIgdy03MiBoLTQ0IGJnLWdyYWRpZW50LXRvLWIgZnJvbS1hbWJlci0zMDAvMTUgdmlhLWFtYmVyLTQwMC81IHRvLXRyYW5zcGFyZW50IGJsdXItMnhsIHBvaW50ZXItZXZlbnRzLW5vbmUiIC8+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIHRvcC0wIGxlZnQtMS8yIC10cmFuc2xhdGUteC0xLzIgdy04MCBoLTQ0IGJnLWdyYWRpZW50LXRvLWIgZnJvbS1za3ktMzAwLzE1IHZpYS1za3ktNDAwLzUgdG8tdHJhbnNwYXJlbnQgYmx1ci0yeGwgcG9pbnRlci1ldmVudHMtbm9uZSIgLz4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgdG9wLTAgbGVmdC0zLzQgLXRyYW5zbGF0ZS14LTEvMiB3LTcyIGgtNDQgYmctZ3JhZGllbnQtdG8tYiBmcm9tLWFtYmVyLTMwMC8xNSB2aWEtYW1iZXItNDAwLzUgdG8tdHJhbnNwYXJlbnQgYmx1ci0yeGwgcG9pbnRlci1ldmVudHMtbm9uZSIgLz4KCiAgICAgICAgey8qIEdhbGxlcnkgTGlnaHRpbmcgUmFpbCBiYXIgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InctZnVsbCBoLTEgYmctZ3JhZGllbnQtdG8tciBmcm9tLXRyYW5zcGFyZW50IHZpYS16aW5jLTYwMCB0by10cmFuc3BhcmVudCBtYi04IGZsZXgganVzdGlmeS1hcm91bmQgcmVsYXRpdmUiPgogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTMgaC0zIHJvdW5kZWQtZnVsbCBiZy1hbWJlci0yMDAgc2hhZG93LVswXzBfMTJweF8jRkRFNjhBXSAtdG9wLTEgcmVsYXRpdmUiIC8+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMyBoLTMgcm91bmRlZC1mdWxsIGJnLXNreS0yMDAgc2hhZG93LVswXzBfMTJweF8jQkFFNkZEXSAtdG9wLTEgcmVsYXRpdmUiIC8+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InctMyBoLTMgcm91bmRlZC1mdWxsIGJnLWFtYmVyLTIwMCBzaGFkb3ctWzBfMF8xMnB4XyNGREU2OEFdIC10b3AtMSByZWxhdGl2ZSIgLz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgey8qIFdhbGwgSGVhZGVyICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTQgbWItOCI+CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idy0yLjUgaC0yLjUgcm91bmRlZC1mdWxsIGJnLWFtYmVyLTQwMCBhbmltYXRlLXB1bHNlIiAvPgogICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQteGwgc206dGV4dC0yeGwgZm9udC1ibGFjayB0ZXh0LXdoaXRlIHRyYWNraW5nLXdpZGVyIHVwcGVyY2FzZSBkcm9wLXNoYWRvdy1bMF8ycHhfNHB4X3JnYmEoMCwwLDAsMC44KV0iPgogICAgICAgICAgICAgICAgT2ZmaWNpYWwgQ3JlYXRvciBUcm9waHkgV2FsbAogICAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC16aW5jLTQwMCBtdC0xIj4KICAgICAgICAgICAgICBDb21tZW1vcmF0aXZlIHBoeXNpY2FsLWdyYWRlIGRpZ2l0YWwgYXdhcmQgcGxhcXVlcyBtb3VudGVkIGZvciBnbG9iYWwgaW5kdXN0cnkgaW5zcGVjdGlvbi4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhzIGZvbnQtbW9ubyB0ZXh0LXppbmMtNDAwIj4KICAgICAgICAgICAgICB7ZGlzcGxheWVkUGxhcXVlcy5sZW5ndGh9IG9mIHttaWxlc3RvbmVzLmZpbHRlcigobSkgPT4gbS51bmxvY2tlZCkubGVuZ3RofSBBd2FyZGVkIFBsYXF1ZXMgRGlzcGxheWVkCiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIG9uQ2xpY2s9e29uU3dpdGNoVG9WYXVsdH0KICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQteHMgdGV4dC1hbWJlci00MDAgaG92ZXI6dGV4dC1hbWJlci0zMDAgZm9udC1ib2xkIHVuZGVybGluZSB1bmRlcmxpbmUtb2Zmc2V0LTQgbWwtMiIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIE1hbmFnZSBNb3VudGVkIFBsYXF1ZXMg4oaSCiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBQbGFxdWUgR3JpZCBvbiB0aGUgR2FsbGVyeSBXYWxsICovfQogICAgICAgIHtkaXNwbGF5ZWRQbGFxdWVzLmxlbmd0aCA+IDAgPyAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBzbTpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtMyBnYXAtNiByZWxhdGl2ZSB6LTEwIj4KICAgICAgICAgICAge2Rpc3BsYXllZFBsYXF1ZXMubWFwKChwbGFxdWUpID0+ICgKICAgICAgICAgICAgICA8UGxhcXVlQ2FyZAogICAgICAgICAgICAgICAga2V5PXtwbGFxdWUuaWR9CiAgICAgICAgICAgICAgICBtaWxlc3RvbmU9e3BsYXF1ZX0KICAgICAgICAgICAgICAgIG9uVG9nZ2xlRGlzcGxheT17b25Ub2dnbGVEaXNwbGF5fQogICAgICAgICAgICAgICAgb25JbnNwZWN0PXtvbkluc3BlY3R9CiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApIDogKAogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIHB5LTE2IHB4LTQgcmVsYXRpdmUgei0xMCBib3JkZXItMiBib3JkZXItZGFzaGVkIGJvcmRlci16aW5jLTgwMCByb3VuZGVkLTJ4bCBiZy1ibGFjay80MCI+CiAgICAgICAgICAgIDxBd2FyZCBjbGFzc05hbWU9InctMTYgaC0xNiB0ZXh0LWFtYmVyLTQwMC81MCBteC1hdXRvIG1iLTMiIC8+CiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtbGcgZm9udC1ib2xkIHRleHQtd2hpdGUiPk5vIFBsYXF1ZXMgQ3VycmVudGx5IE1vdW50ZWQgb24gWW91ciBXYWxsPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtemluYy00MDAgbWF4LXctbWQgbXgtYXV0byBtdC0xIG1iLTUiPgogICAgICAgICAgICAgIFlvdSBoYXZlIHVubG9ja2VkIGF3YXJkIHBsYXF1ZXMgaW4geW91ciBwcml2YXRlIHZhdWx0ISBDaG9vc2Ugd2hpY2ggR29sZCwgUGxhdGludW0sIGFuZCBEaWFtb25kIHBsYXF1ZXMgdG8gbW91bnQgcHJvdWRseSBvbiB5b3VyIHByb2ZpbGUuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgIG9uQ2xpY2s9e29uU3dpdGNoVG9WYXVsdH0KICAgICAgICAgICAgICBjbGFzc05hbWU9ImRlYWwtYnRuLWdvbGQgcHgtNSBweS0yLjUgcm91bmRlZC14bCB0ZXh0LXhzIGZvbnQtYmxhY2sgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHNoYWRvdy1sZyIKICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxTcGFya2xlcyBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1hbWJlci05NTAiIC8+CiAgICAgICAgICAgICAgPHNwYW4+TW91bnQgUGxhcXVlcyBmcm9tIFZhdWx0PC9zcGFuPgogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICl9CgogICAgICAgIHsvKiBXYWxsIEJvdHRvbSBCcmFzcyBCYXIgRm9vdGVyICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xMCBwdC00IGJvcmRlci10IGJvcmRlci16aW5jLTgwMC84MCBmbGV4IGZsZXgtY29sIHNtOmZsZXgtcm93IHNtOml0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gdGV4dC14cyB0ZXh0LXppbmMtNTAwIGZvbnQtbW9ubyBnYXAtMiI+CiAgICAgICAgICA8c3Bhbj5DVEMgR1VJTEQgQ0VSVElGSUNBVElPTiBMRURHRVIg4oCiIEFVRElURUQgTUVUUklDUzwvc3Bhbj4KICAgICAgICAgIDxzcGFuPkRJU0NMQUlNRVI6IERJR0lUQUxMWSBTRUFMRUQgSU4gUkVDT0dOSVRJT04gT0YgVkVSSUZJRUQgU1RSRUFNSU5HIERBVEE8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgKTsKfTsK
+import React, { useState } from 'react';
+import {
+  Award,
+  Crown,
+  Sparkles,
+  Share2,
+  ExternalLink,
+  ShieldCheck,
+  Check,
+  Eye,
+  Disc3,
+  Flame,
+  TrendingUp,
+  Radio,
+  DollarSign,
+  Users
+} from 'lucide-react';
+import { MilestoneAward, PlatformConnection, SubscriptionTierId } from '../../types';
+import { PlaqueCard } from './PlaqueCard';
+import ctcEagleDiamondImg from '../../assets/images/ctc_eagle_diamond.jpg';
+
+interface ProfileTrophyCaseProps {
+  milestones: MilestoneAward[];
+  onToggleDisplay: (id: string) => void;
+  onInspect: (milestone: MilestoneAward) => void;
+  onSwitchToVault: () => void;
+  subscriptionTier?: SubscriptionTierId;
+}
+
+export const ProfileTrophyCase: React.FC<ProfileTrophyCaseProps> = ({
+  milestones,
+  onToggleDisplay,
+  onInspect,
+  onSwitchToVault,
+  subscriptionTier = 'gold'
+}) => {
+  const [copiedProfileLink, setCopiedProfileLink] = useState(false);
+
+  const displayedPlaques = milestones.filter((m) => m.unlocked && m.isDisplayedOnProfile);
+  const goldCount = displayedPlaques.filter((m) => m.tier === 'gold').length;
+  const platinumCount = displayedPlaques.filter((m) => m.tier === 'platinum').length;
+  const diamondCount = displayedPlaques.filter((m) => m.tier === 'diamond').length;
+
+  const handleShareProfile = () => {
+    navigator.clipboard?.writeText?.('https://cutthecheck.app/creator/alex-rivers#trophy-case');
+    setCopiedProfileLink(true);
+    setTimeout(() => setCopiedProfileLink(false), 2500);
+  };
+
+  return (
+    <div className="space-y-8">
+      {/* Creator Profile Executive Header Card */}
+      <div className="plaque-gold p-6 lg:p-8 relative overflow-hidden">
+        {/* Ambient Plaque Background Disc Graphic */}
+        <div className="absolute -right-16 -top-16 w-64 h-64 rounded-full grooved-record-disc opacity-15 pointer-events-none" />
+
+        <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+          {/* Creator Identity with CTC Eagle Diamond Medallion */}
+          <div className="flex items-center gap-5">
+            <div className="relative">
+              <div className="w-20 h-20 rounded-2xl overflow-hidden border-2 border-amber-400 shadow-xl bg-zinc-900">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=240&auto=format&fit=crop&q=80"
+                  alt="Alex Rivers Profile"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              {/* CTC Verified Eagle Bezel Badge */}
+              <div
+                className="absolute -bottom-2 -right-2 w-8 h-8 rounded-full p-0.5 bg-gradient-to-tr from-amber-400 via-amber-200 to-amber-600 shadow-lg border border-black flex items-center justify-center"
+                title="CTC Official Verified Creator Seal"
+              >
+                <img
+                  src={ctcEagleDiamondImg}
+                  alt="Official Eagle Medallion"
+                  className="w-full h-full object-cover rounded-full"
+                />
+              </div>
+            </div>
+
+            <div>
+              <div className="flex flex-wrap items-center gap-2">
+                <h1 className="text-2xl font-black text-white tracking-wide">
+                  Alex Rivers
+                </h1>
+                <span className="engraved-plate-gold text-[10px] font-black uppercase tracking-widest px-2.5 py-0.5 rounded shadow-sm">
+                  VERIFIED RECORDING CREATOR
+                </span>
+                <span className="text-xs font-mono text-zinc-400">@alexrivers</span>
+              </div>
+
+              <p className="text-xs text-zinc-300 mt-1 max-w-xl">
+                Electronic Producer, Synthesist & Live Multicast Broadcaster. Syndicating across 47 networks with automated escrow settlements.
+              </p>
+
+              {/* Badges strip */}
+              <div className="flex flex-wrap items-center gap-2 mt-3">
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-bold bg-amber-500/10 text-amber-300 border border-amber-500/30">
+                  <Crown className="w-3.5 h-3.5 text-amber-400" />
+                  <span>{subscriptionTier === 'diamond' ? 'Diamond Mogul Conglomerate Deal' : subscriptionTier === 'platinum' ? 'Platinum Executive Master Deal' : 'Gold Label Partner Deal'}</span>
+                </span>
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-bold bg-sky-500/10 text-sky-300 border border-sky-500/30">
+                  <ShieldCheck className="w-3.5 h-3.5 text-sky-400" />
+                  <span>RIAA-Grade Certified Trophy Wall</span>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Quick Profile Trophy Stats & Share Action */}
+          <div className="flex flex-col sm:flex-row md:flex-col items-start md:items-end justify-between gap-3 border-t md:border-t-0 md:border-l border-zinc-800/80 pt-4 md:pt-0 md:pl-6">
+            <div className="flex items-center gap-4 text-center">
+              <div>
+                <span className="text-[10px] uppercase font-mono text-zinc-400 block">Total Plaques</span>
+                <span className="text-xl font-black text-white font-mono">{displayedPlaques.length}</span>
+              </div>
+              <div className="border-l border-zinc-800 pl-4">
+                <span className="text-[10px] uppercase font-mono text-amber-400 block">Gold</span>
+                <span className="text-xl font-black text-amber-300 font-mono">{goldCount}</span>
+              </div>
+              <div className="border-l border-zinc-800 pl-4">
+                <span className="text-[10px] uppercase font-mono text-slate-300 block">Platinum</span>
+                <span className="text-xl font-black text-slate-200 font-mono">{platinumCount}</span>
+              </div>
+              <div className="border-l border-zinc-800 pl-4">
+                <span className="text-[10px] uppercase font-mono text-sky-300 block">Diamond</span>
+                <span className="text-xl font-black text-sky-300 font-mono">{diamondCount}</span>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2 w-full md:w-auto">
+              <button
+                onClick={handleShareProfile}
+                className="deal-btn-platinum py-2 px-3.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5 flex-1 md:flex-initial justify-center shadow-md"
+              >
+                {copiedProfileLink ? (
+                  <>
+                    <Check className="w-3.5 h-3.5 text-emerald-600" />
+                    <span>Copied Profile Link!</span>
+                  </>
+                ) : (
+                  <>
+                    <Share2 className="w-3.5 h-3.5 text-slate-800" />
+                    <span>CTC Share Trophy Wall</span>
+                  </>
+                )}
+              </button>
+
+              <button
+                onClick={onSwitchToVault}
+                className="deal-btn-gold py-2 px-3.5 rounded-xl text-xs font-bold transition flex items-center gap-1.5 flex-1 md:flex-initial justify-center shadow-md"
+              >
+                <Award className="w-3.5 h-3.5 text-amber-950" />
+                <span>Plaque Vault ({milestones.length})</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* The Gallery Wall: Spotlight Illumination & Smoked Velvet Presentation */}
+      <div className="relative rounded-3xl p-6 sm:p-10 bg-radial from-[#121626] via-[#090C15] to-[#04060A] border-2 border-zinc-800/80 shadow-2xl overflow-hidden">
+        
+        {/* Overhead Gallery Spotlights simulation */}
+        <div className="absolute top-0 left-1/4 -translate-x-1/2 w-72 h-44 bg-gradient-to-b from-amber-300/15 via-amber-400/5 to-transparent blur-2xl pointer-events-none" />
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-80 h-44 bg-gradient-to-b from-sky-300/15 via-sky-400/5 to-transparent blur-2xl pointer-events-none" />
+        <div className="absolute top-0 left-3/4 -translate-x-1/2 w-72 h-44 bg-gradient-to-b from-amber-300/15 via-amber-400/5 to-transparent blur-2xl pointer-events-none" />
+
+        {/* Gallery Lighting Rail bar */}
+        <div className="w-full h-1 bg-gradient-to-r from-transparent via-zinc-600 to-transparent mb-8 flex justify-around relative">
+          <span className="w-3 h-3 rounded-full bg-amber-200 shadow-[0_0_12px_#FDE68A] -top-1 relative" />
+          <span className="w-3 h-3 rounded-full bg-sky-200 shadow-[0_0_12px_#BAE6FD] -top-1 relative" />
+          <span className="w-3 h-3 rounded-full bg-amber-200 shadow-[0_0_12px_#FDE68A] -top-1 relative" />
+        </div>
+
+        {/* Wall Header */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+          <div>
+            <div className="flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse" />
+              <h2 className="text-xl sm:text-2xl font-black text-white tracking-wider uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+                Official Creator Trophy Wall
+              </h2>
+            </div>
+            <p className="text-xs text-zinc-400 mt-1">
+              Commemorative physical-grade digital award plaques mounted for global industry inspection.
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-mono text-zinc-400">
+              {displayedPlaques.length} of {milestones.filter((m) => m.unlocked).length} Awarded Plaques Displayed
+            </span>
+            <button
+              onClick={onSwitchToVault}
+              className="text-xs text-amber-400 hover:text-amber-300 font-bold underline underline-offset-4 ml-2"
+            >
+              Manage Mounted Plaques →
+            </button>
+          </div>
+        </div>
+
+        {/* Plaque Grid on the Gallery Wall */}
+        {displayedPlaques.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
+            {displayedPlaques.map((plaque) => (
+              <PlaqueCard
+                key={plaque.id}
+                milestone={plaque}
+                onToggleDisplay={onToggleDisplay}
+                onInspect={onInspect}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="text-center py-16 px-4 relative z-10 border-2 border-dashed border-zinc-800 rounded-2xl bg-black/40">
+            <Award className="w-16 h-16 text-amber-400/50 mx-auto mb-3" />
+            <h3 className="text-lg font-bold text-white">No Plaques Currently Mounted on Your Wall</h3>
+            <p className="text-xs text-zinc-400 max-w-md mx-auto mt-1 mb-5">
+              You have unlocked award plaques in your private vault! Choose which Gold, Platinum, and Diamond plaques to mount proudly on your profile.
+            </p>
+            <button
+              onClick={onSwitchToVault}
+              className="deal-btn-gold px-5 py-2.5 rounded-xl text-xs font-black inline-flex items-center gap-2 shadow-lg"
+            >
+              <Sparkles className="w-4 h-4 text-amber-950" />
+              <span>Mount Plaques from Vault</span>
+            </button>
+          </div>
+        )}
+
+        {/* Wall Bottom Brass Bar Footer */}
+        <div className="mt-10 pt-4 border-t border-zinc-800/80 flex flex-col sm:flex-row sm:items-center justify-between text-xs text-zinc-500 font-mono gap-2">
+          <span>CTC GUILD CERTIFICATION LEDGER • AUDITED METRICS</span>
+          <span>DISCLAIMER: DIGITALLY SEALED IN RECOGNITION OF VERIFIED STREAMING DATA</span>
+        </div>
+      </div>
+    </div>
+  );
+};
