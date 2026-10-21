@@ -90,7 +90,7 @@ export const ProfileTrophyCase: React.FC<ProfileTrophyCaseProps> = ({
               </div>
 
               <p className="text-xs text-zinc-300 mt-1 max-w-xl">
-                Electronic Producer, Synthesist & Live Multicast Broadcaster. Syndicating across 14 networks with automated escrow settlements.
+                Electronic Producer, Synthesist & Live Multicast Broadcaster. Syndicating across 47 networks with automated escrow settlements.
               </p>
 
               {/* Badges strip */}
