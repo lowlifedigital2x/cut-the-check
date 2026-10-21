@@ -1,1 +1,256 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgewogIEdpdGh1YiwKICBEb3dubG9hZCwKICBDb3B5LAogIENoZWNrLAogIEV4dGVybmFsTGluaywKICBLZXksCiAgVGVybWluYWwsCiAgU2hpZWxkQ2hlY2ssCiAgWCwKICBGaWxlQ29kZSwKICBBbGVydFRyaWFuZ2xlCn0gZnJvbSAnbHVjaWRlLXJlYWN0JzsKCmludGVyZmFjZSBHaXRIdWJFeHBvcnRNb2RhbFByb3BzIHsKICBpc09wZW46IGJvb2xlYW47CiAgb25DbG9zZTogKCkgPT4gdm9pZDsKfQoKZXhwb3J0IGNvbnN0IEdpdEh1YkV4cG9ydE1vZGFsOiBSZWFjdC5GQzxHaXRIdWJFeHBvcnRNb2RhbFByb3BzPiA9ICh7IGlzT3Blbiwgb25DbG9zZSB9KSA9PiB7CiAgY29uc3QgW2NvcGllZFNlY3Rpb24sIHNldENvcGllZFNlY3Rpb25dID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcmVwb1VybCA9ICdodHRwczovL2dpdGh1Yi5jb20vbG93bGlmZWRpZ2l0YWwyeC9jdXQtdGhlLWNoZWNrJzsKCiAgaWYgKCFpc09wZW4pIHJldHVybiBudWxsOwoKICBjb25zdCBoYW5kbGVDb3B5ID0gKHRleHQ6IHN0cmluZywgaWQ6IHN0cmluZykgPT4gewogICAgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQodGV4dCk7CiAgICBzZXRDb3BpZWRTZWN0aW9uKGlkKTsKICAgIHNldFRpbWVvdXQoKCkgPT4gc2V0Q29waWVkU2VjdGlvbihudWxsKSwgMjUwMCk7CiAgfTsKCiAgY29uc3QgaGFuZGxlRG93bmxvYWRaaXAgPSAoKSA9PiB7CiAgICAvLyBUcmlnZ2VycyBkaXJlY3QgaW4tYnJvd3NlciBkb3dubG9hZCBvZiB0aGUgZ2VuZXJhdGVkIHppcCBidW5kbGUKICAgIGNvbnN0IGxpbmsgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdhJyk7CiAgICBsaW5rLmhyZWYgPSAnL2N0Yy1jdXQtdGhlLWNoZWNrLnppcCc7CiAgICBsaW5rLmRvd25sb2FkID0gJ2N0Yy1jdXQtdGhlLWNoZWNrLnppcCc7CiAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGxpbmspOwogICAgbGluay5jbGljaygpOwogICAgZG9jdW1lbnQuYm9keS5yZW1vdmVDaGlsZChsaW5rKTsKICB9OwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZpeGVkIGluc2V0LTAgei01MCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBwLTQgYmctYmxhY2svODUgYmFja2Ryb3AtYmx1ci1tZCBhbmltYXRlLWluIGZhZGUtaW4gZHVyYXRpb24tMjAwIj4KICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHctZnVsbCBtYXgtdy0yeGwgYmctWyMwRDExMTddIGJvcmRlciBib3JkZXItYW1iZXItNTAwLzMwIHJvdW5kZWQtMnhsIHNoYWRvdy1bMF8wXzUwcHhfcmdiYSgyNDUsMTU4LDExLDAuMTUpXSBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgIHsvKiBNb2RhbCBUb3AgQmFyICovfQogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gcHgtNiBweS00IGJvcmRlci1iIGJvcmRlci16aW5jLTgwMCBiZy1bIzE2MUIyMl0iPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtMiByb3VuZGVkLXhsIGJnLWFtYmVyLTUwMC8xMCBib3JkZXIgYm9yZGVyLWFtYmVyLTUwMC8zMCI+CiAgICAgICAgICAgICAgPEdpdGh1YiBjbGFzc05hbWU9InctNSBoLTUgdGV4dC1hbWJlci00MDAiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtYmFzZSBmb250LWJsYWNrIHRleHQtd2hpdGUgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgUHVibGlzaCBDdXQgVGhlIENoZWNrIHRvIEdpdEh1YgogICAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhzIHRleHQtemluYy00MDAgZm9udC1tb25vIj4KICAgICAgICAgICAgICAgIFRhcmdldCBSZXBvOiA8c3BhbiBjbGFzc05hbWU9InRleHQtYW1iZXItMzAwIj5sb3dsaWZlZGlnaXRhbDJ4L2N1dC10aGUtY2hlY2s8L3NwYW4+CiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICBvbkNsaWNrPXtvbkNsb3NlfQogICAgICAgICAgICBjbGFzc05hbWU9InAtMS41IHJvdW5kZWQtbGcgdGV4dC16aW5jLTQwMCBob3Zlcjp0ZXh0LXdoaXRlIGhvdmVyOmJnLXppbmMtODAwIHRyYW5zaXRpb24gY3Vyc29yLXBvaW50ZXIiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxYIGNsYXNzTmFtZT0idy01IGgtNSIgLz4KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogTW9kYWwgQm9keSAqL30KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC02IHNwYWNlLXktNiBtYXgtaC1bNzV2aF0gb3ZlcmZsb3cteS1hdXRvIj4KICAgICAgICAgIHsvKiBEaXJlY3QgQnJvd3NlciBEb3dubG9hZCAoTm8gNDA0KSAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTQgcm91bmRlZC14bCBiZy1ncmFkaWVudC10by1yIGZyb20tYW1iZXItNTAwLzE1IHZpYS15ZWxsb3ctNTAwLzEwIHRvLXRyYW5zcGFyZW50IGJvcmRlciBib3JkZXItYW1iZXItNTAwLzQwIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC00Ij4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LWJsYWNrIHVwcGVyY2FzZSB0cmFja2luZy13aWRlciB0ZXh0LWFtYmVyLTQwMCBiZy1hbWJlci01MDAvMjAgcHgtMiBweS0wLjUgcm91bmRlZCI+CiAgICAgICAgICAgICAgICAgIE1ldGhvZCAxIMK3IERpcmVjdCBJbi1Ccm93c2VyIERvd25sb2FkCiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIG10LTEuNSI+CiAgICAgICAgICAgICAgICAgIERvd25sb2FkIFByb2plY3QgWklQIERpcmVjdGx5IHRvIFlvdXIgQ29tcHV0ZXIKICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC16aW5jLTMwMCBtdC0xIj4KICAgICAgICAgICAgICAgICAgRG93bmxvYWRzIGFsbCBzb3VyY2UgY29kZSwgY29tcG9uZW50cywgaWNvbnMsIGFuZCBjb25maWd1cmF0aW9uIGZpbGVzIGluIGEgY2xlYW4gMy42IE1CIGFyY2hpdmUgZGlyZWN0bHkgdGhyb3VnaCB5b3VyIGJyb3dzZXIuCiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgb25DbGljaz17aGFuZGxlRG93bmxvYWRaaXB9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InNocmluay0wIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB4LTQgcHktMi41IHJvdW5kZWQteGwgZGVhbC1idG4tZ29sZCBmb250LWJsYWNrIHRleHQteHMgc2hhZG93LWxnIGN1cnNvci1wb2ludGVyIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxEb3dubG9hZCBjbGFzc05hbWU9InctNCBoLTQiIC8+CiAgICAgICAgICAgICAgICA8c3Bhbj5DVEMgRG93bmxvYWQgLlpJUDwvc3Bhbj4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7LyogR2l0SHViIEFjdGlvbnMgQ0kgLyBDRCB3aXRoIENhY2hlIHY2LjEuMCAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTQgcm91bmRlZC14bCBiZy1bIzE2MUIyMl0gYm9yZGVyIGJvcmRlci1lbWVyYWxkLTUwMC8zMCBzcGFjZS15LTMiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgPFNoaWVsZENoZWNrIGNsYXNzTmFtZT0idy00IGgtNCB0ZXh0LWVtZXJhbGQtNDAwIiAvPgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC13aGl0ZSBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgIDxzcGFuPkdpdEh1YiBBY3Rpb25zIENJICYgQ2FjaGUgQ29uZmlndXJlZDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSBmb250LW1vbm8gcHgtMiBweS0wLjUgcm91bmRlZCBiZy1lbWVyYWxkLTUwMC8yMCB0ZXh0LWVtZXJhbGQtMzAwIGJvcmRlciBib3JkZXItZW1lcmFsZC01MDAvMzAiPgogICAgICAgICAgICAgICAgICAgIGFjdGlvbnMvY2FjaGVAdjYuMS4wCiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlQ29weSgKYG5hbWU6IENJIC8gQnVpbGQgJiBUZXN0CgpvbjoKICBwdXNoOgogICAgYnJhbmNoZXM6IFsgbWFpbiBdCiAgcHVsbF9yZXF1ZXN0OgogICAgYnJhbmNoZXM6IFsgbWFpbiBdCgpqb2JzOgogIGJ1aWxkOgogICAgbmFtZTogQnVpbGQgJiBWYWxpZGF0ZQogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogQ2hlY2tvdXQgUmVwb3NpdG9yeQogICAgICAgIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKCiAgICAgIC0gbmFtZTogU2V0IHVwIE5vZGUuanMKICAgICAgICB1c2VzOiBhY3Rpb25zL3NldHVwLW5vZGVAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbm9kZS12ZXJzaW9uOiAyMAoKICAgICAgLSBuYW1lOiBDYWNoZQogICAgICAgIHVzZXM6IGFjdGlvbnMvY2FjaGVAdjYuMS4wCiAgICAgICAgd2l0aDoKICAgICAgICAgIHBhdGg6IHwKICAgICAgICAgICAgfi8ubnBtCiAgICAgICAgICAgIG5vZGVfbW9kdWxlcwogICAgICAgICAga2V5OiBcJHt7IHJ1bm5lci5vcyB9fS1ub2RlLVwke3sgaGFzaEZpbGVzKCcqKi9wYWNrYWdlLmpzb24nLCAnKiovYnVuLmxvY2snKSB9fQogICAgICAgICAgcmVzdG9yZS1rZXlzOiB8CiAgICAgICAgICAgIFwke3sgcnVubmVyLm9zIH19LW5vZGUtCgogICAgICAtIG5hbWU6IEluc3RhbGwgRGVwZW5kZW5jaWVzCiAgICAgICAgcnVuOiBucG0gaW5zdGFsbAoKICAgICAgLSBuYW1lOiBSdW4gVHlwZSBDaGVjayAmIExpbnQKICAgICAgICBydW46IG5wbSBydW4gbGludAoKICAgICAgLSBuYW1lOiBCdWlsZCBBcHBsaWNhdGlvbgogICAgICAgIHJ1bjogbnBtIHJ1biBidWlsZGAsCiAgICAgICAgICAgICAgICAgICdjaV95YW1sJwogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBweC0yLjUgcHktMSB0ZXh0LXhzIHJvdW5kZWQtbGcgYmctemluYy04MDAgaG92ZXI6YmctemluYy03MDAgdGV4dC16aW5jLTMwMCBib3JkZXIgYm9yZGVyLXppbmMtNzAwIGN1cnNvci1wb2ludGVyIHRyYW5zaXRpb24iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge2NvcGllZFNlY3Rpb24gPT09ICdjaV95YW1sJyA/ICgKICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTMgaC0zIHRleHQtZW1lcmFsZC00MDAiIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWVtZXJhbGQtNDAwIj5Db3BpZWQgV29ya2Zsb3chPC9zcGFuPgogICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICAgICAgPENvcHkgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPkNUQyBDb3B5IENJIFlBTUw8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvPgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXppbmMtMzAwIGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgV29ya2Zsb3cgZmlsZSA8Y29kZSBjbGFzc05hbWU9InRleHQtYW1iZXItMzAwIGJnLWJsYWNrLzQwIHB4LTEgcHktMC41IHJvdW5kZWQgZm9udC1tb25vIj4uZ2l0aHViL3dvcmtmbG93cy9jaS55bWw8L2NvZGU+IGNhY2hlcyBkZXBlbmRlbmNpZXMgd2l0aCA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1lbWVyYWxkLTQwMCI+YWN0aW9ucy9jYWNoZUB2Ni4xLjA8L3N0cm9uZz4gdG8gc3BlZWQgdXAgYnVpbGRzIGFuZCB0ZXN0cyBvbiBldmVyeSBjb21taXQ6CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHByZSBjbGFzc05hbWU9InAtMyByb3VuZGVkLWxnIGJnLWJsYWNrLzYwIGJvcmRlciBib3JkZXItemluYy04MDAvODAgdGV4dC1bMTFweF0gZm9udC1tb25vIHRleHQtemluYy0zMDAgb3ZlcmZsb3cteC1hdXRvIGxlYWRpbmctcmVsYXhlZCI+CntgLSBuYW1lOiBDYWNoZQogIHVzZXM6IGFjdGlvbnMvY2FjaGVAdjYuMS4wCiAgd2l0aDoKICAgIHBhdGg6IHwKICAgICAgfi8ubnBtCiAgICAgIG5vZGVfbW9kdWxlcwogICAga2V5OiBcJHt7IHJ1bm5lci5vcyB9fS1ub2RlLVwke3sgaGFzaEZpbGVzKCcqKi9wYWNrYWdlLmpzb24nLCAnKiovYnVuLmxvY2snKSB9fQogICAgcmVzdG9yZS1rZXlzOiB8CiAgICAgIFwke3sgcnVubmVyLm9zIH19LW5vZGUtYH0KICAgICAgICAgICAgPC9wcmU+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7LyogVGVybWluYWwgLyBHaXQgQ29tbWFuZCBPcHRpb24gKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC00IHJvdW5kZWQteGwgYmctWyMxNjFCMjJdIGJvcmRlciBib3JkZXItemluYy04MDAgc3BhY2UteS0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxUZXJtaW5hbCBjbGFzc05hbWU9InctNCBoLTQgdGV4dC1za3ktNDAwIiAvPgogICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LWJvbGQgdGV4dC13aGl0ZSI+CiAgICAgICAgICAgICAgICAgIE1ldGhvZCAzIMK3IFRlcm1pbmFsIENvbW1hbmRzIG9uIFlvdXIgQ29tcHV0ZXIKICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlQ29weSgKYGdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20vbG93bGlmZWRpZ2l0YWwyeC9jdGMtY3V0LXRoZS1jaGVjay5naXQKY2QgY3RjLWN1dC10aGUtY2hlY2sKIyBDb3B5IGRvd25sb2FkZWQgdW56aXBwZWQgZmlsZXMgaGVyZQpnaXQgYWRkIC4KZ2l0IGNvbW1pdCAtbSAiZmVhdDogQ3V0IFRoZSBDaGVjayBmdWxsIHBsYXRmb3JtIgpnaXQgcHVzaCBvcmlnaW4gbWFpbmAsCiAgICAgICAgICAgICAgICAgICd0ZXJtJwogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBweC0yLjUgcHktMSB0ZXh0LXhzIHJvdW5kZWQtbGcgYmctemluYy04MDAgaG92ZXI6YmctemluYy03MDAgdGV4dC16aW5jLTMwMCBib3JkZXIgYm9yZGVyLXppbmMtNzAwIGN1cnNvci1wb2ludGVyIHRyYW5zaXRpb24iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge2NvcGllZFNlY3Rpb24gPT09ICd0ZXJtJyA/ICgKICAgICAgICAgICAgICAgICAgPD4KICAgICAgICAgICAgICAgICAgICA8Q2hlY2sgY2xhc3NOYW1lPSJ3LTMgaC0zIHRleHQtZW1lcmFsZC00MDAiIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWVtZXJhbGQtNDAwIj5Db3BpZWQhPC9zcGFuPgogICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIDw+CiAgICAgICAgICAgICAgICAgICAgPENvcHkgY2xhc3NOYW1lPSJ3LTMgaC0zIiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPkNUQyBDb3B5IENvbW1hbmRzPC9zcGFuPgogICAgICAgICAgICAgICAgICA8Lz4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8cHJlIGNsYXNzTmFtZT0icC0zIHJvdW5kZWQtbGcgYmctYmxhY2svNjAgYm9yZGVyIGJvcmRlci16aW5jLTgwMC84MCB0ZXh0LVsxMXB4XSBmb250LW1vbm8gdGV4dC16aW5jLTMwMCBvdmVyZmxvdy14LWF1dG8gbGVhZGluZy1yZWxheGVkIj4Ke2BnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tL2xvd2xpZmVkaWdpdGFsMngvY3RjLWN1dC10aGUtY2hlY2suZ2l0CmNkIGN0Yy1jdXQtdGhlLWNoZWNrCiMgKGV4dHJhY3QgdGhlIGRvd25sb2FkZWQgWklQIGludG8gdGhpcyBmb2xkZXIpCmdpdCBhZGQgLgpnaXQgY29tbWl0IC1tICJmZWF0OiBjb21wbGV0ZSBDdXQgVGhlIENoZWNrIHBsYXRmb3JtIgpnaXQgcHVzaCBvcmlnaW4gbWFpbmB9CiAgICAgICAgICAgIDwvcHJlPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIERpcmVjdCBXZWIgVXBsb2FkIEluc3RydWN0aW9uIE5vdGUgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC0zLjUgcm91bmRlZC14bCBiZy16aW5jLTkwMC82MCBib3JkZXIgYm9yZGVyLXppbmMtODAwLzgwIGZsZXggaXRlbXMtc3RhcnQgZ2FwLTMiPgogICAgICAgICAgICA8RmlsZUNvZGUgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtYW1iZXItNDAwIHNocmluay0wIG10LTAuNSIgLz4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQteHMgdGV4dC16aW5jLTMwMCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC13aGl0ZSBibG9jayBtYi0wLjUiPk5vdGUgZm9yIEdpdEh1YiBXZWIgVXBsb2FkZXI6PC9zcGFuPgogICAgICAgICAgICAgIE9uIDxhIGhyZWY9e3JlcG9Vcmx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiIGNsYXNzTmFtZT0idGV4dC1hbWJlci00MDAgdW5kZXJsaW5lIj55b3VyIHJlcG8gcGFnZTwvYT4sIGNsaWNrIDxzdHJvbmcgY2xhc3NOYW1lPSJ0ZXh0LXppbmMtMTAwIj4iQWRkIGZpbGUiPC9zdHJvbmc+ICh0b3AgcmlnaHQpIOKGkiA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC16aW5jLTEwMCI+IlVwbG9hZCBmaWxlcyI8L3N0cm9uZz4uIEV4dHJhY3QgdGhlIFpJUCBmaXJzdCBiZWZvcmUgZHJhZ2dpbmcgZmlsZXMgc28gR2l0SHViIGFjY2VwdHMgdGhlIGRpcmVjdG9yeSBzdHJ1Y3R1cmUuCiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIHsvKiBNb2RhbCBGb290ZXIgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBweC02IHB5LTMuNSBib3JkZXItdCBib3JkZXItemluYy04MDAgYmctWyMxNjFCMjJdIj4KICAgICAgICAgIDxhCiAgICAgICAgICAgIGhyZWY9e3JlcG9Vcmx9CiAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICByZWw9Im5vb3BlbmVyIG5vcmVmZXJyZXIiCiAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSB0ZXh0LXhzIHRleHQtemluYy00MDAgaG92ZXI6dGV4dC1hbWJlci00MDAgdHJhbnNpdGlvbiIKICAgICAgICAgID4KICAgICAgICAgICAgPEV4dGVybmFsTGluayBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPgogICAgICAgICAgICA8c3Bhbj5PcGVuIGdpdGh1Yi5jb20vbG93bGlmZWRpZ2l0YWwyeC9jdGMtY3V0LXRoZS1jaGVjazwvc3Bhbj4KICAgICAgICAgIDwvYT4KICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgb25DbGljaz17b25DbG9zZX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJweC00IHB5LTEuNSByb3VuZGVkLWxnIGJnLXppbmMtODAwIGhvdmVyOmJnLXppbmMtNzAwIHRleHQteHMgZm9udC1ib2xkIHRleHQtd2hpdGUgdHJhbnNpdGlvbiBjdXJzb3ItcG9pbnRlciIKICAgICAgICAgID4KICAgICAgICAgICAgQ2xvc2UKICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn07Cg==
+import React, { useState } from 'react';
+import {
+  Github,
+  Download,
+  Copy,
+  Check,
+  ExternalLink,
+  Key,
+  Terminal,
+  ShieldCheck,
+  X,
+  FileCode,
+  AlertTriangle
+} from 'lucide-react';
+
+interface GitHubExportModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+}
+
+export const GitHubExportModal: React.FC<GitHubExportModalProps> = ({ isOpen, onClose }) => {
+  const [copiedSection, setCopiedSection] = useState<string | null>(null);
+  const repoUrl = 'https://github.com/lowlifedigital2x/cut-the-check';
+
+  if (!isOpen) return null;
+
+  const handleCopy = (text: string, id: string) => {
+    navigator.clipboard.writeText(text);
+    setCopiedSection(id);
+    setTimeout(() => setCopiedSection(null), 2500);
+  };
+
+  const handleDownloadZip = () => {
+    // Triggers direct in-browser download of the generated zip bundle
+    const link = document.createElement('a');
+    link.href = '/ctc-cut-the-check.zip';
+    link.download = 'ctc-cut-the-check.zip';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/85 backdrop-blur-md animate-in fade-in duration-200">
+      <div className="relative w-full max-w-2xl bg-[#0D1117] border border-amber-500/30 rounded-2xl shadow-[0_0_50px_rgba(245,158,11,0.15)] overflow-hidden">
+        {/* Modal Top Bar */}
+        <div className="flex items-center justify-between px-6 py-4 border-b border-zinc-800 bg-[#161B22]">
+          <div className="flex items-center gap-3">
+            <div className="p-2 rounded-xl bg-amber-500/10 border border-amber-500/30">
+              <Github className="w-5 h-5 text-amber-400" />
+            </div>
+            <div>
+              <h2 className="text-base font-black text-white flex items-center gap-2">
+                Publish Cut The Check to GitHub
+              </h2>
+              <p className="text-xs text-zinc-400 font-mono">
+                Target Repo: <span className="text-amber-300">lowlifedigital2x/cut-the-check</span>
+              </p>
+            </div>
+          </div>
+          <button
+            onClick={onClose}
+            className="p-1.5 rounded-lg text-zinc-400 hover:text-white hover:bg-zinc-800 transition cursor-pointer"
+          >
+            <X className="w-5 h-5" />
+          </button>
+        </div>
+
+        {/* Modal Body */}
+        <div className="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
+          {/* Direct Browser Download (No 404) */}
+          <div className="p-4 rounded-xl bg-gradient-to-r from-amber-500/15 via-yellow-500/10 to-transparent border border-amber-500/40">
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <span className="text-[10px] font-black uppercase tracking-wider text-amber-400 bg-amber-500/20 px-2 py-0.5 rounded">
+                  Method 1 · Direct In-Browser Download
+                </span>
+                <h3 className="text-sm font-bold text-white mt-1.5">
+                  Download Project ZIP Directly to Your Computer
+                </h3>
+                <p className="text-xs text-zinc-300 mt-1">
+                  Downloads all source code, components, icons, and configuration files in a clean 3.6 MB archive directly through your browser.
+                </p>
+              </div>
+              <button
+                onClick={handleDownloadZip}
+                className="shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-xl deal-btn-gold font-black text-xs shadow-lg cursor-pointer"
+              >
+                <Download className="w-4 h-4" />
+                <span>CTC Download .ZIP</span>
+              </button>
+            </div>
+          </div>
+
+          {/* GitHub Actions CI / CD with Cache v6.1.0 */}
+          <div className="p-4 rounded-xl bg-[#161B22] border border-emerald-500/30 space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <ShieldCheck className="w-4 h-4 text-emerald-400" />
+                <h3 className="text-sm font-bold text-white flex items-center gap-2">
+                  <span>GitHub Actions CI & Cache Configured</span>
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+                    actions/cache@v6.1.0
+                  </span>
+                </h3>
+              </div>
+              <button
+                onClick={() => handleCopy(
+`name: CI / Build & Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    name: Build & Validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Cache
+        uses: actions/cache@v6.1.0
+        with:
+          path: |
+            ~/.npm
+            node_modules
+          key: \${{ runner.os }}-node-\${{ hashFiles('**/package.json', '**/bun.lock') }}
+          restore-keys: |
+            \${{ runner.os }}-node-
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Type Check & Lint
+        run: npm run lint
+
+      - name: Build Application
+        run: npm run build`,
+                  'ci_yaml'
+                )}
+                className="flex items-center gap-1.5 px-2.5 py-1 text-xs rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-300 border border-zinc-700 cursor-pointer transition"
+              >
+                {copiedSection === 'ci_yaml' ? (
+                  <>
+                    <Check className="w-3 h-3 text-emerald-400" />
+                    <span className="text-emerald-400">Copied Workflow!</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="w-3 h-3" />
+                    <span>CTC Copy CI YAML</span>
+                  </>
+                )}
+              </button>
+            </div>
+            <p className="text-xs text-zinc-300 leading-relaxed">
+              Workflow file <code className="text-amber-300 bg-black/40 px-1 py-0.5 rounded font-mono">.github/workflows/ci.yml</code> caches dependencies with <strong className="text-emerald-400">actions/cache@v6.1.0</strong> to speed up builds and tests on every commit:
+            </p>
+            <pre className="p-3 rounded-lg bg-black/60 border border-zinc-800/80 text-[11px] font-mono text-zinc-300 overflow-x-auto leading-relaxed">
+{`- name: Cache
+  uses: actions/cache@v6.1.0
+  with:
+    path: |
+      ~/.npm
+      node_modules
+    key: \${{ runner.os }}-node-\${{ hashFiles('**/package.json', '**/bun.lock') }}
+    restore-keys: |
+      \${{ runner.os }}-node-`}
+            </pre>
+          </div>
+
+          {/* Terminal / Git Command Option */}
+          <div className="p-4 rounded-xl bg-[#161B22] border border-zinc-800 space-y-3">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <Terminal className="w-4 h-4 text-sky-400" />
+                <h3 className="text-sm font-bold text-white">
+                  Method 3 · Terminal Commands on Your Computer
+                </h3>
+              </div>
+              <button
+                onClick={() => handleCopy(
+`git clone https://github.com/lowlifedigital2x/ctc-cut-the-check.git
+cd ctc-cut-the-check
+# Copy downloaded unzipped files here
+git add .
+git commit -m "feat: Cut The Check full platform"
+git push origin main`,
+                  'term'
+                )}
+                className="flex items-center gap-1.5 px-2.5 py-1 text-xs rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-300 border border-zinc-700 cursor-pointer transition"
+              >
+                {copiedSection === 'term' ? (
+                  <>
+                    <Check className="w-3 h-3 text-emerald-400" />
+                    <span className="text-emerald-400">Copied!</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="w-3 h-3" />
+                    <span>CTC Copy Commands</span>
+                  </>
+                )}
+              </button>
+            </div>
+            <pre className="p-3 rounded-lg bg-black/60 border border-zinc-800/80 text-[11px] font-mono text-zinc-300 overflow-x-auto leading-relaxed">
+{`git clone https://github.com/lowlifedigital2x/ctc-cut-the-check.git
+cd ctc-cut-the-check
+# (extract the downloaded ZIP into this folder)
+git add .
+git commit -m "feat: complete Cut The Check platform"
+git push origin main`}
+            </pre>
+          </div>
+
+          {/* Direct Web Upload Instruction Note */}
+          <div className="p-3.5 rounded-xl bg-zinc-900/60 border border-zinc-800/80 flex items-start gap-3">
+            <FileCode className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+            <div className="text-xs text-zinc-300">
+              <span className="font-bold text-white block mb-0.5">Note for GitHub Web Uploader:</span>
+              On <a href={repoUrl} target="_blank" rel="noopener noreferrer" className="text-amber-400 underline">your repo page</a>, click <strong className="text-zinc-100">"Add file"</strong> (top right) → <strong className="text-zinc-100">"Upload files"</strong>. Extract the ZIP first before dragging files so GitHub accepts the directory structure.
+            </div>
+          </div>
+        </div>
+
+        {/* Modal Footer */}
+        <div className="flex items-center justify-between px-6 py-3.5 border-t border-zinc-800 bg-[#161B22]">
+          <a
+            href={repoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1.5 text-xs text-zinc-400 hover:text-amber-400 transition"
+          >
+            <ExternalLink className="w-3.5 h-3.5" />
+            <span>Open github.com/lowlifedigital2x/ctc-cut-the-check</span>
+          </a>
+          <button
+            onClick={onClose}
+            className="px-4 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-xs font-bold text-white transition cursor-pointer"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
