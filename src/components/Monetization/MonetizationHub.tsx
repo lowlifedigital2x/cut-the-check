@@ -185,7 +185,7 @@ export const MonetizationHub: React.FC<MonetizationHubProps> = ({
                 </span>
               </div>
               <p className="text-xs text-zinc-400 italic">
-                Authorized electronic royalty disbursement across 14 connected streaming distribution channels. Guaranteed safe custody escrow.
+                Authorized electronic royalty disbursement across 47 connected streaming distribution channels. Guaranteed safe custody escrow.
               </p>
             </div>
 
@@ -272,7 +272,7 @@ export const MonetizationHub: React.FC<MonetizationHubProps> = ({
             <Award className="w-4 h-4 text-amber-400" />
             <span>Platform Revenue Breakdown Ledger</span>
           </h3>
-          <span className="text-xs text-zinc-400">14 Major Connected Channels</span>
+          <span className="text-xs text-zinc-400">47 Major Connected Channels</span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
