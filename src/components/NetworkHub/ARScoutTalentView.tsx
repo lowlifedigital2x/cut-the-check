@@ -226,7 +226,7 @@ export const ARScoutTalentView: React.FC<ARScoutTalentViewProps> = ({
           </div>
 
           <p className="text-xs text-amber-200/80 max-w-3xl leading-relaxed">
-            Major Label A&R Intelligence Engine: Evaluates network creators across 14 synchronized DSP and live platforms. Filter rising talent by verified monthly growth velocity, engagement-to-follower ratios, retention benchmarks, and estimated monetization yield.
+            Major Label A&R Intelligence Engine: Evaluates network creators across 47 synchronized DSP and live platforms. Filter rising talent by verified monthly growth velocity, engagement-to-follower ratios, retention benchmarks, and estimated monetization yield.
           </p>
 
           {/* Quick Stats Ticker */}
