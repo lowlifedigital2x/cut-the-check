@@ -141,7 +141,7 @@ export const PlatformConnections: React.FC<PlatformConnectionsProps> = ({
 
                   {/* RTMP URL */}
                   <div className="flex items-center justify-between gap-2 bg-zinc-950 p-2.5 rounded-xl border border-zinc-800/80 text-xs font-mono text-zinc-300">
-                    <span className="truncate">{c.rtmpUrl}</span>
+                    <span className="truncate">{c.rtmpUrl || 'Not configured'}</span>
                     <button
                       onClick={() => copyText(c.rtmpUrl, `${c.platformId}_rtmp`)}
                       className="p-1 text-purple-400 hover:text-white"
@@ -158,7 +158,7 @@ export const PlatformConnections: React.FC<PlatformConnectionsProps> = ({
                   {/* Stream Key */}
                   <div className="flex items-center justify-between gap-2 bg-zinc-950 p-2.5 rounded-xl border border-zinc-800/80 text-xs font-mono text-zinc-300">
                     <span className="truncate">
-                      {isKeyVisible ? c.streamKey : '••••••••••••••••••••••••••••••••'}
+                      {isKeyVisible ? c.streamKey || 'Not configured' : c.streamKey ? '••••••••••••••••••••••••••••••••' : 'Not configured'}
                     </span>
                     <div className="flex items-center gap-1">
                       <button

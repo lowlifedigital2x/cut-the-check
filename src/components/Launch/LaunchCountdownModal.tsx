@@ -193,7 +193,7 @@ export const LaunchCountdownModal: React.FC<LaunchCountdownModalProps> = ({
               </div>
 
               <div className="flex items-center justify-between text-[11px] text-zinc-400 font-mono px-2">
-                <span>Ingest: <strong className="text-purple-300">rtmp://live.omnicast.io/relay/app</strong></span>
+                <span>Ingest: <strong className="text-purple-300">Creator-configured relay</strong></span>
                 <span>Destinations: <strong className="text-amber-300">{selectedPlatformsCount} Syndicated Networks</strong></span>
               </div>
             </div>
@@ -228,7 +228,7 @@ export const LaunchCountdownModal: React.FC<LaunchCountdownModalProps> = ({
                 </div>
                 <div className="flex justify-between items-center border-b border-zinc-800 pb-2">
                   <span className="text-zinc-400">Simulcast Video Ingest:</span>
-                  <span className="font-bold text-purple-300">rtmp://live.omnicast.io/relay/app (1080p60)</span>
+                  <span className="font-bold text-purple-300">Creator-configured relay (1080p60)</span>
                 </div>
                 <div className="flex justify-between items-center pt-1">
                   <span className="text-zinc-400">Direct Royalty Escrow:</span>

@@ -650,7 +650,7 @@ export const CreatorNetworkHub: React.FC<CreatorNetworkHubProps> = ({ currencySy
                 <div className="p-3 rounded-xl bg-zinc-900/80 border border-zinc-800 text-[11px] text-zinc-400 flex items-center gap-2">
                   <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>
-                    Protected by OmniCast Creator Escrow. Talent is paid only after you preview and approve the final work.
+                    Protected by Cut The Check Creator Escrow. Talent is paid only after you preview and approve the final work.
                   </span>
                 </div>
 

@@ -309,7 +309,7 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
                   47 / 47 NETWORKS
                 </div>
                 <div className="text-[11px] text-zinc-400 leading-snug">
-                  Universal Relay Server: <strong className="text-purple-300 font-mono">rtmp://live.omnicast.io/relay/app</strong>
+                  Relay Server: <strong className="text-purple-300 font-mono">Creator configured</strong>
                 </div>
                 <div className="w-full bg-zinc-900 h-2 rounded-full overflow-hidden border border-zinc-800 mt-1">
                   <div className="bg-gradient-to-r from-amber-400 to-emerald-400 h-full w-full animate-pulse" />
@@ -352,7 +352,7 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
             <span className="text-[10px] font-mono uppercase text-amber-400 font-black">3. Satellite RTMP Uplink</span>
             <CheckCircle2 className="w-4 h-4 text-emerald-400" />
           </div>
-          <div className="text-xs font-bold text-white">Omnicast Multiplex Ingest</div>
+          <div className="text-xs font-bold text-white">CTC Multiplex Ingest</div>
           <p className="text-[11px] text-zinc-400">1080p60 hardware NVENC/Metal acceleration ready with zero dropped frames.</p>
         </div>
 
@@ -606,7 +606,7 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
               <span className="text-2xl font-black text-purple-300 font-mono truncate">
                 {selectedCount} Relays
               </span>
-              <span className="text-[10px] text-purple-300/80 font-semibold block mt-1">omnicast.io synced</span>
+              <span className="text-[10px] text-purple-300/80 font-semibold block mt-1">creator-configured relay</span>
             </div>
 
             <div className="p-4 rounded-xl bg-black/60 border border-amber-500/20">

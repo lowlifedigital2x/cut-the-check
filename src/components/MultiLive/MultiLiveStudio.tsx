@@ -18,7 +18,6 @@ import {
   ExternalLink,
   Eye,
   EyeOff,
-  RefreshCw,
   Edit2,
   Save
 } from 'lucide-react';
@@ -53,10 +52,10 @@ export const MultiLiveStudio: React.FC<MultiLiveStudioProps> = ({
 
   // RTMP Relay Server & Stream Key configuration
   const [relayServerUrl, setRelayServerUrl] = useState(() => {
-    return localStorage.getItem('ctc_rtmp_relay_url') || 'rtmp://live.omnicast.io/relay/app';
+    return localStorage.getItem('ctc_rtmp_relay_url') || '';
   });
   const [streamKey, setStreamKey] = useState(() => {
-    return localStorage.getItem('ctc_rtmp_stream_key') || 'live_omni_88192039_x99_sec';
+    return localStorage.getItem('ctc_rtmp_stream_key') || '';
   });
   const [showStreamKey, setShowStreamKey] = useState(false);
   const [isEditingRtmp, setIsEditingRtmp] = useState(false);
@@ -64,26 +63,34 @@ export const MultiLiveStudio: React.FC<MultiLiveStudioProps> = ({
 
   const handleSaveRtmpUrl = () => {
     const trimmed = tempRtmpUrl.trim();
+    setRelayServerUrl(trimmed);
     if (trimmed) {
-      setRelayServerUrl(trimmed);
       localStorage.setItem('ctc_rtmp_relay_url', trimmed);
+    } else {
+      localStorage.removeItem('ctc_rtmp_relay_url');
     }
     setIsEditingRtmp(false);
   };
 
   const handleResetRtmpUrl = () => {
-    const defaultUrl = 'rtmp://live.omnicast.io/relay/app';
-    setTempRtmpUrl(defaultUrl);
-    setRelayServerUrl(defaultUrl);
-    localStorage.setItem('ctc_rtmp_relay_url', defaultUrl);
+    setTempRtmpUrl('');
+    setRelayServerUrl('');
+    localStorage.removeItem('ctc_rtmp_relay_url');
     setIsEditingRtmp(false);
   };
 
-  const handleRegenerateKey = () => {
-    const randomHex = Array.from({ length: 8 }, () => Math.floor(Math.random() * 16).toString(16)).join('');
-    const newKey = `live_omni_${Date.now().toString().slice(-6)}_${randomHex}_sec`;
-    setStreamKey(newKey);
-    localStorage.setItem('ctc_rtmp_stream_key', newKey);
+  const handleClearStreamKey = () => {
+    setStreamKey('');
+    localStorage.removeItem('ctc_rtmp_stream_key');
+  };
+
+  const handleStreamKeyChange = (value: string) => {
+    setStreamKey(value);
+    if (value) {
+      localStorage.setItem('ctc_rtmp_stream_key', value);
+    } else {
+      localStorage.removeItem('ctc_rtmp_stream_key');
+    }
   };
 
   // Audio VU meter simulation
@@ -227,7 +234,7 @@ export const MultiLiveStudio: React.FC<MultiLiveStudioProps> = ({
                   <h3 className="text-base font-bold text-white">
                     {streamState.isBroadcasting
                       ? 'Live Multicast Stream Relaying Active'
-                      : 'OmniCast Virtual Studio Preview'}
+                      : 'Cut The Check Virtual Studio Preview'}
                   </h3>
                   <p className="text-xs text-zinc-400 mt-1 max-w-md">
                     Connect your webcam, screen share, or feed directly from OBS / vMix using the unified RTMP ingest endpoint below.
@@ -506,7 +513,7 @@ export const MultiLiveStudio: React.FC<MultiLiveStudioProps> = ({
             </div>
 
             <p className="text-xs text-zinc-400">
-              Broadcast your high-definition stream to this universal ingest endpoint in OBS Studio, Streamlabs, Prism Live, or vMix to automatically relay in real-time to all your connected channels.
+              Broadcast your high-definition stream to your own ingest endpoint in OBS Studio, Streamlabs, Prism Live, or vMix to relay in real-time to your connected channels.
             </p>
 
             <div className="space-y-4 pt-1">
@@ -530,7 +537,7 @@ export const MultiLiveStudio: React.FC<MultiLiveStudioProps> = ({
                           onClick={handleResetRtmpUrl}
                           className="px-2 py-0.5 rounded bg-zinc-800 hover:bg-zinc-700 text-[10px] text-zinc-300"
                         >
-                          Default
+                          Clear
                         </button>
                       </>
                     ) : (
@@ -553,13 +560,13 @@ export const MultiLiveStudio: React.FC<MultiLiveStudioProps> = ({
                       type="text"
                       value={tempRtmpUrl}
                       onChange={(e) => setTempRtmpUrl(e.target.value)}
-                      placeholder="rtmp://live.omnicast.io/relay/app"
+                      placeholder="rtmp://your-relay-server/live"
                       className="w-full bg-zinc-950 px-3 py-2 rounded-lg border border-purple-500/50 text-xs font-mono text-purple-300 focus:outline-none focus:ring-1 focus:ring-purple-400"
                     />
                   </div>
                 ) : (
                   <div className="flex items-center justify-between gap-2 font-mono text-xs bg-zinc-950 p-2.5 rounded-lg text-zinc-200 border border-zinc-800">
-                    <span className="truncate select-all text-purple-300 font-semibold">{relayServerUrl}</span>
+                    <span className="truncate select-all text-purple-300 font-semibold">{relayServerUrl || 'Not configured — tap Edit to add yours'}</span>
                     <button
                       onClick={() => copyToClipboard(relayServerUrl, 'relay_url')}
                       className="p-1 text-purple-400 hover:text-white shrink-0"
@@ -576,20 +583,25 @@ export const MultiLiveStudio: React.FC<MultiLiveStudioProps> = ({
                 <div className="flex items-center justify-between">
                   <span className="text-[10px] font-bold uppercase tracking-wider text-zinc-400 flex items-center gap-1.5">
                     <Shield className="w-3 h-3 text-zinc-400" />
-                    Master Relay Stream Key
+                    Your Relay Stream Key
                   </span>
                   <button
-                    onClick={handleRegenerateKey}
+                    onClick={handleClearStreamKey}
                     className="text-[10px] text-zinc-400 hover:text-amber-400 flex items-center gap-1 px-1.5 py-0.5 rounded bg-zinc-800/80 hover:bg-zinc-700"
-                    title="Regenerate Stream Key"
+                    title="Clear Stream Key"
                   >
-                    <RefreshCw className="w-2.5 h-2.5" /> CTC Regenerate
+                    CTC Clear
                   </button>
                 </div>
                 <div className="flex items-center justify-between gap-2 font-mono text-xs bg-zinc-950 p-2.5 rounded-lg text-zinc-200 border border-zinc-800">
-                  <span className="truncate select-all">
-                    {showStreamKey ? streamKey : '••••••••••••••••••••••••••••••••'}
-                  </span>
+                  <input
+                    type={showStreamKey ? 'text' : 'password'}
+                    value={streamKey}
+                    onChange={(e) => handleStreamKeyChange(e.target.value)}
+                    placeholder="Enter your own stream key"
+                    autoComplete="off"
+                    className="min-w-0 flex-1 bg-transparent font-mono text-xs text-zinc-200 placeholder:text-zinc-500 focus:outline-none"
+                  />
                   <div className="flex items-center gap-1 shrink-0">
                     <button
                       onClick={() => setShowStreamKey(!showStreamKey)}

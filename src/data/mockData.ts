@@ -221,7 +221,7 @@ export const PLATFORM_CONFIGS: Record<string, PlatformConfig> = {
     supportsPost: false,
     supportsAudio: false,
     monetizationTypes: ['Direct Paywall', 'Private CDN Whitelabel'],
-    ingestRtmpUrl: 'rtmp://live.omnicast.io/relay/app',
+    ingestRtmpUrl: '',
     defaultRpm: 0
   },
   trovo: {
@@ -907,11 +907,11 @@ export const INITIAL_PLATFORM_CONNECTIONS: PlatformConnection[] = [
   {
     platformId: 'custom_rtmp',
     connected: true,
-    accountHandle: 'relay://master',
+    accountHandle: 'not-configured',
     displayName: 'Custom RTMP Server / Whitelabel CDN',
     avatarUrl: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=120&auto=format&fit=crop&q=80',
-    streamKey: 'custom_secret_key_8819',
-    rtmpUrl: 'rtmp://live.omnicast.io/relay/app',
+    streamKey: '',
+    rtmpUrl: '',
     isLiveActive: false,
     permissions: { live: true, publish: false, analytics: false, monetization: false },
     lastSync: '1 min ago',
