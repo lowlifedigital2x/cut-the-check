@@ -21,6 +21,7 @@ import {
 import { PlatformConnection, RevenueStream, ContentItem, PlatformId } from '../../types';
 import { PLATFORM_CONFIGS, INITIAL_REVENUE_STREAMS } from '../../data/mockData';
 import { PlatformBadge } from '../common/PlatformBadge';
+import { OwnerTagline } from '../common/OwnerTagline';
 
 interface MonetizationHubProps {
   connections: PlatformConnection[];
@@ -91,6 +92,7 @@ export const MonetizationHub: React.FC<MonetizationHubProps> = ({
       {/* Top Header & Payout Summary */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
+          <OwnerTagline label="EARN" phrase="Cut the Check" className="mb-2" />
           <div className="flex items-center gap-2">
             <h2 className="text-xl font-extrabold text-white flex items-center gap-2.5">
               <DollarSign className="w-6 h-6 text-amber-400" />

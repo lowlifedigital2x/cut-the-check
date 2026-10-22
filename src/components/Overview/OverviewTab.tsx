@@ -29,6 +29,7 @@ import { PLATFORM_CONFIGS } from '../../data/mockData';
 import { EarningsChart } from './EarningsChart';
 import { RecentActivityFeed } from './RecentActivityFeed';
 import { PlatformBadge } from '../common/PlatformBadge';
+import { OwnerTagline } from '../common/OwnerTagline';
 import majorLabelOfficeImg from '../../assets/images/major_label_office.jpg';
 import ctcEagleGoldImg from '../../assets/images/ctc_eagle_pendant_gold.jpg';
 
@@ -135,12 +136,22 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
           {/* Centerpiece: Headline, Readouts & The Gold Eagle Display */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
             <div className="lg:col-span-8 space-y-4">
+              {/* Brand Line — Owner's Copy */}
+              <div className="text-xs sm:text-sm font-black tracking-[0.25em] uppercase text-amber-300">
+                🦅 C.T.C. | CUT THE CHECK
+              </div>
+
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight drop-shadow-md">
                 The Corner <span className="text-gold-gradient">Office</span>
               </h1>
 
+              {/* Headline — Owner's Copy */}
+              <p className="text-lg sm:text-xl lg:text-2xl font-black uppercase tracking-tight text-white">
+                ONE STREAM. MULTIPLE PLATFORMS. <span className="text-gold-gradient">MORE OPPORTUNITIES.</span>
+              </p>
+
               <p className="text-xs sm:text-sm text-zinc-300 max-w-2xl leading-relaxed">
-                Every channel you own — distribution, live, money, and metrics — run from one desk, high above the city.
+                Why limit your audience to one platform when you can reach more people at once? C.T.C. is building a creator ecosystem designed to help artists, streamers, influencers, podcasters, and digital entrepreneurs expand their reach through multi-live streaming. Go live across multiple supported platforms from one place, connect with your audience, discover new opportunities, and build your brand without having to manage everything separately.
               </p>
 
               {/* Live Executive Readouts */}
@@ -236,6 +247,69 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
             </div>
             <p className="text-center text-[9px] sm:text-[10px] font-mono uppercase tracking-widest text-zinc-500 leading-relaxed px-2">
               {CTC_LEXICON.join(' • ')}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* WHY JOIN C.T.C.? — Owner's Copy */}
+      <div className="p-6 rounded-2xl bg-[#111622] border border-zinc-800/90 shadow-xl space-y-5">
+        <h3 className="text-lg sm:text-xl font-black text-white uppercase tracking-wider">
+          WHY JOIN C.T.C.?
+        </h3>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 space-y-1.5">
+            <div className="text-sm font-black text-white uppercase tracking-wide">
+              📡 MULTI-LIVE STREAMING
+            </div>
+            <p className="text-xs text-zinc-400 leading-relaxed">
+              Expand your reach by broadcasting to multiple supported platforms simultaneously.
+            </p>
+          </div>
+
+          <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 space-y-1.5">
+            <div className="text-sm font-black text-white uppercase tracking-wide">
+              💬 CLICK TO CONNECT
+            </div>
+            <p className="text-xs text-zinc-400 leading-relaxed">
+              Bring your community closer and build connections with your audience.
+            </p>
+          </div>
+
+          <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 space-y-1.5">
+            <div className="text-sm font-black text-white uppercase tracking-wide">
+              📈 CLIMBING THE CHARTS
+            </div>
+            <p className="text-xs text-zinc-400 leading-relaxed">
+              Track your progress, build your presence, and showcase your growth.
+            </p>
+          </div>
+
+          <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 space-y-1.5">
+            <div className="text-sm font-black text-white uppercase tracking-wide">
+              🎬 CONTENT THAT COUNTS
+            </div>
+            <p className="text-xs text-zinc-400 leading-relaxed">
+              Bring your videos, music, podcasts, and other creative projects into one ecosystem.
+            </p>
+          </div>
+
+          <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 space-y-1.5">
+            <div className="text-sm font-black text-white uppercase tracking-wide">
+              💰 CUT THE CHECK
+            </div>
+            <p className="text-xs text-zinc-400 leading-relaxed">
+              Explore opportunities to monetize your talent, promote your content, and grow your creative business.
+            </p>
+          </div>
+
+          <div className="p-4 rounded-xl bg-zinc-900/60 border border-zinc-800 space-y-1.5">
+            <div className="text-sm font-black text-white uppercase tracking-wide">
+              🤝 CREATORS THAT COUNT
+            </div>
+            <p className="text-xs text-zinc-400 leading-relaxed">
+              Join a community built around independent talent, collaboration, and opportunity.
             </p>
           </div>
         </div>
@@ -522,6 +596,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
 
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-5 relative z-10">
           <div>
+            <OwnerTagline label="MEDIA" phrase="Content That Counts" className="mb-2" />
             <div className="flex items-center gap-2">
               <h3 className="text-base font-black text-white">
                 Synchronized Catalog & Master Recording Ledger
@@ -612,6 +687,28 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Closing Block — Owner's Copy */}
+      <div className="p-8 rounded-3xl border-2 border-amber-500/40 bg-gradient-to-b from-[#111622] to-[#06080E] shadow-xl text-center space-y-3">
+        <h3 className="text-xl sm:text-2xl font-black text-white uppercase tracking-tight">
+          YOUR CONTENT. YOUR AUDIENCE. <span className="text-gold-gradient">YOUR NEXT MOVE.</span>
+        </h3>
+        <p className="text-xs sm:text-sm text-zinc-300">
+          Stop thinking about just one platform. Start thinking about your entire audience.
+        </p>
+        <p className="text-xs sm:text-sm font-black tracking-[0.25em] uppercase text-amber-300 pt-1">
+          C.T.C. | CUT THE CHECK
+        </p>
+        <p className="text-xs sm:text-sm font-bold uppercase tracking-widest text-zinc-200">
+          Create. Connect. Distribute. Grow. Earn.
+        </p>
+        <p className="text-base sm:text-lg font-black uppercase tracking-widest text-gold-gradient pt-1">
+          JOIN THE MOVEMENT.
+        </p>
+        <p className="text-xs text-zinc-400">
+          One platform. Multiple opportunities. More ways to grow.
+        </p>
       </div>
     </div>
   );

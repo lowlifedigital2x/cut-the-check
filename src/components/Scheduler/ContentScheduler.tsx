@@ -22,6 +22,7 @@ import {
 import { ScheduledItem, PlatformId, PlatformDeliveryStatus } from '../../types';
 import { PLATFORM_CONFIGS } from '../../data/mockData';
 import { PlatformBadge } from '../common/PlatformBadge';
+import { OwnerTagline } from '../common/OwnerTagline';
 
 interface ContentSchedulerProps {
   scheduledItems: ScheduledItem[];
@@ -146,6 +147,7 @@ export const ContentScheduler: React.FC<ContentSchedulerProps> = ({
       {/* Top Header & Overview */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
+          <OwnerTagline label="CREATOR RIGHTS" phrase="Claim the Credit" className="mb-2" />
           <h2 className="text-xl font-extrabold text-white flex items-center gap-2.5">
             <Calendar className="w-6 h-6 text-purple-400" />
             <span>Universal Content & Multi-Stream Scheduler</span>

@@ -14,6 +14,7 @@ import {
 import { ScoutContact } from '../../types';
 import { PLATFORM_CONFIGS } from '../../data/mockData';
 import { PlatformBadge } from '../common/PlatformBadge';
+import { OwnerTagline } from '../common/OwnerTagline';
 
 interface OnTheRadarViewProps {
   contacts: ScoutContact[];
@@ -87,6 +88,7 @@ export const OnTheRadarView: React.FC<OnTheRadarViewProps> = ({ contacts, onTrig
         <div className="absolute -right-20 -bottom-20 w-80 h-80 rounded-full grooved-record-disc opacity-20 pointer-events-none" />
 
         <div className="relative z-10 space-y-4">
+          <OwnerTagline label="DISCOVER" phrase="Creators That Count" />
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-amber-500/20 pb-4">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-amber-400 via-amber-200 to-amber-600 shadow-xl flex items-center justify-center">

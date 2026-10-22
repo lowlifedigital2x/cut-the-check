@@ -23,6 +23,7 @@ import {
 import { PlatformId, ContentItem } from '../../types';
 import { PLATFORM_CONFIGS } from '../../data/mockData';
 import { PlatformBadge } from '../common/PlatformBadge';
+import { OwnerTagline } from '../common/OwnerTagline';
 import { generateMultiPlatformCopies, OptimizedPlatformContent } from '../../services/geminiService';
 
 interface MultiPostStudioProps {
@@ -189,6 +190,7 @@ export const MultiPostStudio: React.FC<MultiPostStudioProps> = ({
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
+          <OwnerTagline label="CREATE" phrase="Certify the Content" className="mb-2" />
           <div className="flex items-center gap-2">
             <h2 className="text-xl font-extrabold text-white flex items-center gap-2.5">
               <Share2 className="w-6 h-6 text-amber-400" />

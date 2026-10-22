@@ -24,6 +24,7 @@ import {
 import { AudienceMetric, PlatformId } from '../../types';
 import { PLATFORM_CONFIGS, INITIAL_AUDIENCE_METRICS } from '../../data/mockData';
 import { PlatformBadge } from '../common/PlatformBadge';
+import { OwnerTagline } from '../common/OwnerTagline';
 
 interface AudienceAnalyticsProps {
   metrics?: AudienceMetric[];
@@ -145,6 +146,7 @@ export const AudienceAnalytics: React.FC<AudienceAnalyticsProps> = ({
       {/* Top Header & Range Controls */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
+          <OwnerTagline label="CHARTS" phrase="Climbing the Charts" className="mb-2" />
           <div className="flex items-center gap-2">
             <h2 className="text-xl font-extrabold text-white flex items-center gap-2">
               <TrendingUp className="w-6 h-6 text-emerald-400" />

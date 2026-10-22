@@ -36,6 +36,7 @@ import { LaunchCountdownModal } from './LaunchCountdownModal';
 import { SimultaneousEverywherePanel } from './SimultaneousEverywherePanel';
 import ctcEagleDiamondImg from '../../assets/images/ctc_eagle_diamond.jpg';
 import majorLabelOfficeImg from '../../assets/images/major_label_office.jpg';
+import { OwnerTagline } from '../common/OwnerTagline';
 
 interface LaunchControlCenterProps {
   streamState: MultiStreamState;
@@ -235,6 +236,7 @@ export const LaunchControlCenter: React.FC<LaunchControlCenterProps> = ({
                 <h2 className="text-xl sm:text-2xl font-black text-white tracking-wide uppercase mt-0.5">
                   Major Label Executive Launch Suite
                 </h2>
+                <OwnerTagline label="DISTRIBUTION" phrase="Content Travels Continually" className="mt-1.5" />
               </div>
             </div>
 

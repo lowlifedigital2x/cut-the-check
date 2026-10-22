@@ -15,6 +15,7 @@ import {
 } from 'lucide-react';
 import { PLATFORM_CONFIGS } from '../../data/mockData';
 import majorLabelOfficeImg from '../../assets/images/major_label_office.jpg';
+import { OwnerTagline } from '../common/OwnerTagline';
 import ctcEagleGoldImg from '../../assets/images/ctc_eagle_pendant_gold.jpg';
 
 type SponsorTierId = 'presenting' | 'launch_partner' | 'plaque_wall';
@@ -169,6 +170,7 @@ export const SponsorshipPage: React.FC = () => {
                 <h2 className="text-xl sm:text-2xl font-black text-white tracking-wide uppercase mt-0.5">
                   The Sponsorship Desk
                 </h2>
+                <OwnerTagline label="SPONSORSHIPS" phrase="Convert Talent to Capital" className="mt-1.5" />
               </div>
             </div>
 

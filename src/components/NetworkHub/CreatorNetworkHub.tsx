@@ -31,6 +31,7 @@ import { MOCK_CREATOR_TALENTS, MOCK_CREATOR_GIGS, INITIAL_CREATOR_FEED_POSTS, MO
 import { CreatorFeed } from './CreatorFeed';
 import { ARScoutTalentView } from './ARScoutTalentView';
 import { OnTheRadarView } from './OnTheRadarView';
+import { OwnerTagline } from '../common/OwnerTagline';
 
 interface CreatorNetworkHubProps {
   currencySymbol?: string;
@@ -129,6 +130,7 @@ export const CreatorNetworkHub: React.FC<CreatorNetworkHubProps> = ({ currencySy
               1,420 Verified Creators Online
             </span>
           </div>
+          <OwnerTagline label="COMMUNITY" phrase="Came to Chat" />
           <h2 className="text-2xl font-black text-white tracking-tight">
             Collaborate, Network & Hire Specialized Creator Talent
           </h2>

@@ -16,6 +16,7 @@ import {
 import { PlatformConnection, PlatformId } from '../../types';
 import { PLATFORM_CONFIGS } from '../../data/mockData';
 import { PlatformBadge } from '../common/PlatformBadge';
+import { OwnerTagline } from '../common/OwnerTagline';
 
 interface PlatformConnectionsProps {
   connections: PlatformConnection[];
@@ -46,6 +47,7 @@ export const PlatformConnections: React.FC<PlatformConnectionsProps> = ({
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
+          <OwnerTagline label="CONNECT" phrase="Click to Connect" className="mb-2" />
           <h2 className="text-xl font-extrabold text-white flex items-center gap-2.5">
             <Link2 className="w-6 h-6 text-purple-400" />
             <span>Connected Streaming & Distribution Services</span>
