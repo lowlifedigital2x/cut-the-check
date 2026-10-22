@@ -2,7 +2,7 @@
 
 **Draft 1.0 — October 20, 2026**
 
-This Creator License Agreement (the "Agreement") is entered into between **Change To Come ("CTC")**, operator of the CTC / Cut The Check platform, and the undersigned creator ("Creator"), effective on the date of acceptance (the "Effective Date").
+This Creator License Agreement (the "Agreement") is entered into between **Joshua Mitchell d/b/a Cut The Check ("CTC")**, operator of the CTC / Cut The Check platform, and the undersigned creator ("Creator"), effective on the date of acceptance (the "Effective Date").
 
 CTC is an infrastructure layer connecting Creators, Content, Consumers, and Commerce across third-party platforms ("Channels"). CTC is not a social network, streaming service, or wallet provider competing with the Channels; each Channel remains a separate service governed by its own terms.
 
@@ -73,7 +73,7 @@ Signature: ______________________________  Date: ______________
 
 Printed name: ______________________________
 
-**CHANGE TO COME (CTC)**
+**JOSHUA MITCHELL D/B/A CUT THE CHECK (CTC)**
 
 Signature: ______________________________  Date: ______________
 

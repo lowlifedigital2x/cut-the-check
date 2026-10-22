@@ -234,7 +234,7 @@ export const Header: React.FC<HeaderProps> = ({
           <button
             onClick={onOpenGitHubModal || (() => window.dispatchEvent(new CustomEvent('open-github-modal')))}
             className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-bold rounded-lg border border-zinc-700 bg-zinc-900 hover:border-amber-400/70 text-zinc-200 hover:text-white transition shadow-sm cursor-pointer"
-            title="Sync & Publish to GitHub (lowlifedigital2x/ctc-cut-the-check)"
+            title="Sync & Publish to GitHub (lowlifedigital2x/cut-the-check)"
           >
             <Github className="w-3.5 h-3.5 text-amber-400" />
             <span className="hidden sm:inline font-mono">GitHub</span>

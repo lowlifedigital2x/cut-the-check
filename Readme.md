@@ -237,11 +237,11 @@ Install the following:
 
 1. Clone the Repository
 
-git clone https://github.com/lowlifedigital2x/ctc-cut-the-check.git
+git clone https://github.com/lowlifedigital2x/cut-the-check.git
 
 2. Enter the Project Directory
 
-cd ctc-cut-the-check
+cd cut-the-check
 
 3. Install Dependencies
 

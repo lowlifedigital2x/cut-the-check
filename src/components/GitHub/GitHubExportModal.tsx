@@ -33,8 +33,8 @@ export const GitHubExportModal: React.FC<GitHubExportModalProps> = ({ isOpen, on
   const handleDownloadZip = () => {
     // Triggers direct in-browser download of the generated zip bundle
     const link = document.createElement('a');
-    link.href = '/ctc-cut-the-check.zip';
-    link.download = 'ctc-cut-the-check.zip';
+    link.href = '/cut-the-check.zip';
+    link.download = 'cut-the-check.zip';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -189,8 +189,8 @@ jobs:
               </div>
               <button
                 onClick={() => handleCopy(
-`git clone https://github.com/lowlifedigital2x/ctc-cut-the-check.git
-cd ctc-cut-the-check
+`git clone https://github.com/lowlifedigital2x/cut-the-check.git
+cd cut-the-check
 # Copy downloaded unzipped files here
 git add .
 git commit -m "feat: Cut The Check full platform"
@@ -213,8 +213,8 @@ git push origin main`,
               </button>
             </div>
             <pre className="p-3 rounded-lg bg-black/60 border border-zinc-800/80 text-[11px] font-mono text-zinc-300 overflow-x-auto leading-relaxed">
-{`git clone https://github.com/lowlifedigital2x/ctc-cut-the-check.git
-cd ctc-cut-the-check
+{`git clone https://github.com/lowlifedigital2x/cut-the-check.git
+cd cut-the-check
 # (extract the downloaded ZIP into this folder)
 git add .
 git commit -m "feat: complete Cut The Check platform"
@@ -241,7 +241,7 @@ git push origin main`}
             className="flex items-center gap-1.5 text-xs text-zinc-400 hover:text-amber-400 transition"
           >
             <ExternalLink className="w-3.5 h-3.5" />
-            <span>Open github.com/lowlifedigital2x/ctc-cut-the-check</span>
+            <span>Open github.com/lowlifedigital2x/cut-the-check</span>
           </a>
           <button
             onClick={onClose}

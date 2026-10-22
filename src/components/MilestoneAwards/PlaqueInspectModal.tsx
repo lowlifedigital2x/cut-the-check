@@ -80,14 +80,14 @@ export const PlaqueInspectModal: React.FC<PlaqueInspectModalProps> = ({
 
   const handleCopyLink = () => {
     navigator.clipboard?.writeText?.(
-      `https://cutthecheck.app/certifications/${milestone.certificationId}`
+      `https://cutthecheck.co/certifications/${milestone.certificationId}`
     );
     setCopiedLink(true);
     setTimeout(() => setCopiedLink(false), 2500);
   };
 
   const handleCopyEmbed = () => {
-    const embedCode = `<iframe src="https://cutthecheck.app/embed/plaque/${milestone.certificationId}" width="420" height="520" frameborder="0" title="${milestone.title}"></iframe>`;
+    const embedCode = `<iframe src="https://cutthecheck.co/embed/plaque/${milestone.certificationId}" width="420" height="520" frameborder="0" title="${milestone.title}"></iframe>`;
     navigator.clipboard?.writeText?.(embedCode);
     setCopiedEmbed(true);
     setTimeout(() => setCopiedEmbed(false), 2500);
@@ -110,7 +110,7 @@ VERIFIED SYNDICATED NETWORKS:
 ${milestone.platformsIncluded.map((p) => `- ${p.toUpperCase()}`).join('\n')}
 
 INSIGNIA: CTC EAGLE MEDALLION CERTIFIED SEAL
-VERIFICATION URL: https://cutthecheck.app/certifications/${milestone.certificationId}
+VERIFICATION URL: https://cutthecheck.co/certifications/${milestone.certificationId}
 =====================================================`;
 
     const blob = new Blob([certificateText], { type: 'text/plain' });

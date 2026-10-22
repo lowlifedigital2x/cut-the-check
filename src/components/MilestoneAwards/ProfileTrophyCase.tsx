@@ -42,7 +42,7 @@ export const ProfileTrophyCase: React.FC<ProfileTrophyCaseProps> = ({
   const diamondCount = displayedPlaques.filter((m) => m.tier === 'diamond').length;
 
   const handleShareProfile = () => {
-    navigator.clipboard?.writeText?.('https://cutthecheck.app/creator/alex-rivers#trophy-case');
+    navigator.clipboard?.writeText?.('https://cutthecheck.co/creator/alex-rivers#trophy-case');
     setCopiedProfileLink(true);
     setTimeout(() => setCopiedProfileLink(false), 2500);
   };
